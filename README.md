@@ -2,9 +2,9 @@
 Welkom bij de content voor leerlijnen van SE. 
 
 ## Branches
-Er bestaan drie branches op deze repository. Hieronder wordt verder uitgelegd wat in elke branch staat. 
-De veranderingen moeten gemaakt worden op de `content` branch. Dit moet met handmatige pull requests door worden gevoerd naar `staging`. 
-In `staging` zal een automatisch PR worden aangemaakt door de pipeline en de content worden omgezet voor het juiste format om in `main` te zetten. 
+Er bestaan drie branches op deze repository. Hieronder wordt verder uitgelegd wat in elke branch staat. \
+De veranderingen moeten gemaakt worden op de `content` branch. Dit moet met een handmatige pull requests door worden gevoerd naar `staging`. Deze pull request moet door minimaal twee personen worden gecontroleerd.\
+Zodra de pull request is doorgevoerd naar `staging` wordt de pipeline geactiveerd, waarna een automatisch pull request naar `main` wordt aangemaakt. Deze pull request moet door minimaal één persoon worden gecontroleerd.\
 
 ### Main
 De main branch is een beschermde branch. Hierop kan niet gewerkt worden.\
@@ -62,4 +62,3 @@ Zoals eerder uitgelegd zijn er 2 pipelines. Beide pipelines worden afgevuurd op 
 De test pipeline checkt test bestanden als bestanden in  `test_cases` of `.github` folders worden aangepast.
 - Rapport pipeline:\
 De rapport pipeline zorgt ervoor dat `report.md` wordt gevuld met de juiste content op basis van taxonomie codes in de content.
-
