@@ -17,10 +17,10 @@ draft: true
 | oo-15 | Ontwerpproces | Opstellen ontwerp | ⛔️ | ⛔️ | ⛔️ |
 | rs-10 | Requirementsanalyseproces | Specificeren requirements | ⛔️ | ⛔️ | ⛔️ |
 | ii-18 | Implementatieproces | Inrichten ontwikkelomgeving | ⛔️ | ⛔️ | ⛔️ |
-| to-3 | Testproces | Opstellen test | ⛔️ | ⛔️ | ⛔️ |
+| to-3 | Testproces | Opstellen test | ✅ | ⛔️ | ⛔️ |
 | io-28 | Implementatieproces | Oplossen fouten | ✅ | ✅ | ⛔️ |
 | ir-20 | Implementatieproces | Refactor | 🏳️ | 🏳️ | ⛔️ |
-| ib-21 | Implementatieproces | Beredeneren bouwkeuzes | 🏳️ | ✅ | ✅ |
+| ib-21 | Implementatieproces | Beredeneren bouwkeuzes | 🏳️ | ✅ | ⛔️ |
 | tu-4 | Testproces | Uitvoeren test | ⛔️ | ⛔️ | ⛔️ |
 | rv-11 | Requirementsanalyseproces | Valideren requirements | 🏳️ | ⛔️ | ⛔️ |
 | bm-22 | Beheerproces | Managen ontwikkelproces | ⛔️ | ⛔️ | ⛔️ |
@@ -56,7 +56,7 @@ Bij kolom *TC2*, *Leertaken*, *Ondersteunende informatie*, *Procedurele informat
 | dotnet-and-visual-studio | ii-18 | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ |
 | implementing-and-using-types | ib-19 | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ |
 | inheretance-polymophism-generics | ib-19 | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ |
-| unit-testing | to-3 | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ |
+| unit-testing | to-3 | ✅ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ✅ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ |
 | cleaner-architecture | ib-19 | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ |
 | exception-handling | io-28 | ✅ ✅ ⛔️ | ⛔️ ⛔️ ⛔️ | ✅ ✅ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ |
 | wpf | ib-19 | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ |
@@ -79,7 +79,7 @@ Bij kolom *TC2*, *Leertaken*, *Ondersteunende informatie*, *Procedurele informat
 | delegates | ib-19 | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ |
 | linq | ib-19 | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ |
 | lambdas-funcs-predicates | ib-19 | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ |
-| object-oriëntatie-applicatielagen | ib-21 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
+| object-oriëntatie-applicatielagen | ib-21 | 🏳️ ✅ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
 | object-oriëntatie-applicatielagen | ib-19 | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ |
 | delegates-events-eventhandlers | ib-19 | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ |
 | linq-generics-delegates-lambda-expressies | ib-19 | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ | ⛔️ ⛔️ ⛔️ |
@@ -114,9 +114,10 @@ De onderstaande bestanden zijn succesvol verwerkt.
 | --- | --- | --- | --- | --- |
 | ✅ | Pakketselectie test | 3. Procedurele informatie/Pakketselectie test.md | pu-13.1.rekenen.PI<br>pu-13.2.rekenen.PI | HBO-i/niveau-1<br>HBO-i/niveau-2<br>Pakketselectieproces<br>Uitvoeren analyse<br>rekenen | N/A |
 | ✅ | Keepme | 2. Ondersteunende-informatie/3. Processen/1. Requirementsanalyseproces/1. Definiëren probleemdomein/Keepme.md | io-28.1.exception-handling.OI | HBO-i/niveau-1<br>Implementatieproces<br>Oplossen fouten<br>exception-handling<br>Testproces | N/A |
-| ✅ | Code Review | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/4. Beredeneren bouwkeuzes/Code Review.md | ib-21.2.object-oriëntatie-applicatielagen.OI<br>ib-21.3.object-oriëntatie-applicatielagen.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Beredeneren bouwkeuzes<br>object-oriëntatie-applicatielagen | N/A |
+| ✅ | Code Review | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/4. Beredeneren bouwkeuzes/Code Review.md | ib-21.2.object-oriëntatie-applicatielagen.OI | HBO-i/niveau-2<br>Implementatieproces<br>Beredeneren bouwkeuzes<br>object-oriëntatie-applicatielagen | N/A |
 | ✅ | Keepme | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/Keepme.md | io-28.2.exception-handling.OI | HBO-i/niveau-2<br>Implementatieproces<br>Oplossen fouten<br>exception-handling<br>Testproces | N/A |
 | ✅ | Introductie | 2. Ondersteunende-informatie/3. Processen/2. Pakketselectieproces/1. Uitvoeren analyse/Introductie.md | pu-13.1.rekenen.OI<br>pu-13.2.rekenen.OI | HBO-i/niveau-1<br>HBO-i/niveau-2<br>Pakketselectieproces<br>Uitvoeren analyse<br>rekenen | N/A |
+| ✅ | 1. Unit testen | 2. Ondersteunende-informatie/3. Processen/5. Testproces/3. Opstellen test/1. Unit testen.md | to-3.1.unit-testing.OI | HBO-i/niveau-1<br>Testproces<br>Opstellen test<br>unit-testing | N/A |
 | ✅ | 3. Modules | 2. Ondersteunende-informatie/4. Techniek/JS/9. ES6/3. Modules.md | ib-19.2.Modules.OI<br>ib-19.3.Modules.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Modules | N/A |
 | ✅ | 3. Modules | 4. Deeltaken/4. Techniek/JS/9. ES6/3. Modules.md | ib-19.2.Modules.DT<br>ib-19.3.Modules.DT | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Modules | N/A |
 
@@ -171,7 +172,6 @@ De onderstaande bestanden zijn succesvol verwerkt.
 | ⚠️ | Keepme | 2. Ondersteunende-informatie/3. Processen/6. Beheerproces/4. Beschikbaarstellen software/Keepme.md | None | N/A | Invalid taxonomie: None |
 | ⚠️ | Keepme2 | 2. Ondersteunende-informatie/3. Processen/2. Pakketselectieproces/2. Adviseren onderdeelselectie/Keepme2.md | None | N/A | Invalid taxonomie: None |
 | ❌ | TestKeepMee | 2. Ondersteunende-informatie/3. Processen/2. Pakketselectieproces/2. Adviseren onderdeelselectie/TestKeepMee.md | N/A | N/A | No taxonomie found in file. |
-| ⚠️ | Keepme | 2. Ondersteunende-informatie/3. Processen/5. Testproces/3. Opstellen test/Keepme.md | None | N/A | Invalid taxonomie: None |
 | ⚠️ | Keepme | 2. Ondersteunende-informatie/3. Processen/5. Testproces/1. Opstellen teststrategie/Keepme.md | None | N/A | Invalid taxonomie: None |
 | ⚠️ | Keepme | 2. Ondersteunende-informatie/3. Processen/5. Testproces/4. Uitvoeren test/Keepme.md | None | N/A | Invalid taxonomie: None |
 | ⚠️ | Keepme | 2. Ondersteunende-informatie/3. Processen/5. Testproces/6. Adviseren testproces/Keepme.md | None | N/A | Invalid taxonomie: None |
@@ -185,6 +185,7 @@ De onderstaande bestanden zijn succesvol verwerkt.
 | ⚠️ | 7. Docker Volumes | 2. Ondersteunende-informatie/4. Techniek/Docker/7. Docker Volumes.md | None | N/A | Invalid taxonomie: None |
 | ⚠️ | 3. Dockerfile | 2. Ondersteunende-informatie/4. Techniek/Docker/3. Dockerfile.md | rd-22.2.asdasdasd | N/A | Invalid taxonomie: rd-22.2.asdasdasd |
 | ⚠️ | 1. Introductie tot Docker | 2. Ondersteunende-informatie/4. Techniek/Docker/1. Introductie tot Docker.md | None | N/A | Invalid taxonomie: None |
+| ❌ | 1. Introductie Git | 2. Ondersteunende-informatie/4. Techniek/Git/1. Introductie Git.md | N/A | N/A | No taxonomie found in file. |
 | ❌ | keep | 1. Leertaken/GP/keep.md | N/A | N/A | No taxonomie found in file. |
 | ❌ | keep | 1. Leertaken/QSD/keep.md | N/A | N/A | No taxonomie found in file. |
 | ❌ | Leertaak-1 | 1. Leertaken/OOSDD/Week-1-US-1-en-2/US-1/Leertaak-1.md | N/A | N/A | No taxonomie found in file. |
