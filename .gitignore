@@ -1,0 +1,9 @@
+.obsidian/
+.vscode/
+.idea/
+.DS_Store
+.github/
+content/
+files_to_delete.txt
+staging_files.txt
+main_files.txt
