@@ -1,81 +1,80 @@
-Id;TC-1;TC-2;Proces;Processtap;Onderwerp;Module (C#, BAI, UML, SCRUM);Moment;PS;LT;OI;PI;DT
-100;ib-19;X,2,3;Implementatieproces;Bouwen softwaresysteem;Modules;Client Technology;;;X,2,X;X,2,3;X,2,3;X,2,3
-1;rv-8;1,2,3;Requirementsanalyseproces;Verzamelen requirements;interviewen-met-stakeholder;UML;Week 1 les 1 dia 2;;1,2,3;1,2,3;1,2,3;1,2,3
-2;pu-13;1,2,3;Pakketselectieproces;Uitvoeren analyse;proposities;BAI;Week 4 les 1 dia 5-20;;1,2,3;1,2,3;1,2,3;1,2,3
-3;pu-13;1,2,3;Pakketselectieproces;Uitvoeren analyse;waarheidtabellen;BAI;Week 4 les 1 dia 21-23;;1,2,3;1,2,3;1,2,3;1,2,3
-4;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;boolean-operatoren;BAI;Week 4 les 1 dia 28-30;;1,2,3;1,2,3;1,2,3;1,2,3
-5;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;bitwise;BAI;Week 4 les 1 dia 31-42;;1,2,3;1,2,3;1,2,3;1,2,3
-6;pu-13;1,2,3;Pakketselectieproces;Uitvoeren analyse;verzamelingen;BAI;Week 5 les 1 dia 4-12;;1,2,3;1,2,3;1,2,3;1,2,3
-7;pu-13;1,2,3;Pakketselectieproces;Uitvoeren analyse;operatoren;BAI;Week 5 les 1 dia 14-21;;1,2,3;1,2,3;1,2,3;1,2,3
-8;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;sets-in-c#;BAI;Week 5 les 1 dia 22-31;;1,2,3;1,2,3;1,2,3;1,2,3
-9;rv-8;1,2,3;Requirementsanalyseproces;Verzamelen requirements;toestandsdiagrammen;UML;Week 4 les 4;;1,2,3;1,2,3;1,2,3;1,2,3
-10;ra-9;G,2,3;Requirementsanalyseproces;Analyseren requirements;toestandsdiagrammen;UML;Week 4 les 4;;G,2,3;G,2,3;G,2,3;G,2,3
-11;oo-15;G,2,3;Ontwerpproces;Opstellen ontwerp;functioneel-ontwerp;UML;Week 5;;G,2,3;G,2,3;G,2,3;G,2,3
-12;rv-8;1,2,3;Requirementsanalyseproces;Verzamelen requirements;functioneel-ontwerp;UML;Week 5 opdracht 3;;1,2,3;1,2,3;1,2,3;1,2,3
-13;rs-10;1,2,3;Requirementsanalyseproces;Specificeren requirements;functioneel-ontwerp;UML;Week 5 opdracht 2,3;;1,2,3;1,2,3;1,2,3;1,2,3
-14;ra-9;G,2,3;Requirementsanalyseproces;Analyseren requirements;functioneel-ontwerp;UML;Week 5 opdracht 2;;G,2,3;G,2,3;G,2,3;G,2,3
-15;oo-15;G,2,3;Ontwerpproces;Opstellen ontwerp;technisch-ontwerp;UML;Week 6;;G,2,3;G,2,3;G,2,3;G,2,3
-16;ii-18;1,2,3;Implementatieproces;Inrichten ontwikkelomgeving;dotnet-and-visual-studio;C#;Week 1 les 1 ;;1,2,3;1,2,3;1,2,3;1,2,3
-17;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;implementing-and-using-types;C#;Week 1 Les 2;;1,2,3;1,2,3;1,2,3;1,2,3
-18;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;inheretance-polymophism-generics;C#;Week 2 Les 1;;1,2,3;1,2,3;1,2,3;1,2,3
-19;to-3;1,2,3;Testproces;Opstellen test;unit-testing;C#;Week 2 Les 2;;1,2,3;1,2,3;1,2,3;1,2,3
-20;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;cleaner-architecture;C#;Week 2 Les 2 dia 18-24;;1,2,3;1,2,3;1,2,3;1,2,3
-21;io-28;1,2,3;Implementatieproces;Oplossen fouten;exception-handling;C#;Week 3 Les 1;;1,2,3;1,2,3;1,2,3;1,2,3
-22;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;cleaner-architecture;C#;Week 3 les 1 dia 21-23;;1,2,3;1,2,3;1,2,3;1,2,3
-23;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;wpf;C#;Week 3 Les 2;;1,2,3;1,2,3;1,2,3;1,2,3
-24;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;primitieve-datatypen;C#;Week 1 les 1 opdracht: Activiteiten deel 1;;1,2,3;1,2,3;1,2,3;1,2,3
-25;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;classes-methods-properties;C#;Week 1 les 2 opdracht: Activiteiten deel 2;;1,2,3;1,2,3;1,2,3;1,2,3
-26;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;multidimensionale-arrays;C#;Week 2 les 1 opdracht: Sportzalen;;1,2,3;1,2,3;1,2,3;1,2,3
-27;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;multidimensionale-arrays;C#;Week 2 les 1 opdracht: Matrix screensaver;;1,2,3;1,2,3;1,2,3;1,2,3
-28;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;polymorfisme-generics;C#;Week 2 les 2 opdracht: Appels en peren vergelijken;;1,2,3;1,2,3;1,2,3;1,2,3
-29;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;inheritance-overloading-enum;C#;week 2 les 2 Emmer opdracht deel 1;;1,2,3;1,2,3;1,2,3;1,2,3
-30;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;exceptions-unit-testing;C#;Week 3 les 1 Emmer opdracht deel 2;;1,2,3;1,2,3;1,2,3;1,2,3
-31;to-3;1,2,3;Testproces;Opstellen test;unit-testen;C#;Week 2 Les 2 Emmer opdracht - Unit Testen;;1,2,3;1,2,3;1,2,3;1,2,3
-32;io-28;1,2,3;Testproces;Oplossen fouten;exception-handling;C#;week 3 les 1 Emmer opdracht - Exception Handling;;1,2,3;1,2,3;1,2,3;1,2,3
-33;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;primitieve-typen;C#;Week 1 les 1 uitbreidopdracht: Primitieve Gegevenstypen en Eenvoudig Quizspel;;1,2,3;1,2,3;1,2,3;1,2,3
-34;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;klassen-methoden;C#;Week 1 les 2 uitbreidopdracht: Gegevensbeheerder;;1,2,3;1,2,3;1,2,3;1,2,3
-35;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;multidimensionale-arrays;C#;Week 2 les 1 uitbreidopdracht: Multidimensionale Arrays;;1,2,3;1,2,3;1,2,3;1,2,3
-36;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;overerving-polymorfisme-generieke-methoden;C#;Week 2 les 2 uitbreidopdracht: Game Karaktersysteem;;1,2,3;1,2,3;1,2,3;1,2,3
-37;io-28;1,2,3;Implementatieproces;Oplossen fouten;exception-handling;C#;Week 3 les 1 uitbreidopdracht: Exception Handling;;1,2,3;1,2,3;1,2,3;1,2,3
-38;to-3;1,2,3;Testproces;Opstellen test;unit-testing-asynchrone-code;C#;Week 3 les 1 uitbreidopdracht: Unit Testing met Async;;1,2,3;1,2,3;1,2,3;1,2,3
-39;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;events;C#;Week 4 les 1;;1,2,3;1,2,3;1,2,3;1,2,3
-40;io-28;1,2,3;Implementatieproces;Oplossen fouten;code-review;C#;Week 4 les 2;;1,2,3;1,2,3;1,2,3;1,2,3
-41;ir-20;X,X,3;Implementatieproces;Refactor;code-review-code-smells;C#;Week 4 les 2 Dia 9;;X,X,3;X,X,3;X,X,3;X,X,3
-42;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;delegates;C#;Week 5 les 1;;1,2,3;1,2,3;1,2,3;1,2,3
-43;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;linq;C#;Week 5 les 2;;1,2,3;1,2,3;1,2,3;1,2,3
-44;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;lambdas-funcs-predicates;C#;Week 6 les 1;;1,2,3;1,2,3;1,2,3;1,2,3
-45;ib-21;X,2,3;Implementatieproces;Beredeneren bouwkeuzes;object-oriëntatie-applicatielagen;C#;Week 6 les 1 Memory opdracht;;X,2,3;X,2,3;X,2,3;X,2,3
-46;to-3;1,2,3;Testproces;Opstellen test;unit-testen;C#;Week 6 les 1 Memory opdracht;;1,2,3;1,2,3;1,2,3;1,2,3
-47;tu-4;1,2,3;Testproces;Uitvoeren test;unit-testen;C#;Week 6 les 1 Memory opdracht;;1,2,3;1,2,3;1,2,3;1,2,3
-48;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;object-oriëntatie-applicatielagen;C#;Week 6 les 1 Memory opdracht;;1,2,3;1,2,3;1,2,3;1,2,3
-49;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;delegates-events-eventhandlers;C#;Week 4 les 1 opdracht: Studiefinanciering;;1,2,3;1,2,3;1,2,3;1,2,3
-50;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;delegates-events-eventhandlers;C#;Week 4 les 1 opdracht: Circus;;1,2,3;1,2,3;1,2,3;1,2,3
-51;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;linq-generics-delegates-lambda-expressies;C#;Week 5 les 1 opdracht: Eigen Where func;;1,2,3;1,2,3;1,2,3;1,2,3
-52;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;linq-generics-delegates-lambda-expressies;C#;Week 6 les 1 opdracht: Eigen Where func;;1,2,3;1,2,3;1,2,3;1,2,3
-53;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;delegates;C#;Week 5 les 1 opdracht: Car Servicing;;1,2,3;1,2,3;1,2,3;1,2,3
-54;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;linq-anonymous-types-delegates;C#;Week 5 les 2 opdracht: Solar System;;1,2,3;1,2,3;1,2,3;1,2,3
-55;to-3;1,2,3;Testproces;Opstellen test;unit-testen;C#;Week 4 les 1 Emmer opdracht deel 3;;1,2,3;1,2,3;1,2,3;1,2,3
-56;tu-4;1,2,3;Testproces;Uitvoeren test;unit-testen;C#;Week 4 les 1 Emmer opdracht deel 3;;1,2,3;1,2,3;1,2,3;1,2,3
-57;ib-21;X,2,3;Implementatieproces;Beredeneren bouwkeuzes;events;C#;Week 4 les 1 Emmer opdracht deel 3;;X,2,3;X,2,3;X,2,3;X,2,3
-58;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;events;C#;Week 4 les 1 Emmer opdracht deel 3;;1,2,3;1,2,3;1,2,3;1,2,3
-59;pu-13;1,2,3;Pakketselectieproces;Uitvoeren analyse;relaties-tupel-carthetisch-product;BAI;Week 5 les 1 dia 34-43;;1,2,3;1,2,3;1,2,3;1,2,3
-60;rs-10;1,2,3;Requirementsanalyseproces;Specificeren requirements;klassendiagram;UML;Week 1 les 1;;1,2,3;1,2,3;1,2,3;1,2,3
-61;rs-10;1,2,3;Requirementsanalyseproces;Specificeren requirements;use-case-diagram-use-case-beschrijvingen;UML;Week 2 les 2a;;1,2,3;1,2,3;1,2,3;1,2,3
-62;rv-11;X,2,3;Requirementsanalyseproces;Valideren requirements;use-case-diagram-use-case-beschrijvingen;UML;Week 2 les 2a;;X,2,3;X,2,3;X,2,3;X,2,3
-63;rs-10;1,2,3;Requirementsanalyseproces;Specificeren requirements;activiteitendiagram;UML;Week 2 les 2b;;1,2,3;1,2,3;1,2,3;1,2,3
-64;ra-9;1,2,3;Requirementsanalyseproces;Analyseren requirements;sequentiediagram;UML;Week 3 les 3;;1,2,3;1,2,3;1,2,3;1,2,3
-65;rs-10;1,2,3;Requirementsanalyseproces;Specificeren requirements;sequentiediagram;UML;Week 3 les 3;;1,2,3;1,2,3;1,2,3;1,2,3
-66;pu-13;1,2,3;Pakketselectieproces;Uitvoeren analyse;getalsystemen;BAI;Week 1 dia 5-30;;1,2,3;1,2,3;1,2,3;1,2,3
-67;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;getalbewerkingen-en-ascii;BAI;Week 1 dia 30-40;;1,2,3;1,2,3;1,2,3;1,2,3
-68;pu-13;1,2,3;Pakketselectieproces;Uitvoeren analyse;grootste-gemene-deler;BAI;Week 2 dia 3-10;;1,2,3;1,2,3;1,2,3;1,2,3
-69;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;datastructuren-array-lijst;BAI;Week 2 dia 11-31;;1,2,3;1,2,3;1,2,3;1,2,3
-70;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;datastructuren-stack-queue-dictionary;BAI;Week 3 dia 4-28;;1,2,3;1,2,3;1,2,3;1,2,3
-71;pu-13;1,2,3;Pakketselectieproces;Uitvoeren analyse;rekenen;BAI;Week 1 opdrachten;;1,2,3;1,2,3;1,2,3;1,2,3
-72;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;buzz-game;BAI;"Week 1 opdracht ""Buzz game""";;1,2,3;1,2,3;1,2,3;1,2,3
-73;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;matrix-en-bubblesort;BAI;Week 2 opdrachten;;1,2,3;1,2,3;1,2,3;1,2,3
-74;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;stack-en-queue;BAI;Week 3 opdrachten;;1,2,3;1,2,3;1,2,3;1,2,3
-75;bm-22;G,2,3;Beheerproces;Managen ontwikkelproces;scrum-framework;SCRUM;Workshop 1 pagina 2-4;;1,2,3;1,2,3;1,2,3;1,2,3
-76;bm-22;G,2,3;Beheerproces;Managen ontwikkelproces;scrum-events;SCRUM;Workshop 1 pagina 4-6, Workshop 2 pagina 10, workshop 3, pagina 11;;1,2,3;1,2,3;1,2,3;1,2,3
-77;rb-12;X,2,3;Requirementsanalyseproces;Beheren requirements;scrum-events;SCRUM;Workshop 1 pagina 4-6, Workshop 2 pagina 10, workshop 3, pagina 11;;X,2,3;X,2,3;X,2,3;X,2,3
-78;bm-22;G,2,3;Beheerproces;Managen ontwikkelproces;scrum-acountabilities;SCRUM;Workshop 2 pagina 7;;1,2,3;1,2,3;1,2,3;1,2,3
-79;bm-22;G,2,3;Beheerproces;Managen ontwikkelproces;scrum-artefacts;SCRUM;Workshop 2 pagina 8-9, Workshop 3 pagina 12;;1,2,3;1,2,3;1,2,3;1,2,3
+﻿Id;TC-1;TC-2;Proces;Processtap;Onderwerp;PS;LT;OI;PI;DT
+1;rv-8;1,2,3;Requirementsanalyseproces;Verzamelen requirements;interviewen-met-stakeholder;;1,2,3;1,2,3;1,2,3;1,2,3
+2;pu-13;1,2,3;Pakketselectieproces;Uitvoeren analyse;proposities;;1,2,3;1,2,3;1,2,3;1,2,3
+3;pu-13;1,2,3;Pakketselectieproces;Uitvoeren analyse;waarheidtabellen;;1,2,3;1,2,3;1,2,3;1,2,3
+4;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;boolean-operatoren;;1,2,3;1,2,3;1,2,3;1,2,3
+5;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;bitwise;;1,2,3;1,2,3;1,2,3;1,2,3
+6;pu-13;1,2,3;Pakketselectieproces;Uitvoeren analyse;verzamelingen;;1,2,3;1,2,3;1,2,3;1,2,3
+7;pu-13;1,2,3;Pakketselectieproces;Uitvoeren analyse;operatoren;;1,2,3;1,2,3;1,2,3;1,2,3
+8;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;sets-in-c#;;1,2,3;1,2,3;1,2,3;1,2,3
+9;rv-8;1,2,3;Requirementsanalyseproces;Verzamelen requirements;toestandsdiagrammen;;1,2,3;1,2,3;1,2,3;1,2,3
+10;ra-9;G,2,3;Requirementsanalyseproces;Analyseren requirements;toestandsdiagrammen;;G,2,3;G,2,3;G,2,3;G,2,3
+11;oo-15;G,2,3;Ontwerpproces;Opstellen ontwerp;functioneel-ontwerp;;G,2,3;G,2,3;G,2,3;G,2,3
+12;rv-8;1,2,3;Requirementsanalyseproces;Verzamelen requirements;functioneel-ontwerp;;1,2,3;1,2,3;1,2,3;1,2,3
+13;rs-10;1,2,3;Requirementsanalyseproces;Specificeren requirements;functioneel-ontwerp;;1,2,3;1,2,3;1,2,3;1,2,3
+14;ra-9;G,2,3;Requirementsanalyseproces;Analyseren requirements;functioneel-ontwerp;;G,2,3;G,2,3;G,2,3;G,2,3
+15;oo-15;G,2,3;Ontwerpproces;Opstellen ontwerp;technisch-ontwerp;;G,2,3;G,2,3;G,2,3;G,2,3
+16;ii-18;1,2,3;Implementatieproces;Inrichten ontwikkelomgeving;dotnet-and-visual-studio;;1,2,3;1,2,3;1,2,3;1,2,3
+17;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;implementing-and-using-types;;1,2,3;1,2,3;1,2,3;1,2,3
+18;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;inheretance-polymophism-generics;;1,2,3;1,2,3;1,2,3;1,2,3
+19;to-3;1,2,3;Testproces;Opstellen test;unit-testing;;1,2,3;1,2,3;1,2,3;1,2,3
+20;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;cleaner-architecture;;1,2,3;1,2,3;1,2,3;1,2,3
+21;io-28;1,2,3;Implementatieproces;Oplossen fouten;exception-handling;;1,2,3;1,2,3;1,2,3;1,2,3
+22;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;cleaner-architecture;;1,2,3;1,2,3;1,2,3;1,2,3
+23;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;wpf;;1,2,3;1,2,3;1,2,3;1,2,3
+24;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;primitieve-datatypen;;1,2,3;1,2,3;1,2,3;1,2,3
+25;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;classes-methods-properties;;1,2,3;1,2,3;1,2,3;1,2,3
+26;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;multidimensionale-arrays;;1,2,3;1,2,3;1,2,3;1,2,3
+27;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;multidimensionale-arrays;;1,2,3;1,2,3;1,2,3;1,2,3
+28;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;polymorfisme-generics;;1,2,3;1,2,3;1,2,3;1,2,3
+29;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;inheritance-overloading-enum;;1,2,3;1,2,3;1,2,3;1,2,3
+30;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;exceptions-unit-testing;;1,2,3;1,2,3;1,2,3;1,2,3
+31;to-3;1,2,3;Testproces;Opstellen test;unit-testen;;1,2,3;1,2,3;1,2,3;1,2,3
+32;io-28;1,2,3;Testproces;Oplossen fouten;exception-handling;;1,2,3;1,2,3;1,2,3;1,2,3
+33;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;primitieve-typen;;1,2,3;1,2,3;1,2,3;1,2,3
+34;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;klassen-methoden;;1,2,3;1,2,3;1,2,3;1,2,3
+35;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;multidimensionale-arrays;;1,2,3;1,2,3;1,2,3;1,2,3
+36;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;overerving-polymorfisme-generieke-methoden;;1,2,3;1,2,3;1,2,3;1,2,3
+37;io-28;1,2,3;Implementatieproces;Oplossen fouten;exception-handling;;1,2,3;1,2,3;1,2,3;1,2,3
+38;to-3;1,2,3;Testproces;Opstellen test;unit-testing-asynchrone-code;;1,2,3;1,2,3;1,2,3;1,2,3
+39;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;events;;1,2,3;1,2,3;1,2,3;1,2,3
+40;io-28;1,2,3;Implementatieproces;Oplossen fouten;code-review;;1,2,3;1,2,3;1,2,3;1,2,3
+41;ir-20;X,X,3;Implementatieproces;Refactor;code-review-code-smells;;X,X,3;X,X,3;X,X,3;X,X,3
+42;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;delegates;;1,2,3;1,2,3;1,2,3;1,2,3
+43;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;linq;;1,2,3;1,2,3;1,2,3;1,2,3
+44;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;lambdas-funcs-predicates;;1,2,3;1,2,3;1,2,3;1,2,3
+45;ib-21;X,2,3;Implementatieproces;Beredeneren bouwkeuzes;object-oriëntatie-applicatielagen;;X,2,3;X,2,3;X,2,3;X,2,3
+46;to-3;1,2,3;Testproces;Opstellen test;unit-testen;;1,2,3;1,2,3;1,2,3;1,2,3
+47;tu-4;1,2,3;Testproces;Uitvoeren test;unit-testen;;1,2,3;1,2,3;1,2,3;1,2,3
+48;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;object-oriëntatie-applicatielagen;;1,2,3;1,2,3;1,2,3;1,2,3
+49;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;delegates-events-eventhandlers;;1,2,3;1,2,3;1,2,3;1,2,3
+50;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;delegates-events-eventhandlers;;1,2,3;1,2,3;1,2,3;1,2,3
+51;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;linq-generics-delegates-lambda-expressies;;1,2,3;1,2,3;1,2,3;1,2,3
+52;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;linq-generics-delegates-lambda-expressies;;1,2,3;1,2,3;1,2,3;1,2,3
+53;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;delegates;;1,2,3;1,2,3;1,2,3;1,2,3
+54;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;linq-anonymous-types-delegates;;1,2,3;1,2,3;1,2,3;1,2,3
+55;to-3;1,2,3;Testproces;Opstellen test;unit-testen;;1,2,3;1,2,3;1,2,3;1,2,3
+56;tu-4;1,2,3;Testproces;Uitvoeren test;unit-testen;;1,2,3;1,2,3;1,2,3;1,2,3
+57;ib-21;X,2,3;Implementatieproces;Beredeneren bouwkeuzes;events;;X,2,3;X,2,3;X,2,3;X,2,3
+58;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;events;;1,2,3;1,2,3;1,2,3;1,2,3
+59;pu-13;1,2,3;Pakketselectieproces;Uitvoeren analyse;relaties-tupel-carthetisch-product;;1,2,3;1,2,3;1,2,3;1,2,3
+60;rs-10;1,2,3;Requirementsanalyseproces;Specificeren requirements;klassendiagram;;1,2,3;1,2,3;1,2,3;1,2,3
+61;rs-10;1,2,3;Requirementsanalyseproces;Specificeren requirements;use-case-diagram-use-case-beschrijvingen;;1,2,3;1,2,3;1,2,3;1,2,3
+62;rv-11;X,2,3;Requirementsanalyseproces;Valideren requirements;use-case-diagram-use-case-beschrijvingen;;X,2,3;X,2,3;X,2,3;X,2,3
+63;rs-10;1,2,3;Requirementsanalyseproces;Specificeren requirements;activiteitendiagram;;1,2,3;1,2,3;1,2,3;1,2,3
+64;ra-9;1,2,3;Requirementsanalyseproces;Analyseren requirements;sequentiediagram;;1,2,3;1,2,3;1,2,3;1,2,3
+65;rs-10;1,2,3;Requirementsanalyseproces;Specificeren requirements;sequentiediagram;;1,2,3;1,2,3;1,2,3;1,2,3
+66;pu-13;1,2,3;Pakketselectieproces;Uitvoeren analyse;getalsystemen;;1,2,3;1,2,3;1,2,3;1,2,3
+67;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;getalbewerkingen-en-ascii;;1,2,3;1,2,3;1,2,3;1,2,3
+68;pu-13;1,2,3;Pakketselectieproces;Uitvoeren analyse;grootste-gemene-deler;;1,2,3;1,2,3;1,2,3;1,2,3
+69;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;datastructuren-array-lijst;;1,2,3;1,2,3;1,2,3;1,2,3
+70;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;datastructuren-stack-queue-dictionary;;1,2,3;1,2,3;1,2,3;1,2,3
+71;pu-13;1,2,3;Pakketselectieproces;Uitvoeren analyse;rekenen;;1,2,3;1,2,3;1,2,3;1,2,3
+72;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;buzz-game;;1,2,3;1,2,3;1,2,3;1,2,3
+73;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;matrix-en-bubblesort;;1,2,3;1,2,3;1,2,3;1,2,3
+74;ib-19;1,2,3;Implementatieproces;Bouwen softwaresysteem;stack-en-queue;;1,2,3;1,2,3;1,2,3;1,2,3
+75;bm-22;G,2,3;Beheerproces;Managen ontwikkelproces;scrum-framework;;1,2,3;1,2,3;1,2,3;1,2,3
+76;bm-22;G,2,3;Beheerproces;Managen ontwikkelproces;scrum-events;;1,2,3;1,2,3;1,2,3;1,2,3
+77;rb-12;X,2,3;Requirementsanalyseproces;Beheren requirements;scrum-events;;X,2,3;X,2,3;X,2,3;X,2,3
+78;bm-22;G,2,3;Beheerproces;Managen ontwikkelproces;scrum-acountabilities;;1,2,3;1,2,3;1,2,3;1,2,3
+79;bm-22;G,2,3;Beheerproces;Managen ontwikkelproces;scrum-artefacts;;1,2,3;1,2,3;1,2,3;1,2,3
