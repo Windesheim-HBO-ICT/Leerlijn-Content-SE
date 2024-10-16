@@ -27,10 +27,10 @@ TC2_COL = 2
 TC3_COL = 5
 PROCES_COL = 3
 PROCESSTAP_COL = 4
-LT_COL = 9
-OI_COL = 10
-PI_COL = 11
-DT_COL = 12
+LT_COL = 7
+OI_COL = 8
+PI_COL = 9
+DT_COL = 10
 
 # 4CID
 LT = "Leertaken"
@@ -116,7 +116,8 @@ def parse_dataset_file(dataset_file):
         try:
             with open(dataset_file, newline='', encoding=encoding) as file:
                 reader = csv.reader(file, delimiter=';', quotechar='|')
-                Dataset = list(reader)
+                Dataset = list(reader)[1:]  # Skip the header row
+
                 break
                 
         except UnicodeDecodeError:
@@ -138,6 +139,7 @@ def populate_rapport1():
 
         if tc_1 not in Rapport_1: 
             splitted_tc2 = tc_2.split(',')
+
             Rapport_1[tc_1] = {
                 "Proces" : proces,
                 "Processtap" : processtap,
@@ -271,7 +273,6 @@ def generate_tags(taxonomies, file_path):
     tags = []
     errors = []
     if taxonomies is not None:
-        print("taxcode not none")
         for taxonomie in taxonomies:
             # Check if the taxonomie is in the correct format
             if not re.match(Taxonomie_pattern, taxonomie):

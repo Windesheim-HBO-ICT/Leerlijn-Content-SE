@@ -42,7 +42,7 @@ jobs:
 
       - name: Run wikiversie_parser.py script
         run: |
-          python .github/wikiversie_parser.py --src "./content" --dest "./build" --dataset .github/demodataset.csv --verbose --testdir "./test_cases"
+          python .github/wikiversie_parser.py --src "./content" --dest "./build" --dataset .github/dataset.csv --testdir "./test_cases" --verbose
 
       - name: Get list of files in temp directory
         run: |
