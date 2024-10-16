@@ -31,6 +31,7 @@ De `test_cases` folder bevat de testen die in de staging branch worden gebruikt 
 ---
 
 ### Schrijven van content
+Voor het schrijven van content worden freature branches gebruikt. Maak een nieuwe branch gebasseerd op `Content` en doe vervolgens een PR van je feature branch naar content. \
 Content moet geschreven worden in `.md` files. Hierbij kunnen aan de hand van page properties kenmerken meegegeven worden aan een pagina.
 
 - `title`:\
