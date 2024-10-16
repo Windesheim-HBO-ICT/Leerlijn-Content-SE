@@ -1,0 +1,9 @@
+﻿Id;TC-1;TC-2;Proces;Processtap;Onderwerp;PS;LT;OI;PI;DT
+1;bg-24;X,2,3;Beheerproces;Gebruiken beheersysteem;Git-Repositories;;X,X,X;X,2,3;X,2,3;X,X,X
+2;bg-24;X,2,3;Beheerproces;Gebruiken beheersysteem;Git-Branches;;X,X,X;X,2,3;X,2,3;X,X,X
+3;bg-24;X,2,3;Beheerproces;Gebruiken beheersysteem;Git-Commits;;X,X,X;X,2,3;X,2,3;X,X,X
+4;bg-24;X,2,3;Beheerproces;Gebruiken beheersysteem;Git-Github;;X,X,X;X,2,3;X,2,3;X,X,X
+5;bg-24;X,2,3;Beheerproces;Gebruiken beheersysteem;Git-Files;;X,X,X;X,2,3;X,2,3;X,X,X
+6;bg-24;X,2,3;Beheerproces;Gebruiken beheersysteem;Git-Actions;;X,X,X;X,2,3;X,2,3;X,X,X
+7;bg-24;X,2,3;Beheerproces;Gebruiken beheersysteem;Git-Tools;;X,X,X;X,2,3;X,2,3;X,X,X
+8;bg-24;X,2,3;Beheerproces;Gebruiken beheersysteem;Git-Tags-en-releases;;X,X,X;X,2,3;X,2,3;X,X,X
