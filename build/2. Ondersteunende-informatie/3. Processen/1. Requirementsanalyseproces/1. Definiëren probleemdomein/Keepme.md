@@ -1,11 +1,6 @@
 ---
 title: Keepme
-taxonomie: ['io-28.1.exception-handling.OI']
+taxonomie: ['None']
 tags:
-- HBO-i/niveau-1
-- Implementatieproces
-- Oplossen fouten
-- exception-handling
-- Testproces
-- io-28.1.exception-handling.OI
+
 ---
