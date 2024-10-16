@@ -62,3 +62,10 @@ Zoals eerder uitgelegd zijn er 2 pipelines. Beide pipelines worden afgevuurd op 
 De test pipeline checkt test bestanden als bestanden in  `test_cases` of `.github` folders worden aangepast.
 - Rapport pipeline:\
 De rapport pipeline zorgt ervoor dat `report.md` wordt gevuld met de juiste content op basis van taxonomie codes in de content.
+
+### Dataset
+In de staging branch in de map `.github` is een `dataset.xls` en een `dataset.csv` aanwezig. \
+Als er nieuwe onderwerpen bij komen of een bestaand onderwerp wordt aangepast moet dit worden gedaan in `dataset.xls`. \
+Vervolgens moet het Excel bestand worden geëxporteerd naar een csv met de naam `dataset.csv`.
+- Het is **niet** nodig om elementen zoals tabelheaders te verwijderen
+- Het Excel bestand en dus de CSV mogen ook geen lege regels hebben (`;;;;;;;;;;`)
