@@ -7,6 +7,7 @@ import argparse
 import sys
 import json
 from pathlib import Path
+import pandas as pd
 
 # Global variables
 Dataset = list()  # Dataset list
@@ -108,22 +109,19 @@ Args:
     dataset_file (str): Path to the dataset CSV file.
 """
 def parse_dataset_file(dataset_file):
-    global Dataset 
-    encodings = ['utf-8', 'iso-8859-1', 'windows-1252']  # List of encodings to try
+    global Dataset
 
-    # Try to open the dataset file with different encodings
-    for encoding in encodings:
-        try:
-            with open(dataset_file, newline='', encoding=encoding) as file:
-                reader = csv.reader(file, delimiter=';', quotechar='|')
-                Dataset = list(reader)[1:]  # Skip the header row
-
-                break
-                
-        except UnicodeDecodeError:
-            print(f"Failed to decode {dataset_file} with encoding {encoding}. Trying next encoding.")
-        except FileNotFoundError:
-            print(f"File {dataset_file} not found.")
+    try:
+        df = pd.read_excel(dataset_file)
+        csv_data = df.to_csv(index=False, sep=';')
+        reader = csv.reader(csv_data.splitlines(), delimiter=';', quotechar='|')
+        Dataset = list(reader)
+    except FileNotFoundError:
+        print(f"File {dataset_file} not found.")
+        exit()
+    except Exception as e:
+        print(f"An error occurred while reading the dataset file: {e}")
+        exit()
 
 """
 Fills the rapport 1 data with the data from the dataset
@@ -687,6 +685,7 @@ def main():
     
 
     # Fill the reports with the dataset information
+    # parse_xlsx_to_csv(args.dataset)
     parse_dataset_file(args.dataset)
 
     populate_rapport1()
