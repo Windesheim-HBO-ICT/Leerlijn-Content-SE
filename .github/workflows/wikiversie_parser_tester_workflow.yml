@@ -26,7 +26,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pyyaml
+          pip install pandas
+          pip install openpyxl
 
       - name: Fetch all branches
         run: |
@@ -38,4 +39,4 @@ jobs:
 
       - name: Run wikiversie_parser.py script
         run: |
-          python .github/wikiversie_parser.py --src "./content" --dest "./build" --dataset .github/demodataset.csv --verbose --testing --testdir "./test_cases"
+          python .github/wikiversie_parser.py --src "./content" --dest "./build" --dataset .github/dataset.xlsx --testing --testdir "./test_cases" --verbose
