@@ -13,7 +13,7 @@ Verder is er nog een `.git` folder waarin de CODEOWNERS is opgenomen en een pull
 ### Staging
 De staging branch bevat de mappen `.github`, `build`, `content`, `test_cases`. Op deze branch kan niet gewerkt worden.
 - `.github`:\
-De `.github` folder bevat het script, de dataset en de pipeline files. **⚠️Deze bestanden moeten niet aangepast worden⚠️**\
+De `.github` folder bevat het script, de dataset en de pipeline files. **⚠️Deze bestanden moeten niet aangepast worden⚠️**
 - `build`:\
 De `build` folder bevat de content die overgezet moet worden naar de `main` branch.
 - `content`:\
