@@ -18,6 +18,7 @@ Failed_test_files = [] # Track which files failed in testing
 Verbose = False # Verbose output flag
 Testing = False # Testing output flag
 Taxonomie_pattern = r'^[a-z]{2}-\d{1,3}\.[123]\.[^\s\.]+(\.[^\s\.]+)*\.[A-Z]{2}$' # Taxonomie pattern
+ValidDynamicLinkPrefixes = ['https://', 'http://', 'tags/'] # List of valid dynamic links
 
 Rapport_1 = {} # Rapport 1 data
 Rapport_2 = {} # Rapport 2 data
@@ -272,6 +273,8 @@ def generate_tags(taxonomies, file_path):
     errors = []
     if taxonomies is not None:
         for taxonomie in taxonomies:
+            if Verbose: print(f"Generating tags for taxonomie: {taxonomie}")
+
             # Check if the taxonomie is in the correct format
             if not re.match(Taxonomie_pattern, taxonomie):
                 errors.append(f"Invalid taxonomie: {taxonomie}")
@@ -550,6 +553,131 @@ def generate_report():
         print("Report generated.")
 
 """
+Search for image links in the markdown content, and copy the images from the source/
+folder to the build/ folder, preserving the folder structure.
+
+Args:
+    content (str): Content of the markdown file.
+"""
+def copy_images(content):
+    # Define the root content directory and the build directory
+    content_path = Path(__file__).resolve().parents[1] / 'content'
+    build_path = Path(__file__).resolve().parents[1] / 'build'
+
+    # Regex to find all image paths in markdown content (both markdown and obsidian style)
+    image_links = re.findall(r'!\[\[([^\]]+)\]\]|\!\[([^\]]*)\]\(([^)]+)\)', content)
+
+    # Iterate over each image link found
+    for image_link in image_links:
+        # If the image link matches the Obsidian-style (first capture group), use that
+        if image_link[0]:
+            image_path = image_link[0].strip()
+        # If the image link matches the Markdown-style (second and third capture groups), use the path from group 2
+        elif image_link[2]:
+            image_path = image_link[2].strip()
+
+        # If the image path is empty or invalid, skip this one
+        if not image_path:
+            continue
+
+        # Find the image file by walking through the content directory
+        found_image_path = None
+        for root, dirs, files in os.walk(content_path):
+            if image_path in files:
+                found_image_path = Path(root) / image_path
+                break
+
+        # If the image file is found, proceed with copying it
+        if found_image_path and found_image_path.exists():
+
+            # Calculate the relative path of the image within 'content' folder
+            relative_path = found_image_path.relative_to(content_path)
+
+            # Determine the new location in the 'build' directory (preserving the folder structure)
+            new_image_path = build_path / relative_path
+
+            # Create the new directory if it doesn't exist
+            new_image_path.parent.mkdir(parents=True, exist_ok=True)
+
+            # Copy the image to the new location
+            shutil.copy(found_image_path, new_image_path)
+        else:
+            print(f"Image not found: {image_path}")
+
+    return content
+
+"""
+Checks if the dynamic link is valid and the file exists.
+
+Args:
+    source_file_path (str): Path to the source file.
+    link (str): Dynamic link to validate.
+"""
+def validate_dynamic_link(source_file_path, link):
+    # Define the root content directory (assuming it is one level up from the current script)
+    content_path = Path(__file__).resolve().parents[1] / 'content'
+
+    # Verify that content_path exists
+    if not content_path.exists():
+        if Verbose: print(f"Error: Content path '{content_path}' does not exist.")
+        return False
+
+    # Clean up the link by removing the surrounding [[ and ]]
+    cleaned_link = link.strip('[[]]')
+
+    # If the link contains a section (anchor), split the link at '#'
+    if '#' in cleaned_link:
+        cleaned_link = cleaned_link.split('#')[0]  # Use only the part before '#'
+
+    # Parse the base name from the cleaned link
+    link_parts = cleaned_link.split('|')
+    file_name = link_parts[0].strip().split('/')[-1]
+
+    # Search for the file in all subdirectories within 'content' using os.walk
+    found_file = None
+    for root, dirs, files in os.walk(content_path):
+        for file in files:
+            if file.startswith(file_name):  # Check if the file name matches
+                found_file = os.path.join(root, file)
+                return True
+
+    # If no valid file is found, report error with details
+    if not found_file:
+        if Verbose: print(f"Error: source file: {source_file_path}, target file '{file_name}' not found in content.")
+
+    return False
+
+"""
+Update dynamic links in the content of a markdown file.
+
+Args:
+    file_path (str): Path to the markdown file.
+    content (str): Content of the markdown file.
+"""
+def update_dynamic_links(file_path, content):
+    # Find all dynamic links in the content
+    dynamic_links = re.findall(r'\[\[[^"\[][^]]*?\]\]', content)
+
+    for link in dynamic_links:
+        # Skip links that start with any of the valid prefixes
+        cleaned_link = link.strip('[[]]')
+        if any(cleaned_link.startswith(prefix) for prefix in ValidDynamicLinkPrefixes):
+            return content
+            
+        # Strip 'content/' prefix if present
+        new_link = link.replace('content/', '')
+
+        # Replace the old link with the new link in the content
+        content = content.replace(link, new_link)
+
+        # Check if the dynamic link is valid
+        if not validate_dynamic_link(file_path, new_link):
+            if Verbose: print(f"Error: Invalid dynamic link: {new_link}")
+            exit()
+
+    return content
+
+"""
 Update markdown files in the source directory with taxonomie tags and generate reports.
 Args:
     src_dir (str): Source directory containing markdown files.
@@ -565,10 +693,18 @@ def parse_markdown_files(src_dir, dest_dir):
         relative_path = file_path.relative_to(src_dir)
         dest_path = dest_dir / relative_path
 
-        if Verbose: print(f"Parsing file: {file_path}")
+        if Verbose: 
+            print("*" * 50) 
+            print(f"Parsing file: {file_path}")
 
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
+
+        # Check if there are any dynamic links which need to be updated
+        content = update_dynamic_links(file_path, content)
+
+        # Copy images from source to build directory
+        copy_images(content)
 
         # Extract existing tags and taxonomie
         existing_tags = extract_values(content, 'tags')
@@ -612,6 +748,10 @@ def parse_markdown_files(src_dir, dest_dir):
         # Write the new content to the destination file
         with open(dest_path, 'w', encoding='utf-8') as f:
             f.write(new_content)
+
+        if Verbose:
+            print(f"File completed: {file_path}")
+            print("-" * 50)
 
     generate_report()
 
@@ -683,9 +823,7 @@ def main():
     Testing = args.testing
     test_dir = Path(args.testdir).resolve()
     
-
     # Fill the reports with the dataset information
-    # parse_xlsx_to_csv(args.dataset)
     parse_dataset_file(args.dataset)
 
     populate_rapport1()
@@ -699,9 +837,6 @@ def main():
         if os.path.exists(dest_dir):
             shutil.rmtree(dest_dir)
             os.mkdir(dest_dir)
-
-        # Copy the folder content/sources to the destination directory
-        shutil.copytree(src_dir / "sources", dest_dir / "sources")
 
         # Parse the markdown files in the source directory
         parse_markdown_files(src_dir, dest_dir)
