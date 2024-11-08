@@ -103,10 +103,10 @@ NOT_NEEDED = "🟠"
 # }
 
 """
-Parse the dataset file from a CSV file to a list.
+Parse the dataset file from a XLSX file to a list.
 
 Args:
-    dataset_file (str): Path to the dataset CSV file.
+    dataset_file (str): Path to the dataset XLSX file.
 """
 def parse_dataset_file(dataset_file):
     global Dataset
@@ -671,7 +671,7 @@ def main():
     parser = argparse.ArgumentParser(description="Update markdown files with taxonomie tags and generate reports.")
     parser.add_argument("--src", required=True, help="Source directory containing markdown files.")
     parser.add_argument("--dest", required=True, help="Destination directory to save updated markdown files and reports.")
-    parser.add_argument("--dataset", required=True, help="Path to the dataset file (CSV file).")
+    parser.add_argument("--dataset", required=True, help="Path to the dataset file (XLSX file).")
     parser.add_argument("--verbose", action="store_true", help="Print verbose output.")
     parser.add_argument("--testing", action="store_true", help="Determines if it should only check testcases")
     parser.add_argument("--testdir", required=False, help="The directory where the tests are located")
