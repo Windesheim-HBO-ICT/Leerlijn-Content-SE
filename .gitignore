@@ -2,6 +2,3 @@
 .vscode/
 .idea/
 .DS_Store
-*build/
-*.xlsx
-report.md
