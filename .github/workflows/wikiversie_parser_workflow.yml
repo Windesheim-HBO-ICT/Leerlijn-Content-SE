@@ -30,7 +30,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pyyaml
+          pip install pandas
+          pip install openpyxl
 
       - name: Fetch all branches
         run: |
@@ -42,7 +43,7 @@ jobs:
 
       - name: Run wikiversie_parser.py script
         run: |
-          python .github/wikiversie_parser.py --src "./content" --dest "./build" --dataset .github/dataset.csv --testdir "./test_cases" --verbose
+          python .github/wikiversie_parser.py --src "./content" --dest "./build" --dataset .github/dataset.xlsx --testdir "./test_cases" --verbose
 
       - name: Get list of files in temp directory
         run: |
