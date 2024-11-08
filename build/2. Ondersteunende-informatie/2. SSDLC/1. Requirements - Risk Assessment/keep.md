@@ -1,6 +1,6 @@
 ---
 title: keep
-taxonomie: ['None']
+taxonomie: None
 tags:
 
 ---
