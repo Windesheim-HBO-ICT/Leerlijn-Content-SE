@@ -34,7 +34,7 @@ Bij kolom *TC2*, *Leertaken*, *Ondersteunende informatie*, *Procedurele informat
 | Git-Actions | bg-24 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
 | Git-Tools | bg-24 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
 | Git-Tags-en-releases | bg-24 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
-| Controlestructuur-Beslissingen-If-Else | ib-19 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ |
+| Controlestructuur-Beslissingen-If-Else | ib-19 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ |
 | Controlestructuur-Beslissingen-Switch | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
 | Controlestructuur-Herhaling-For | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
 | Controlestructuur-Herhaling-While | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
@@ -81,6 +81,10 @@ De onderstaande bestanden zijn succesvol verwerkt.
 | Status | File | Path | Taxonomie | Tags |
 | --- | --- | --- | --- | --- |
 | ✅ | 1. If-Else | 3. Procedurele-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/1. If-Else.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.PI<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else | N/A |
+| ✅ | 1. If-Else | 4. Deeltaken/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/1. If-Else.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.DT<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.DT | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else | N/A |
+| ✅ | 1. If-Else | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/If-else/1. If-Else.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.OI<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else | N/A |
+| ✅ | 2. If-Else-If | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/If-else/2. If-Else-If.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.OI<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else | N/A |
+| ✅ | 3. If-Else-Logical-Operators | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/If-else/3. If-Else-Logical-Operators.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.OI<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else | N/A |
 
 
 ## Gefaalde bestanden
@@ -269,7 +273,6 @@ De onderstaande bestanden zijn succesvol verwerkt.
 | ❌ | Keepme | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/1. Inrichten ontwikkelomgeving/Keepme.md | N/A | N/A | No taxonomie found in file. |
 | ❌ | Keepme | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/5. Oplossen fouten/Keepme.md | N/A | N/A | No taxonomie found in file. |
 | ❌ | Keepme | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/4. Beredeneren bouwkeuzes/Keepme.md | N/A | N/A | No taxonomie found in file. |
-| ⚠️ | Keepme | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/Keepme.md | None | N/A | Invalid taxonomie: None |
 | ❌ | Keepme | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/3. Refactoren applicatie/Keepme.md | N/A | N/A | No taxonomie found in file. |
 | ❌ | Keepme | 2. Ondersteunende-informatie/3. Processen/6. Beheerproces/6. Uitvoeren configuratie-, change- en releasemangement/Keepme.md | N/A | N/A | No taxonomie found in file. |
 | ❌ | Keepme | 2. Ondersteunende-informatie/3. Processen/6. Beheerproces/5. Evalueren ontwikkelstraat/Keepme.md | N/A | N/A | No taxonomie found in file. |
