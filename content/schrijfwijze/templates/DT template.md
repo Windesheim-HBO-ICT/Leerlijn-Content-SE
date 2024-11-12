@@ -6,7 +6,7 @@ taxonomie:
 draft: true
 ---
 
-> Meer informatie over [verwijzing naar OI
+> Meer informatie over [verwijzing naar OI]
 
 ## Opdracht [nummer]
 [Korte introductie tekst]
