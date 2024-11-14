@@ -4,9 +4,9 @@ draft: true
 ## Rapport 1 - Processtappen
 *Doel: achterhalen welke processtappen nog helemaal niet zijn geïmplementeerd*
 
-✅ Er bestaat een bestand met deze taxonomiecode op dit niveau
-⛔️ Er is geen enkel bestand met deze taxonomiecode op dit niveau
-🏳️ De taxonomiecode wordt niet aangeboden op dit niveau (X in de Dataset)
+- ✅ Er bestaat een bestand met deze taxonomiecode op dit niveau 
+- ⛔️ Er is geen enkel bestand met deze taxonomiecode op dit niveau 
+- 🏳️ De taxonomiecode wordt niet aangeboden op dit niveau (X in de Dataset) 
 
 | TC1 | Proces | Processtap | Niveau 1 | Niveau 2 | Niveau 3 |
 | --- | --- | --- | --- | --- | --- |
@@ -18,9 +18,9 @@ draft: true
 *Doel: Lijst met onderwerpen + gekoppelde taxonomie code voor inzicht in aangeboden onderwerpen.*
 Bij kolom *TC2*, *Leertaken*, *Ondersteunende informatie*, *Procedurele informatie* en *Deeltaken* zijn drie tekens aanwezig om de drie HBO-i niveaus weer te geven
 
-✅ Het onderwerp met taxonomie code wordt aangeboden op het aangegeven niveau
-⛔️ Het onderwerp met taxonomie code wordt **niet** aangeboden op het aangegeven niveau
-🏳️ Het onderwerp hoeft met deze taxonomie code niet aangeboden te worden op het aangegeven niveau
+- ✅ Het onderwerp met taxonomie code wordt aangeboden op het aangegeven niveau 
+- ⛔️ Het onderwerp met taxonomie code wordt **niet** aangeboden op het aangegeven niveau 
+- 🏳️ Het onderwerp hoeft met deze taxonomie code niet aangeboden te worden op het aangegeven niveau 
 
 | TC3 | TC1 | TC2 | Leertaken | Ondersteunende-informatie | Procedurele-informatie | Deeltaken |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -50,7 +50,7 @@ Bij kolom *TC2*, *Leertaken*, *Ondersteunende informatie*, *Procedurele informat
 | Datatype-Primitief-Integer | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
 | Datatype-Primitief-Float | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
 | Datatype-Primitief-Double | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
-| Datatype-Primitief-Boolean | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
+| Datatype-Primitief-Boolean | ib-19 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
 | Datatype-Primitief-Char | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
 | Datatype-Primitief-Byte | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
 | Datatype-Primitief-Long | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
@@ -82,6 +82,7 @@ De onderstaande bestanden zijn succesvol verwerkt.
 | --- | --- | --- | --- | --- |
 | ✅ | 1. If-Else | 3. Procedurele-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/1. If-Else.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.PI<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else | N/A |
 | ✅ | 1. If-Else | 4. Deeltaken/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/1. If-Else.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.DT<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.DT | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else | N/A |
+| ✅ | 1. Boolean | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/Boolean/1. Boolean.md | ib-19.2.Datatype-Primitief-Boolean.OI<br>ib-19.3.Datatype-Primitief-Boolean.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Datatype-Primitief-Boolean | N/A |
 | ✅ | 1. If-Else | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/If-else/1. If-Else.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.OI<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else | N/A |
 | ✅ | 2. If-Else-If | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/If-else/2. If-Else-If.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.OI<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else | N/A |
 | ✅ | 3. If-Else-Logical-Operators | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/If-else/3. If-Else-Logical-Operators.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.OI<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else | N/A |
@@ -164,7 +165,7 @@ De onderstaande bestanden zijn succesvol verwerkt.
 | ❌ | 1. Introductie Juiceshop II | deprecated/1. Leertaken/WEBDEV/Security/Workshops/8. Workshop Juiceshop II/1. Introductie Juiceshop II.md | N/A | N/A | No taxonomie found in file. |
 | ⚠️ | 3. Git Forks & Branches | deprecated/1. Leertaken/WEBDEV/Security/Workshops/10. Workshop Git/3. Git Forks & Branches.md | None | N/A | Invalid taxonomie: None |
 | ⚠️ | 1. Introductie Git | deprecated/1. Leertaken/WEBDEV/Security/Workshops/10. Workshop Git/1. Introductie Git.md | None | N/A | Invalid taxonomie: None |
-| ⚠️ | 4. Git Pull Requests | deprecated/1. Leertaken/WEBDEV/Security/Workshops/10. Workshop Git/4. Git Pull Requests.md | None | N/A | Invalid taxonomie: None |
+| ⚠️ | 4. Git Pull Requests | deprecated/1. Leertaken/WEBDEV/Security/Workshops/10. Workshop Git/4. Git Pull Requests.md | None | N/A | Image not found: 1. Leertaken/WEBDEV/Security/Workshops/10. Workshop Git/src/Pull_Request_4.png<br>Invalid taxonomie: None |
 | ⚠️ | 5. Git Tags & Releases | deprecated/1. Leertaken/WEBDEV/Security/Workshops/10. Workshop Git/5. Git Tags & Releases.md | None | N/A | Invalid taxonomie: None |
 | ⚠️ | 2. Git Repositories | deprecated/1. Leertaken/WEBDEV/Security/Workshops/10. Workshop Git/2. Git Repositories.md | None | N/A | Invalid taxonomie: None |
 | ❌ | 2. Setup Skylab omgeving | deprecated/1. Leertaken/WEBDEV/Security/Workshops/5. Workshop Skylab/2. Setup Skylab omgeving.md | N/A | N/A | No taxonomie found in file. |
