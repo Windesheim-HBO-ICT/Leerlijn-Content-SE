@@ -276,5 +276,5 @@ net zoals bij normale matrixes kunnen p, b, B, v en V hiervoor gezet worden om s
 ![[inline_matrix_format.png]]
 
 > Leesbaarheid smallmatrix \
-> smallmatrix is niet altijd goed leesbaar, probeer hier voor slechtziende gebruikers rekening mee te houden.
+> Smallmatrix is niet altijd goed leesbaar, probeer hier voor slechtziende gebruikers rekening mee te houden.
 
