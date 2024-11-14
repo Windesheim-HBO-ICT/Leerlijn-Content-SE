@@ -704,6 +704,10 @@ def parse_markdown_files(src_dir, dest_dir):
         dest_path = dest_dir / relative_path
         errors = []
 
+        # Skip the folder schrijfwijze
+        if "schrijfwijze" in str(file_path):
+            continue
+
         if Verbose: 
             print("*" * 50) 
             print(f"Parsing file: {file_path}")
