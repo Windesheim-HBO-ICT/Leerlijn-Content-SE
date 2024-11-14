@@ -502,9 +502,9 @@ def generate_report():
         # Rapport 1 Section
         f.write('## Rapport 1 - Processtappen\n')
         f.write('*Doel: achterhalen welke processtappen nog helemaal niet zijn geïmplementeerd*\n\n')
-        f.write('✅ Er bestaat een bestand met deze taxonomiecode op dit niveau\n')
-        f.write('⛔️ Er is geen enkel bestand met deze taxonomiecode op dit niveau\n')
-        f.write('🏳️ De taxonomiecode wordt niet aangeboden op dit niveau (X in de Dataset)\n')
+        f.write('- ✅ Er bestaat een bestand met deze taxonomiecode op dit niveau \n')
+        f.write('- ⛔️ Er is geen enkel bestand met deze taxonomiecode op dit niveau \n')
+        f.write('- 🏳️ De taxonomiecode wordt niet aangeboden op dit niveau (X in de Dataset) \n')
         f.write('\n')
         f.write(generate_rapport_1())
 
@@ -514,9 +514,9 @@ def generate_report():
         f.write('## Rapport 2 - Onderwerpen Catalogus\n')
         f.write('*Doel: Lijst met onderwerpen + gekoppelde taxonomie code voor inzicht in aangeboden onderwerpen.*\n')
         f.write('Bij kolom *TC2*, *Leertaken*, *Ondersteunende informatie*, *Procedurele informatie* en *Deeltaken* zijn drie tekens aanwezig om de drie HBO-i niveaus weer te geven\n\n')
-        f.write('✅ Het onderwerp met taxonomie code wordt aangeboden op het aangegeven niveau\n')
-        f.write('⛔️ Het onderwerp met taxonomie code wordt **niet** aangeboden op het aangegeven niveau\n')
-        f.write('🏳️ Het onderwerp hoeft met deze taxonomie code niet aangeboden te worden op het aangegeven niveau\n')
+        f.write('- ✅ Het onderwerp met taxonomie code wordt aangeboden op het aangegeven niveau \n')
+        f.write('- ⛔️ Het onderwerp met taxonomie code wordt **niet** aangeboden op het aangegeven niveau \n')
+        f.write('- 🏳️ Het onderwerp hoeft met deze taxonomie code niet aangeboden te worden op het aangegeven niveau \n')
         f.write('\n')
         f.write(generate_rapport_2())
 
@@ -563,6 +563,10 @@ def copy_images(content):
     # Define the root content directory and the build directory
     content_path = Path(__file__).resolve().parents[1] / 'content'
     build_path = Path(__file__).resolve().parents[1] / 'build'
+    errors = []
+
+    if content is None:
+        return errors
 
     # Regex to find all image paths in markdown content (both markdown and obsidian style)
     image_links = re.findall(r'!\[\[([^\]]+)\]\]|\!\[([^\]]*)\]\(([^)]+)\)', content)
@@ -578,6 +582,10 @@ def copy_images(content):
 
         # If the image path is empty or invalid, skip this one
         if not image_path:
+            continue
+
+        # Skip external links
+        if image_path.startswith('http://') or image_path.startswith('https://'):
             continue
 
         # Find the image file by walking through the content directory
@@ -602,9 +610,10 @@ def copy_images(content):
             # Copy the image to the new location
             shutil.copy(found_image_path, new_image_path)
         else:
-            print(f"Image not found: {image_path}")
+            if Verbose: print(f"Image not found: {image_path}")
+            errors.append(f"Image not found: {image_path}")
 
-    return content
+    return errors
 
 """
 Checks if the dynamic link is valid and the file exists.
@@ -657,12 +666,13 @@ Args:
 def update_dynamic_links(file_path, content):
     # Find all dynamic links in the content
     dynamic_links = re.findall(r'\[\[[^"\[][^]]*?\]\]', content)
+    errors = []
 
     for link in dynamic_links:
         # Skip links that start with any of the valid prefixes
         cleaned_link = link.strip('[[]]')
         if any(cleaned_link.startswith(prefix) for prefix in ValidDynamicLinkPrefixes):
-            return content
+            return content, errors
             
         # Strip 'content/' prefix if present
         new_link = link.replace('content/', '')
@@ -673,9 +683,9 @@ def update_dynamic_links(file_path, content):
         # Check if the dynamic link is valid
         if not validate_dynamic_link(file_path, new_link):
             if Verbose: print(f"Error: Invalid dynamic link: {new_link}")
-            exit()
+            errors.append(f"Invalid dynamic link: `{new_link}`")
 
-    return content
+    return content, errors
 
 """
 Update markdown files in the source directory with taxonomie tags and generate reports.
@@ -692,6 +702,7 @@ def parse_markdown_files(src_dir, dest_dir):
     for file_path in Path(src_dir).rglob('*.md'):
         relative_path = file_path.relative_to(src_dir)
         dest_path = dest_dir / relative_path
+        errors = []
 
         if Verbose: 
             print("*" * 50) 
@@ -701,16 +712,19 @@ def parse_markdown_files(src_dir, dest_dir):
             content = f.read()
 
         # Check if there are any dynamic links which need to be updated
-        content = update_dynamic_links(file_path, content)
+        content, link_errors = update_dynamic_links(file_path, content)
 
         # Copy images from source to build directory
-        copy_images(content)
+        image_errors = copy_images(content)
 
         # Extract existing tags and taxonomie
         existing_tags = extract_values(content, 'tags')
         taxonomie = extract_values(content, 'taxonomie')
-        new_tags, errors = generate_tags(taxonomie, file_path)
+        new_tags, tags_errors = generate_tags(taxonomie, file_path)
         difficulty = extract_values(content, 'difficulty')
+
+        # Combine all errors
+        errors = link_errors + image_errors + tags_errors
 
         # If any errors occurred, add the file to the failed files list
         if errors:
