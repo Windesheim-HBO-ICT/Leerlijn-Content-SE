@@ -30,6 +30,14 @@ taxonomie:
 - **difficulty:** Dit is optioneel. Dit kan gebruikt worden om de moeilijkheid van een deeltaak/leertaak aan te duiden.
 - **taxonomie:** Dit zijn de taxonomie codes die gebruikt worden om automatische tags te genereren op de webpagina.
 
+## Toevoegen nieuw onderwerp
+Als er een nieuw onderwerp toegevoegd moet worden, moet er een map aangemaakt worden in de relevante processtap. Binnen deze map moeten de `.md` bestanden op volgorde worden aan gemaakt door altijd met een nummering te beginnen.
+
+> [!tip] Voorbeeld
+> Voor het onderwerp `If-Else`:
+> In de map `2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem` moet een nieuwe map `If-Else` worden aangemaakt.
+> In deze map begint het eerste bestand met `1. Titel` en het tweede bestand met `2. Titel`.
+
 ## Taxonomie
 * Binnen Obsidian kan je door aan het begin gelijk `---` te typen page properties opgeven.
 * De taxco's moeten als volgt worden geformuleerd: TC1.TC2.TC3.Type
@@ -54,9 +62,16 @@ ib-19.3.Controlestructuur-Beslissingen-If-Else.DT
 - Tussen een einde van een alinea en een nieuwe heading moet één witregel worden gebruikt. 
 
 ## Afbeeldingen
-Als je een afbeeldingen toevoegt maak dan een mapje `src` aan in dezelfde map als de `md` bestanden
+Als je een afbeeldingen toevoegt maak dan een mapje `src` aan in dezelfde map als de `md` bestanden. Deze bestanden moet er als volgt uitzien: `OI_Onderwerp_nummer`. Hierbij moet OI vervangen worden met het 4C/ID model waaraan gewerkt wordt (OI, PI, DT of LT).
+
 Voeg figuur onderschrift toe door onder de afbeelding / diagram *italic* toelichting te geven.
-Format: `Figuur [nummer]: [toelichting]`
+Format: `*Figuur [paginanummer].[nummer]: [toelichting]*`.
+In een map waar meerdere `.md` bestanden staan, zal elk bestand ook beginnen met een nummer. Dit is het eerste nummer van de figuur. Het tweede nummer is het nummer van het eerst volgende figuur.
+
+> [!tip] Voorbeeld
+> In een map zitten de bestanden `1. If-Else` en `2. If-Else-If`. In het bestand `2. If-Else-If` zitten 3 figuren. Het derde figuur zal het volgende onderschrift krijgen: 
+> `*Figuur 2.3: Toelichting*`
+
 
 ## Diagrammen
 Als je een diagram wil toevoegen doe dit dan via [[Mermaid]].
