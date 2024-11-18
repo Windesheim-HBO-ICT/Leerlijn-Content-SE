@@ -59,7 +59,7 @@ ib-19.3.Controlestructuur-Beslissingen-If-Else.DT
 
 ## Witregels
 - Tussen de page properties en het begin van de tekst moet een witregel worden geplaatst.
-- Tussen een einde van een alinea en een nieuwe heading moet één witregel worden gebruikt. 
+- Tussen een einde van een alinea en een nieuwe heading moet **één** witregel worden gebruikt. 
 
 ## Afbeeldingen
 Als je een afbeeldingen toevoegt maak dan een mapje `src` aan in dezelfde map als de `md` bestanden. Deze bestanden moet er als volgt uitzien: `OI_Onderwerp_nummer`. Hierbij moet OI vervangen worden met het 4C/ID model waaraan gewerkt wordt (OI, PI, DT of LT).
@@ -149,6 +149,16 @@ Bij het gebruik van blokken zijn er een aantal standaard veelgebruikte keywoorde
 
 ![image](https://github.com/Windesheim-HBO-ICT/Leertaken/assets/113350398/8c77e7d0-4231-4166-8921-7013fbc8191c)
 
+> [!warning] Let op
+> Zorg ervoor dat er een spatie zit tussen `>` en de zin:
+> 	```
+> 	> Tekst
+> 	```
+> 	en niet 
+> 	```
+> 	>Tekst
+> 	```
+
 ### Bronnen
 In het geval dat er bronnen gebruikt zijn om informatie/opdrachten te schrijven voor een pagina, moet er onderaan de pagina een bronnenlijst opgenomen worden. Als er meerdere bronnen zijn, dan moet elke bronlink afgesloten worden met een `\`.
 > [!info] Bronnen
@@ -198,6 +208,7 @@ Controleer of je content voldoet aan de eisen uit het Word bestand: `Kwaliteitse
 * Mogelijke uitwerking aanwezig.
 * Gebruik de taal C#.
 * Vergeet niet dingen als `using System;`.
+* Test zelf de code blokken van het "Mogelijk antwoord" blok. Dit kan met de codeblock in obsidian of in een eigen editor zoals hieronder beschreven.
 
 ## Codeblock / Coderunner
 Er zijn drie verschillende soorten codeblocks: read only, runnable en sandbox. Om de codeblock werkt te hebben binnen de editor Obsidian, moet een community plugin worden geïnstalleerd.
