@@ -50,7 +50,7 @@ Bij kolom *TC2*, *Leertaken*, *Ondersteunende informatie*, *Procedurele informat
 | Datatype-Primitief-Integer | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
 | Datatype-Primitief-Float | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
 | Datatype-Primitief-Double | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
-| Datatype-Primitief-Boolean | ib-19 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
+| Datatype-Primitief-Boolean | ib-19 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ |
 | Datatype-Primitief-Char | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
 | Datatype-Primitief-Byte | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
 | Datatype-Primitief-Long | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
@@ -81,6 +81,7 @@ De onderstaande bestanden zijn succesvol verwerkt.
 | Status | File | Path | Taxonomie | Tags |
 | --- | --- | --- | --- | --- |
 | ✅ | 1. If-Else | 3. Procedurele-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/If-Else/1. If-Else.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.PI<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else | N/A |
+| ✅ | 1. Boolean | 4. Deeltaken/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/Boolean/1. Boolean.md | ib-19.2.Datatype-Primitief-Boolean.DT<br>ib-19.3.Datatype-Primitief-Boolean.DT | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Datatype-Primitief-Boolean | N/A |
 | ✅ | 1. If-Else | 4. Deeltaken/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/If-Else/1. If-Else.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.DT<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.DT | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else | N/A |
 | ✅ | 1. Boolean | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/Boolean/1. Boolean.md | ib-19.2.Datatype-Primitief-Boolean.OI<br>ib-19.3.Datatype-Primitief-Boolean.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Datatype-Primitief-Boolean | N/A |
 | ✅ | 1. If-Else | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/If-else/1. If-Else.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.OI<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else | N/A |
