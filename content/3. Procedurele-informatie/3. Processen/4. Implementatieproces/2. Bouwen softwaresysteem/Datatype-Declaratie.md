@@ -1,0 +1,52 @@
+---
+title: "[Hier een titel, begin met 1. Onderwerp]"
+taxonomie:
+  - "[taxco]"
+  - ib-19.2.Datatype.Declaratie.PI
+  - ib-19.3.Datatype.Declaratie.PI
+draft: true
+---
+
+> Meer informatie over [[1. Declaratie|1. Declaratie]]
+
+## Stappen in de Systematische Probleem Aanpak
+### 1. Doel
+Het doel van een declaratie is om aan te geven wat voor soort data een variabele bevat en hoe deze in het programma gebruikt wordt.
+
+### 2. Subdoelen
+Splits het probleem in subdoelen:
+
+- Welke soort informatie moet de variabele opslaan? (bijvoorbeeld een getal, tekst, of een complex object).
+- Waar moet de informatie van deze variabele beschikbaar zijn? (bijvoorbeeld binnen een functie, een klasse, of in het hele programma).
+
+>[!TIP] Casus
+> Stel, je bouwt een registratiesysteem voor een website. Een variabele kan bijvoorbeeld de gebruikersnaam opslaan. Kies een logische naam zoals `gebruikersnaam` en `String` als datatype, omdat gebruikersnamen uit tekst bestaan.
+
+### 3. Fasen:
+1. **Type gewenste waarde**
+   **Actie**: Bepaal het type van de gewenste waardes van het variabel.
+   **Resultaat**: Type dat variabel opslaat.
+2. **Naam variabel**
+   **Actie**: Bepaal de naam van het variabele, probeer een duidelijke en beschrijvende naam te kiezen.
+   **Resultaat**: Naam voor je variabel
+3. **Beschikbaarheid variabel**
+   **Actie**: Bepaal waar je je variabel wilt kunnen gebruiken, als deze alleen nodig is in een functie kan je deze binnen de functie declareren. Anders kan deze binnen een klasse met private als deze alleen binnen de klasse nodig is of public als je deze overal wil kunnen gebruiken
+   **Resultaat**: 
+4. **Beginwaarde variabel**
+   **Actie**: Kijk of je variabel een beginwaarde nodig heeft wanneer je deze declareert.
+   **Resultaat**: Een (mogelijke) beginwaarde voor je variabel en locatie voor het opslaan
+
+### Correctieve feedback tijdens de uitvoer
+[Leg hier mogelijke problemen of aandachtspunten uit]
+type in namespace/using 
+
+> [!INFO] Tip  
+> [Als je nog een tip hebt voor het zoeken / opstellen van feedback leg dat dan hier uit. Kan je weglaten als je niks hebt]
+
+### Tips voor efficiënt gebruik van declaratie
+- Maak geen onnodige variabelen aan
+- Probeer dingen niet dubbel op te slaan
+
+---
+
+> Volgende stap: [[1. Datatype-Declaratie]]
