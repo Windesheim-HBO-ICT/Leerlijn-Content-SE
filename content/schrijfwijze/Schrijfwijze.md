@@ -27,7 +27,7 @@ taxonomie:
 ```
 - **title:** Dit is de titel die op de webpagina weergeven zal worden. 
 - **tags:** Tags kunnen handmatig worden toegevoegd. Tags kunnen verschillende pagina's verbinden door het onderwerp van de tag.
-- **difficulty:** Dit is optioneel. Dit kan gebruikt worden om de moeilijkheid van een deeltaak/leertaak aan te duiden.
+- **difficulty:** Dit is optioneel. Dit kan gebruikt worden om de moeilijkheid van een deeltaak/leertaak aan te duiden (1 tot en met 5).
 - **taxonomie:** Dit zijn de taxonomie codes die gebruikt worden om automatische tags te genereren op de webpagina.
 
 ## Toevoegen nieuw onderwerp
