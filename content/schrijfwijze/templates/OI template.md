@@ -1,5 +1,5 @@
 ---
-title: Hier een titel beginnend met OI.
+title: Hier een titel beginnend met 1. Onderwerp 
 taxonomie:
   - "[taxco]"
 draft: true
