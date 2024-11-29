@@ -163,7 +163,9 @@ Bij het gebruik van blokken zijn er een aantal standaard veelgebruikte keywoorde
 > 	```
 
 ### Bronnen
-In het geval dat er bronnen gebruikt zijn om informatie/opdrachten te schrijven voor een pagina, moet er onderaan de pagina een bronnenlijst opgenomen worden. Als er meerdere bronnen zijn, dan moet elke bronlink afgesloten worden met een `\`.
+In het geval dat er bronnen gebruikt zijn om informatie/opdrachten te schrijven voor een pagina, moet er onderaan de pagina een bronnenlijst opgenomen worden. Bronnen moeten worden geformuleerd volgens APA7
+
+Als er meerdere bronnen zijn, dan moet elke bronlink afgesloten worden met een `\`.
 > [!info] Bronnen
 > Bron: https://bron.bron \
 > Bron2: https://bron.bron
