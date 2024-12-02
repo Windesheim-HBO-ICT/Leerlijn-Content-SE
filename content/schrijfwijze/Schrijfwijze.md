@@ -27,7 +27,7 @@ taxonomie:
 ```
 - **title:** Dit is de titel die op de webpagina weergeven zal worden. 
 - **tags:** Tags kunnen handmatig worden toegevoegd. Tags kunnen verschillende pagina's verbinden door het onderwerp van de tag.
-- **difficulty:** Dit is optioneel. Dit kan gebruikt worden om de moeilijkheid van een deeltaak/leertaak aan te duiden.
+- **difficulty:** Dit is optioneel. Dit kan gebruikt worden om de moeilijkheid van een deeltaak/leertaak aan te duiden (1 tot en met 5).
 - **taxonomie:** Dit zijn de taxonomie codes die gebruikt worden om automatische tags te genereren op de webpagina.
 
 ## Toevoegen nieuw onderwerp
@@ -65,17 +65,20 @@ ib-19.3.Controlestructuur-Beslissingen-If-Else.DT
 Als je een afbeeldingen toevoegt maak dan een mapje `src` aan in dezelfde map als de `md` bestanden. Deze bestanden moet er als volgt uitzien: `OI_Onderwerp_nummer`. Hierbij moet OI vervangen worden met het 4C/ID model waaraan gewerkt wordt (OI, PI, DT of LT).
 
 Voeg figuur onderschrift toe door onder de afbeelding / diagram *italic* toelichting te geven.
-Format: `*Figuur [paginanummer].[nummer]: [toelichting]*`.
-In een map waar meerdere `.md` bestanden staan, zal elk bestand ook beginnen met een nummer. Dit is het eerste nummer van de figuur. Het tweede nummer is het nummer van het eerst volgende figuur.
+Format: `*Figuur [nummer]: [toelichting]*`.
 
-> [!tip] Voorbeeld
-> In een map zitten de bestanden `1. If-Else` en `2. If-Else-If`. In het bestand `2. If-Else-If` zitten 3 figuren. Het derde figuur zal het volgende onderschrift krijgen: 
-> `*Figuur 2.3: Toelichting*`
+## Verwijzingen
+Als je moet verwijzen naar een ander bestand welke nog niet bestaat maak dan een tijdelijke verwijzing aan op de volgende manier `-=BESTEMMING=-` waarbij `BESTEMMING` dan moet worden vervangen met het onderwerp waarnaar verwezen moet worden.
+Belangrijk is dat de verwijzing begint met `-=` gevolgd met het onderwerp in HOOFDLETTERS en wordt afgesloten met `=-`
 
+Een voorbeeld:
+```
+Wanneer een variabele echter meerdere vaste waarden nodig heeft, dus meer dan alleen `true` en `false`, is het mogelijk om in plaats daarvan een -=ENUM=- te implementeren.
+```
 
 ## Diagrammen
 Als je een diagram wil toevoegen doe dit dan via [[Mermaid]].
-Bij diagrammen kan je denken aan sequentiediagram, flowchart of klassediagrammen.
+Bij diagrammen kan je denken aan sequentiediagram, flowchart of klassendiagrammen.
 
 ## Links
 In Markdown kunnen links worden toegevoegd door gebruik te maken van de volgende syntax:
@@ -160,7 +163,9 @@ Bij het gebruik van blokken zijn er een aantal standaard veelgebruikte keywoorde
 > 	```
 
 ### Bronnen
-In het geval dat er bronnen gebruikt zijn om informatie/opdrachten te schrijven voor een pagina, moet er onderaan de pagina een bronnenlijst opgenomen worden. Als er meerdere bronnen zijn, dan moet elke bronlink afgesloten worden met een `\`.
+In het geval dat er bronnen gebruikt zijn om informatie/opdrachten te schrijven voor een pagina, moet er onderaan de pagina een bronnenlijst opgenomen worden. Bronnen moeten worden geformuleerd volgens APA7
+
+Als er meerdere bronnen zijn, dan moet elke bronlink afgesloten worden met een `\`.
 > [!info] Bronnen
 > Bron: https://bron.bron \
 > Bron2: https://bron.bron
