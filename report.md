@@ -10,7 +10,7 @@ draft: true
 
 | TC1 | Proces | Processtap | Niveau 1 | Niveau 2 | Niveau 3 |
 | --- | --- | --- | --- | --- | --- |
-| bg-24 | Beheerproces | Gebruiken beheersysteem | 🏳️ | ⛔️ | ⛔️ |
+| bg-24 | Beheerproces | Gebruiken beheersysteem | 🏳️ | ✅ | ✅ |
 | ib-19 | Implementatieproces | Bouwen softwaresysteem | 🏳️ | ✅ | ✅ |
 
 
@@ -24,16 +24,16 @@ Bij kolom *TC2*, *Leertaken*, *Ondersteunende informatie*, *Procedurele informat
 
 | TC3 | TC1 | TC2 | Leertaken | Ondersteunende-informatie | Procedurele-informatie | Deeltaken |
 | --- | --- | --- | --- | --- | --- | --- |
-| Git-Repositories | bg-24 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
-| Git-Branches | bg-24 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
-| Git-Commits | bg-24 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
-| Git-Pull-requests | bg-24 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
-| Git-Mergen | bg-24 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
+| Git-Repositories | bg-24 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
+| Git-Branches | bg-24 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
+| Git-Commits | bg-24 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
+| Git-Pull-requests | bg-24 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
+| Git-Mergen | bg-24 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
 | Git-Github | bg-24 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
-| Git-Files | bg-24 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
-| Git-Actions | bg-24 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
-| Git-Tools | bg-24 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
-| Git-Tags-en-releases | bg-24 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
+| Git-Files | bg-24 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
+| Git-Actions | bg-24 | 🏳️ ⛔️ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
+| Git-Tools | bg-24 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
+| Git-Tags-en-releases | bg-24 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
 | Controlestructuur-Beslissingen-If-Else | ib-19 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ |
 | Controlestructuur-Beslissingen-Switch | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
 | Controlestructuur-Herhaling-For | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
@@ -82,6 +82,8 @@ De onderstaande bestanden zijn succesvol verwerkt.
 | --- | --- | --- | --- | --- |
 | ✅ | 1. If-Else | 3. Procedurele-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/If-Else/1. If-Else.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.PI<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else | N/A |
 | ✅ | 1. While | 3. Procedurele-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/While/1. While.md | ib-19.2.Controlestructuur-Herhaling-While.PI<br>ib-19.3.Controlestructuur-Herhaling-While.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Herhaling-While | N/A |
+| ✅ | 3. Git Forks & Branches | 3. Procedurele-informatie/4. Techniek/Workshop Git/3. Git Forks & Branches.md | bg-24.2.Git-Repositories.PI<br>bg-24.3.Git-Repositories.PI<br>bg-24.2.Git-Branches.PI<br>bg-24.3.Git-Branches.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Repositories<br>Git-Branches | N/A |
+| ✅ | 5. Git Tags & Releases | 3. Procedurele-informatie/4. Techniek/Workshop Git/5. Git Tags & Releases.md | bg-24.2.Git-Tags-en-releases.PI<br>bg-24.3.Git-Tags-en-releases.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Tags-en-releases | N/A |
 | ✅ | 1. Boolean | 4. Deeltaken/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/Boolean/1. Boolean.md | ib-19.2.Datatype-Primitief-Boolean.DT<br>ib-19.3.Datatype-Primitief-Boolean.DT | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Datatype-Primitief-Boolean | N/A |
 | ✅ | 1. If-Else | 4. Deeltaken/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/If-Else/1. If-Else.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.DT<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.DT | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else | N/A |
 | ✅ | 1. While | 4. Deeltaken/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/While/1. While.md | ib-19.2.Controlestructuur-Herhaling-While.DT<br>ib-19.3.Controlestructuur-Herhaling-While.DT | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Herhaling-While | N/A |
@@ -90,6 +92,13 @@ De onderstaande bestanden zijn succesvol verwerkt.
 | ✅ | 2. If-Else-If | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/If-else/2. If-Else-If.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.OI<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else | N/A |
 | ✅ | 3. If-Else-Logical-Operators | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/If-else/3. If-Else-Logical-Operators.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.OI<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else | N/A |
 | ✅ | 1. While | 2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem/While/1. While.md | ib-19.2.Controlestructuur-Herhaling-While.OI<br>ib-19.3.Controlestructuur-Herhaling-While.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Implementatieproces<br>Bouwen softwaresysteem<br>Controlestructuur-Herhaling-While | N/A |
+| ✅ | 8. Git files | 2. Ondersteunende-informatie/4. Techniek/Git/8. Git files.md | bg-24.2.Git-Files.OI<br>bg-24.3.Git-Files.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Files | N/A |
+| ✅ | 10. GitHub website | 2. Ondersteunende-informatie/4. Techniek/Git/10. GitHub website.md | bg-24.2.Git-GitHub.OI<br>bg-24.3.Git-GitHub.OI<br>bg-24.2.Git-Tags-en-releases.OI<br>bg-24.3.Git-Tags-en-releases.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Tags-en-releases | N/A |
+| ✅ | 6. Git Pull requests | 2. Ondersteunende-informatie/4. Techniek/Git/6. Git Pull requests.md | bg-24.2.Git-Pull-requests.OI<br>bg-24.3.Git-Pull-requests.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Pull-requests | N/A |
+| ✅ | 5. Git Mergen | 2. Ondersteunende-informatie/4. Techniek/Git/5. Git Mergen.md | bg-24.2.Git-Mergen.OI<br>bg-24.3.Git-Mergen.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Mergen | N/A |
+| ✅ | 4. Git Commits | 2. Ondersteunende-informatie/4. Techniek/Git/4. Git Commits.md | bg-24.2.Git-Commits.OI<br>bg-24.3.Git-Commits.OI<br>bg-24.2.Git-Tags-en-releases.OI<br>bg-24.3.Git-Tags-en-releases.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Commits<br>Git-Tags-en-releases | N/A |
+| ✅ | 3. Git Branches | 2. Ondersteunende-informatie/4. Techniek/Git/3. Git Branches.md | bg-24.2.Git-Branches.OI<br>bg-24.3.Git-Branches.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Branches | N/A |
+| ✅ | 2. Git Repositories | 2. Ondersteunende-informatie/4. Techniek/Git/2. Git Repositories.md | bg-24.2.Git-Repositories.OI<br>bg-24.3.Git-Repositories.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Repositories | N/A |
 
 
 ## Gefaalde bestanden
@@ -109,6 +118,9 @@ De onderstaande bestanden zijn succesvol verwerkt.
 | ❌ | 3. Vaardigheden-hiërarchie SSDLC Development | 5. Vaardigheden-hiërarchieën/3. Vaardigheden-hiërarchie SSDLC Development.md | N/A | N/A | No taxonomie found in file. |
 | ❌ | 5. Vaardigheden-hiërarchie SSDLC Deployment | 5. Vaardigheden-hiërarchieën/5. Vaardigheden-hiërarchie SSDLC Deployment.md | N/A | N/A | No taxonomie found in file. |
 | ❌ | 2. Vaardigheden-hiërarchie SSDLC Design | 5. Vaardigheden-hiërarchieën/2. Vaardigheden-hiërarchie SSDLC Design.md | N/A | N/A | No taxonomie found in file. |
+| ❌ | 1. Introductie Git | 3. Procedurele-informatie/4. Techniek/Workshop Git/1. Introductie Git.md | N/A | N/A | No taxonomie found in file. |
+| ⚠️ | 4. Git Pull Requests | 3. Procedurele-informatie/4. Techniek/Workshop Git/4. Git Pull Requests.md | bg-24.2.Git-Pull-requests.PI<br>bg-24.3.Git-Pull-requests.PI<br>bg-24.2.Git-Mergen.PI<br>bg-24.3.Git-Mergen.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Pull-requests<br>Git-Mergen | Invalid dynamic link: `[[PI_Git_Pull_Request_3.png]]`<br>Image not found: PI_Git_Pull_Request_3.png |
+| ⚠️ | 2. Git Repositories | 3. Procedurele-informatie/4. Techniek/Workshop Git/2. Git Repositories.md | bg-24.2.Git-Repositories.PI<br>bg-24.3.Git-Repositories.PI<br>bg-24.2.Git-Commits.PI<br>bg-24.3.Git-Commits.PI<br>bg-24.2.Git-Files.PI<br>bg-24.3.Git-Files.PI<br>bg-24.2.Git-Tools.PI<br>bg-24.3.Git-Tools.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Repositories<br>Git-Commits<br>Git-Files<br>Git-Tools | Invalid dynamic link: `[[8. Git Files]]` |
 | ❌ | keepme | deprecated/3. Procedurele informatie/keepme.md | N/A | N/A | No taxonomie found in file. |
 | ❌ | Standaard-XYZ | deprecated/6. Standaarden/Standaard-XYZ.md | N/A | N/A | No taxonomie found in file. |
 | ❌ | Standaard-ABC | deprecated/6. Standaarden/Standaard-ABC.md | N/A | N/A | No taxonomie found in file. |
@@ -286,6 +298,8 @@ De onderstaande bestanden zijn succesvol verwerkt.
 | ❌ | Keepme | 2. Ondersteunende-informatie/3. Processen/6. Beheerproces/3. Gebruiken beheersysteem/Keepme.md | N/A | N/A | No taxonomie found in file. |
 | ❌ | Keepme | 2. Ondersteunende-informatie/3. Processen/6. Beheerproces/4. Beschikbaarstellen software/Keepme.md | N/A | N/A | No taxonomie found in file. |
 | ❌ | 1. Introductie Git | 2. Ondersteunende-informatie/4. Techniek/Git/1. Introductie Git.md | N/A | N/A | No taxonomie found in file. |
+| ⚠️ | 7. GitHub Desktop | 2. Ondersteunende-informatie/4. Techniek/Git/7. GitHub Desktop.md | bg-24.2.Git-Tools.OI<br>bg-24.3.Git-Tools.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Tools | Invalid dynamic link: `[[8. Git Files]]` |
+| ⚠️ | 9. GitHub Actions | 2. Ondersteunende-informatie/4. Techniek/Git/9. GitHub Actions.md | bg-24.2.Git-Actions<br>bg-24.3.Git-Actions.OI | HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Actions | Invalid taxonomie: bg-24.2.Git-Actions |
 | ❌ | 4. Docker Images | 2. Ondersteunende-informatie/4. Techniek/Docker/4. Docker Images.md | N/A | N/A | No taxonomie found in file. |
 | ❌ | 1. Introductie tot Docker | 2. Ondersteunende-informatie/4. Techniek/Docker/1. Introductie tot Docker.md | N/A | N/A | No taxonomie found in file. |
 | ❌ | 7. Docker Volumes | 2. Ondersteunende-informatie/4. Techniek/Docker/7. Docker Volumes.md | N/A | N/A | No taxonomie found in file. |
