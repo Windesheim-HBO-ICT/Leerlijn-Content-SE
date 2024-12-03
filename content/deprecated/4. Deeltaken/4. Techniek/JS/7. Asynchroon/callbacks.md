@@ -2,7 +2,6 @@
 title: JavaScript Callbacks
 tags:
   - JS/Callbacks
-  - page
 difficulty: 2
 ---
 

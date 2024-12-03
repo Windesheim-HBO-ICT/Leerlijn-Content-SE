@@ -1,8 +1,5 @@
 ---
 title: Introductie
-taxonomie:
-  - pu-13.1.rekenen.OI
-  - pu-13.2.rekenen.OI
 tags:
 ---
 In het pakketselectieproces vormt het uitvoeren van een grondige analyse een cruciale fase. Het doel van deze fase is om systematisch te beoordelen welke softwarepakketten het best passen bij de specifieke behoeften van de organisatie. De analysefase zorgt ervoor dat de uiteindelijke keuze niet alleen gebaseerd is op kosten of populariteit, maar ook op functionele en technische geschiktheid, bedrijfsdoelen en strategische fit.

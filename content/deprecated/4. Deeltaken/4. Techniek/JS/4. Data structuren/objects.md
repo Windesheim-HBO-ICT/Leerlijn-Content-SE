@@ -2,7 +2,6 @@
 title: JavaScript objecten
 tags:
   - JS/objecten
-  - page
 difficulty: 2
 ---
 

@@ -2,7 +2,6 @@
 title: JavaScript Promises
 tags:
   - JS/Promises
-  - page
 difficulty: 2
 ---
 

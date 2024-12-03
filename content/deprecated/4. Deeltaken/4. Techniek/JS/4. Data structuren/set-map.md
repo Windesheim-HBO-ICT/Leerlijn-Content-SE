@@ -2,7 +2,6 @@
 title: JavaScript set en map
 tags:
   - JS/set-map
-  - page
 difficulty: 2
 ---
 

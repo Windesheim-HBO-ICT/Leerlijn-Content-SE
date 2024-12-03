@@ -2,7 +2,6 @@
 title: JavaScript arrays
 tags:
   - JS/Arrays
-  - page
 difficulty: 2
 ---
 

@@ -2,7 +2,6 @@
 title: 2. Javascript functions
 tags:
   - JS/functions
-  - page
 difficulty: 2
 ---
 

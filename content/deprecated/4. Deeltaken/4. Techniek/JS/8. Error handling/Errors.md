@@ -2,7 +2,6 @@
 title: JavaScript errors
 tags:
   - JS/Errors
-  - page
 difficulty: 2
 ---
 

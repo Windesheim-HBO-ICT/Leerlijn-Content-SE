@@ -2,7 +2,6 @@
 title: Browser Object Model (BOM)
 tags:
   - HTML/BOM
-  - page
 difficulty: 2
 ---
 

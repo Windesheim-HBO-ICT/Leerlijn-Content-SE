@@ -2,7 +2,6 @@
 title: Document Object Model (DOM)
 tags:
   - HTML/DOM
-  - page
 difficulty: 2
 ---
 

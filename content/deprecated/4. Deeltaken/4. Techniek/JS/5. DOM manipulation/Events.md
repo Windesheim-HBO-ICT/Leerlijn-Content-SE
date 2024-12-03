@@ -2,7 +2,6 @@
 title: JavaScript Events
 tags:
   - JS/Events
-  - page
 difficulty: 2
 ---
 
