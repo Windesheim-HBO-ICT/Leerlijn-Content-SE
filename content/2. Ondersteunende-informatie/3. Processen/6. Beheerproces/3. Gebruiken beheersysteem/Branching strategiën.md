@@ -11,9 +11,10 @@ Branches zijn onafhankelijke werklijnen die voortkomen uit één centrale codeba
 ## Waarom gebruik je branches?
 Je gebruikt branches om code te kunnen schrijven op basis van de gemeenschappelijke codebase zonder dat je hiermee direct werkende code wilt beïnvloeden. Door een aparte branche te maken kun je werken onder version control en blijft je code netjes bewaard en gedeeld met je teamleden.
 ## Hoe gebruik je branches?
-Afhankelijk van het doel en je project kies je een branche strategie. Een eenvoudige variant die veel gebruik wordt is main-develop-feature:
+Afhankelijk van het doel en je project kies je een branche strategie. De meest eenvoudige branche strategie is geïllustreerd bij 'Wat is een branche?'. Deze variant heet GitHub Flow. Deze is geschikt voor kleine projecten of een hele frequente levering (continuous delivery), waar de overhead van verschillende branches teveel tijd kost. Een eenvoudige variant die veel gebruik wordt is main-develop-feature:
 
 ![[Branching strategy.png]]
+Deze variant is geschikt voor kleine tot middelgrote projecten.
 
 Je kunt ook gebruik maken van hulpmiddelen binnen een gekozen version control omgeving. Bijvoorbeeld in Git kun je gebruik maken van Git Flow. Die is gebaseerd op main-develop-feature strategie en heeft daarnaast nog hot-fix branche en release branch.
 
