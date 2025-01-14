@@ -50,8 +50,13 @@ jobs:
               repo: context.repo.repo,
               pull_number: context.payload.pull_request.number,
             });
-            const changedContentFiles = files.map(file => file.filename).filter(filename => filename.startsWith('content/'));
-            const notAllowedFiles = files.map(file => file.filename).filter(filename => !filename.startsWith('content/'));
+            const changedContentFiles = files
+              .filter(file => file.status !== 'removed')
+              .map(file => file.filename)
+              .filter(filename => filename.startsWith('content/'));
+            const notAllowedFiles = files
+              .map(file => file.filename)
+              .filter(filename => !filename.startsWith('content/'));
             const areNotAllowedFiles = notAllowedFiles.length > 0;
             core.setOutput('changedContentFiles', changedContentFiles.join('\n'));
             core.setOutput('notAllowedFiles', notAllowedFiles);
@@ -159,10 +164,12 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
+            const pullRequest = context.payload.pull_request;
             const commentBody = process.env.report_content;
-            await github.rest.issues.createComment({
+            await github.rest.pulls.createReview({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: context.payload.pull_request.number,
+              pull_number: pullRequest.number,
+              event: "APPROVE",
               body: commentBody
             });
