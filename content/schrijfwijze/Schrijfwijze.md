@@ -10,7 +10,7 @@ De template bestanden hebben een page property draft true. Let erop dat je gesch
 - [ ] Spellingscheck gedaan
 - [ ] Zinnen niet te lang
 - [ ] Figuur onderschrift
-- [ ] Verwijzingen gemaakt of een post in Discord `#verwijzingen` gezet
+- [ ] Verwijzingen gemaakt
 - [ ] Pull request gemaakt
 
 ## Page properties
@@ -34,8 +34,8 @@ taxonomie:
 Als er een nieuw onderwerp toegevoegd moet worden, moet er een map aangemaakt worden in de relevante processtap. Binnen deze map moeten de `.md` bestanden op volgorde worden aan gemaakt door altijd met een nummering te beginnen.
 
 > [!tip] Voorbeeld
-> Voor het onderwerp `If-Else`:
-> In de map `2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem` moet een nieuwe map `If-Else` worden aangemaakt.
+> Voor het onderwerp `If-else`:
+> In de map `2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem` moet een nieuwe map `If-else` worden aangemaakt.
 > In deze map begint het eerste bestand met `1. Titel` en het tweede bestand met `2. Titel`.
 
 ## Taxonomie
@@ -52,6 +52,14 @@ ib-19.3.Controlestructuur-Beslissingen-If-Else.PI
 ib-19.3.Controlestructuur-Beslissingen-If-Else.DT 
 ```
 * Let op hoofdletters, de pipeline is nu (nog) hoofdletter gevoelig
+
+## Algemeen
+In de teksten wordt het onderwerp van het bestand waarschijnlijk meerdere keren genoemd. Markeer dit onderwerp vetgedrukt door er `**` omheen te plaatsen.
+
+**Een voorbeeld**
+Als de tekst over constructors gaat, geef je dit als volgt weer:
+> De klasse bevat een **constructor** die deze properties initialiseert met...
+
 
 ## Headings
 - De grootste heading die gebruikt moet worden is `##`.
@@ -79,6 +87,10 @@ Wanneer een variabele echter meerdere vaste waarden nodig heeft, dus meer dan al
 ## Diagrammen
 Als je een diagram wil toevoegen doe dit dan via [[Mermaid]].
 Bij diagrammen kan je denken aan sequentiediagram, flowchart of klassendiagrammen.
+
+### Flowcharts
+Flowcharts kunnen snel aardig groot worden. Maak de dus niet te complex.
+In het geval dat de tekst in een action te breed is maak er twee regels van door `\n` toe te voegen.
 
 ## Links
 In Markdown kunnen links worden toegevoegd door gebruik te maken van de volgende syntax:
