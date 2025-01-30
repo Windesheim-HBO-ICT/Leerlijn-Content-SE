@@ -1,0 +1,83 @@
+name: Compile and Sync Content
+
+on:
+  push:
+    branches:
+      - content
+    paths-ignore:
+      - '.github/**'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  process-and-sync:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Configure Git
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      # Step 2: Checkout code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 3: Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      # Step 4: Install dependencies
+      - name: Install dependencies
+        run: |
+          pip install pandas openpyxl
+
+      - name: Checkout content branch
+        run: |
+          git checkout content --
+
+      # Step 5: Run the Python script
+      - name: Run compile_content.py
+        run: |
+          python .github/script/compile_content.py
+
+      - name: Copy reports to root
+        run: |
+          cp content_report.md ../
+          cp taxco_report.md ../
+
+      # Step 6: Move build folder to root
+      - name: Move build folder to root
+        run: |
+          mkdir -p ../build && cp -r build/* ../build/ && rm -rf build
+
+      # Step 7: Commit report.md to content branch
+      - name: Commit report.md to content branch
+        run: |
+          git add content_report.md
+          git add taxco_report.md
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Update reports"
+            git push origin content
+          else
+            echo "No changes to commit"
+          fi
+
+      # Step 8: Sync to staging branch
+      - name: Switch to staging branch and sync
+        run: |
+          git fetch origin
+          git checkout staging
+          git rm -rf build/ || true
+          cp -r ../build/ build
+          git add build/
+          cp ../content_report.md content_report.md
+          cp ../taxco_report.md taxco_report.md
+          git add content_report.md
+          git add taxco_report.md
+          git commit -m "Sync compiled files and reports to staging" || echo "No changes to commit"
+          git push origin staging
