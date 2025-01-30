@@ -14,7 +14,7 @@ draft: true
 - [Eis waar de opdracht aan moet voldoen, duidelijk geformuleerd]
 - [Tweede eis waar de opdracht aan moet voldoen, duidelijk geformuleerd]
 
-### Verwachte output:
+### Verwachte output
 Als `[variabel] = [waarde]`, komt in de console:
 ```
 [Output in de console]
@@ -24,7 +24,7 @@ Als `[variabel] = [waarde]`, komt in de console:
 [Output in de console]
 ```
 
-### Nu jij:
+### Nu jij
 ``` csharp runner
 [Hier code die de student moet schrijven, geef ze een basis en extra elementen zoals Usings al. Opdracht 1 meer geven, opdracht 10 minder]
 ``` 
@@ -44,7 +44,7 @@ Zet de volgende casus om naar een if-else block.
 - Als de waarde van het variabel `age` groter of gelijk is aan `18` moet het volgende in de console komen te staan: "Toegang verleend tot de content." .
 - Als de waarde van het variabel `age` kleiner is dan `18`, moet het in de console komen te staan: "Toegang geweigerd. Leeftijdsrestrictie: 18+".
 
-### Verwachte output:
+### Verwachte output
 Als `age = 18`, komt in de console:
 ```
 Toegang verleend tot de content.
@@ -54,7 +54,7 @@ Als `age = 17`, komt in de console:
 Toegang geweigerd. Leeftijdsrestrictie: 18+
 ```
 
-### Nu jij:
+### Nu jij
 ```csharp runner
 using System;
 
