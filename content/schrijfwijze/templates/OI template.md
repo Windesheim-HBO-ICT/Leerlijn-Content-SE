@@ -1,6 +1,5 @@
 ---
-title:
-  - "[Hier een titel, begin met 1. Onderwerp] "
+title: Hier een titel beginnend met 1. Onderwerp 
 taxonomie:
   - "[taxco]"
 draft: true
