@@ -1,5 +1,5 @@
 ---
-title: [Hier een titel, begin met 1. Onderwerp]
+title: Hier een titel beginnend met 1. Onderwerp
 taxonomie:
   - "[taxco]"
 draft: true
@@ -21,7 +21,7 @@ Splits het probleem in subdoelen, zoals:
 >[!TIP] Casus
 > [Werkt hier een casus uit. Onderbouw het met eventuele verwijzingen, tabellen, diagrammen etc.]
 
-### 3. Fasen:
+### 3. Fasen
 1. [De verschillende fases waaruit het opbouwen van je onderwerp bestaat. Bij een primitief datatype zoals int, float zou hier waarschijnlijk niks komen te staan. Bij while en for kan je wel perfect de verschillende fases uitwerken]
 
 ### Correctieve feedback tijdens de uitvoer
