@@ -4,7 +4,7 @@ taxonomie: None
 tags:
 - JS/Arrays
 difficulty: 2
-draft: true 
+
 ---
 
 # 1 JavaScript Arrays

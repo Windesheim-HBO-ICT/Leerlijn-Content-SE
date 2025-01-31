@@ -4,7 +4,7 @@ taxonomie: None
 tags:
 - JS/set-map
 difficulty: 2
-draft: true 
+
 ---
 
 # 1 JavaScript `Set` en `Map`

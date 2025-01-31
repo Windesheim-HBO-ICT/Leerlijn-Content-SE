@@ -4,7 +4,7 @@ taxonomie: None
 tags:
 - Project
 difficulty: 3
-draft: true 
+
 ---
 
 # 1. JavaScript Project

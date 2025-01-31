@@ -5,7 +5,7 @@ tags:
 - JS/debugging
 - page
 difficulty: 2
-draft: true 
+
 ---
 
 # 1. JavaScript Debugging

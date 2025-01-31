@@ -4,7 +4,7 @@ taxonomie: None
 tags:
 - JS/scope-closures
 difficulty: 2
-draft: true 
+
 ---
 
 # 1 JavaScript scope en closures

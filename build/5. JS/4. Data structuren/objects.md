@@ -4,7 +4,7 @@ taxonomie: None
 tags:
 - JS/objecten
 difficulty: 2
-draft: true 
+
 ---
 
 # 1 JavaScript objecten

@@ -4,7 +4,7 @@ taxonomie: None
 tags:
 - JS/Events
 difficulty: 2
-draft: true 
+
 ---
 
 # 1. JavaScript Evenementen (Events)

@@ -3,7 +3,7 @@ title: Geolocation API
 taxonomie: None
 tags:
 
-draft: true 
+
 ---### Geolocation API
 De **Geolocation API** biedt toegang tot de geografische locatie van de gebruiker, mits toestemming wordt gegeven.
 
