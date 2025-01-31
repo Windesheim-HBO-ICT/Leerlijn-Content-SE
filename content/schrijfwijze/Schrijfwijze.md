@@ -35,7 +35,7 @@ Als er een nieuw onderwerp toegevoegd moet worden, moet er een map aangemaakt wo
 
 > [!tip] Voorbeeld
 > Voor het onderwerp `If-Else`:
-> In de map `2. Ondersteunende-informatie/3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem` moet een nieuwe map `If-Else` worden aangemaakt.
+> In de map `3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem` moet een nieuwe map `If-Else` worden aangemaakt.
 > In deze map begint het eerste bestand met `1. Titel` en het tweede bestand met `2. Titel`.
 
 ## Taxonomie
