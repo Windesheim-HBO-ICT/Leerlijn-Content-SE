@@ -21,8 +21,8 @@ title: Titel
 tags: None
 difficulty: 2
 taxonomie:
-  - ib-19.2.Controlestructuur-Beslissingen-If-Else.OI
-  - ib-19.3.Controlestructuur-Beslissingen-If-Else.OI
+  - ib-19.2.If-Else.OI
+  - ib-19.3.If-Else.OI
 ---
 ```
 - **title:** Dit is de titel die op de webpagina weergeven zal worden. 
@@ -44,12 +44,12 @@ Als er een nieuw onderwerp toegevoegd moet worden, moet er een map aangemaakt wo
 * Alles moet worden geschreven voor niveau twee en drie. Voeg dus ook twee taxco's toe. (In Obsidian moet je de page property dan een list maken, of je opent het MD in iets als Vscode om dat te doen)
 Voorbeeld: 
 ```
-ib-19.2.Controlestructuur-Beslissingen-If-Else.OI 
-ib-19.2.Controlestructuur-Beslissingen-If-Else.PI 
-ib-19.2.Controlestructuur-Beslissingen-If-Else.DT
-ib-19.3.Controlestructuur-Beslissingen-If-Else.OI 
-ib-19.3.Controlestructuur-Beslissingen-If-Else.PI
-ib-19.3.Controlestructuur-Beslissingen-If-Else.DT 
+ib-19.2.If-Else.OI 
+ib-19.2.If-Else.PI 
+ib-19.2.If-Else.DT
+ib-19.3.If-Else.OI 
+ib-19.3.If-Else.PI
+ib-19.3.If-Else.DT 
 ```
 * Let op hoofdletters, de pipeline is nu (nog) hoofdletter gevoelig
 
