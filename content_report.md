@@ -2,7 +2,7 @@
 draft: true
 ---
 ## Work-in-progress bestanden
-Doel: De onderstaande bestanden hebben nog todo items in de markdown staan.
+*Doel: De onderstaande bestanden hebben nog todo items in de markdown staan.*
 Deze todo items moeten nog worden afgehandeld.
 
 | Status | File | Path | Taxonomie | Tags | Errors |
@@ -36,9 +36,9 @@ Deze todo items moeten nog worden afgehandeld.
 ## Gefaalde bestanden
 *Doel: De onderstaande bestanden zijn niet succesvol verwerkt.*
 
-❌ Dit bestand bevat nog geen taxonomie code
-⚠️ Dit bestand bevat fouten. Zie de *Errors* kolom om te weten wat er mis is
-🟠 Dit bestand bevat een taxonomie code die niet toegevoegd hoeft te zijn
+❌ Dit bestand bevat nog geen taxonomie codes.
+⚠️ Dit bestand bevat fouten. Zie de *Errors* kolom.
+🟠Dit bestand bevat taxonomie codes die niet nodig zijn.
 
 | Status | File | Path | Taxonomie | Tags | Errors |
 | --- | --- | --- | --- | --- | --- |
@@ -61,6 +61,7 @@ Deze todo items moeten nog worden afgehandeld.
 | ❌ | 1. Threat Modeling | 2. Processen\3. Ontwerpproces\1. Opstellen ontwerp\1. Opstellen TO\1. Threat Modeling.md | None | N/A | Geen taxonomiecode gevonden. |
 | ⚠️ | 1. Uitleg Classes | 4. Csharp\Classes\1. Uitleg Classes.md | ib-19.2.Classes.OI<br>ib-19.3.Classes.OI | N/A | Taxonomie niet gevonden in dataset:  `ib-19.2.Classes.OI`  |
 | ⚠️ | 1. Uitleg Enum | 4. Csharp\Enum\1. Uitleg Enum.md | ib-19.2.Enums.OI<br>ib-19.3.Enums.OI | N/A | Taxonomie niet gevonden in dataset:  `ib-19.2.Enums.OI`  |
+| 🟠 | 1. Uitleg Klassendiagram | 6. UML\Klassendiagram\1. Uitleg Klassendiagram.md | oo-15.1.Klassendiagram.OI<br>oo-15.2.Klassendiagram.OI | HBO-i/niveau-1<br>HBO-i/niveau-2<br>Klassendiagram<br>Ontwerpproces<br>Opstellen ontwerp | Taxonomiecode gebruikt wanneer niet nodig:  `oo-15.1.Klassendiagram.OI`  |
 | ⚠️ | 1. Uitleg Method | 4. Csharp\Methodes\1. Uitleg Method.md | ib-19.2.Methods.OI<br>ib-19.3.Methods.OI | N/A | Taxonomie niet gevonden in dataset:  `ib-19.2.Methods.OI`  |
 | ❌ | 1. Uitvoeren analyse | 2. Processen\2. Pakketselectieproces\1. Uitvoeren analyse.md | N/A | N/A | Geen taxonomiecode gevonden. |
 | ❌ | 1. Variablen | 5. JS\2. Basis\1. Variablen.md | N/A | JS/Variablen | Geen taxonomiecode gevonden. |
@@ -74,6 +75,7 @@ Deze todo items moeten nog worden afgehandeld.
 | ❌ | 2. Destructuring | 5. JS\9. ES6\2. Destructuring.md | N/A | JS/Destructuring | Geen taxonomiecode gevonden. |
 | ❌ | 2. Docker Desktop | 8. Docker\1. Uitleg\2. Docker Desktop.md | N/A | Docker | Geen taxonomiecode gevonden. |
 | ❌ | 2. Dockerfile HTML pagina | 8. Docker\2. Workshop\2. Dockerfile HTML pagina.md | N/A | Docker | Geen taxonomiecode gevonden. |
+| ⚠️ | 2. Git Repositories | 7. Git\2. Workshop\2. Git Repositories.md | bg-24.2.Git-Repositories.PI<br>bg-24.3.Git-Repositories.PI<br>bg-24.2.Git-Commits.PI<br>bg-24.3.Git-Commits.PI<br>bg-24.2.Git-Files.PI<br>bg-24.3.Git-Files.PI<br>bg-24.2.Git-Tools.PI<br>bg-24.3.Git-Tools.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Commits<br>Git-Files<br>Git-Repositories<br>Git-Tools | Dynamische link fout:  `[[8. Git Files]]`  |
 | ❌ | 2. Hoe zit ZAP in elkaar | 9. Security\3. ZAP\2. Hoe zit ZAP in elkaar.md | None | N/A | Geen taxonomiecode gevonden. |
 | ⚠️ | 2. Oefeningen Constructor | 4. Csharp\Constructor\2. Oefeningen Constructor.md | ib-19.2.Constructors.DT<br>ib-19.3.Constructors.DT | N/A | Taxonomie niet gevonden in dataset:  `ib-19.2.Constructors.DT`  |
 | ⚠️ | 2. Oefeningen Enum | 4. Csharp\Enum\2. Oefeningen Enum.md | ib-19.2.Enums.DT<br>ib-19.3.Enums.DT | N/A | Taxonomie niet gevonden in dataset:  `ib-19.2.Enums.DT`  |
@@ -107,6 +109,7 @@ Deze todo items moeten nog worden afgehandeld.
 | ❌ | 4. Control structures | 5. JS\2. Basis\4. Control structures.md | N/A | JS/Data-types | Geen taxonomiecode gevonden. |
 | ❌ | 4. Docker Images | 8. Docker\1. Uitleg\4. Docker Images.md | N/A | Docker | Geen taxonomiecode gevonden. |
 | ❌ | 4. Docker volumes | 8. Docker\2. Workshop\4. Docker volumes.md | N/A | Docker | Geen taxonomiecode gevonden. |
+| ⚠️ | 4. Git Commits | 7. Git\1. Uitleg\4. Git Commits.md | bg-24.2.Git-Commits.OI<br>bg-24.3.Git-Commits.OI<br>bg-24.2.Git-Tags-en-releases.OI<br>bg-24.3.Git-Tags-en-releases.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Commits<br>Git-Tags-en-releases | Dynamische link fout:  `[[8. Git Files|.gitignore]]`  |
 | ⚠️ | 4. Oefeningen Constructor Chaining | 4. Csharp\Constructor\4. Oefeningen Constructor Chaining.md | ib-19.2.Constructors.DT<br>ib-19.3.Constructors.DT | N/A | Taxonomie niet gevonden in dataset:  `ib-19.2.Constructors.DT`  |
 | ⚠️ | 4. Oefeningen Method Overloading | 4. Csharp\Methodes\4. Oefeningen Method Overloading.md | ib-19.2.Methods.DT<br>ib-19.3.Methods.DT | N/A | Taxonomie niet gevonden in dataset:  `ib-19.2.Methods.DT`  |
 | ❌ | 4. Setup Debian | 9. Security\4. Workshop Skylab\4. Setup Debian.md | N/A | N/A | Geen taxonomiecode gevonden. |
@@ -126,6 +129,7 @@ Deze todo items moeten nog worden afgehandeld.
 | ❌ | 6. Docker Compose | 8. Docker\1. Uitleg\6. Docker Compose.md | N/A | Docker | Geen taxonomiecode gevonden. |
 | ❌ | 6. Uitvoeren configuratie-, change- en releasemangement | 2. Processen\6. Beheerproces\6. Uitvoeren configuratie-, change- en releasemangement.md | N/A | N/A | Geen taxonomiecode gevonden. |
 | ❌ | 7. Docker Volumes | 8. Docker\1. Uitleg\7. Docker Volumes.md | N/A | Docker | Geen taxonomiecode gevonden. |
+| ⚠️ | 7. GitHub Desktop | 7. Git\1. Uitleg\7. GitHub Desktop.md | bg-24.2.Git-Tools.OI<br>bg-24.3.Git-Tools.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Tools | Dynamische link fout:  `[[8. Git Files]]`  |
 | ❌ | 8. Docker Environment | 8. Docker\1. Uitleg\8. Docker Environment.md | N/A | Docker | Geen taxonomiecode gevonden. |
 | ❌ | 9. Command parameters | 8. Docker\1. Uitleg\9. Command parameters.md | N/A | Docker | Geen taxonomiecode gevonden. |
 | ❌ | Browser API | 5. JS\5. DOM manipulation\Browser API.md | N/A | HTML/BOM | Geen taxonomiecode gevonden. |
@@ -150,23 +154,21 @@ Deze todo items moeten nog worden afgehandeld.
 
 
 ## Gefaalde images
-*Doel: De onderstaande images missen een 4C/ID component.*
-
-Als een image de error heeft over het niet gebruikt worden, betekent dit dat de image niet in build staat, maar nog wel in content.
+*Doel: De onderstaande images worden niet gebruikt in een bestand.*
 
 | Status | Image | Path | Error |
 | --- | --- | --- | --- |
-| 🏳️ | 1.1 stap2 | 9. Security\2. Workshop Threat modeling\src\1.1 stap2.png | Afbeelding wordt in geen enkel bestand gebruikt |
-| 🏳️ | 1.2 stap3 | 9. Security\2. Workshop Threat modeling\src\1.2 stap3.png | Afbeelding wordt in geen enkel bestand gebruikt |
-| 🏳️ | 1.3 stap4 | 9. Security\2. Workshop Threat modeling\src\1.3 stap4.png | Afbeelding wordt in geen enkel bestand gebruikt |
-| 🏳️ | 1.4 stap5.3 opslaan | 9. Security\2. Workshop Threat modeling\src\1.4 stap5.3 opslaan.png | Afbeelding wordt in geen enkel bestand gebruikt |
-| 🏳️ | 1.5 stap6_1 | 9. Security\2. Workshop Threat modeling\src\1.5 stap6_1.png | Afbeelding wordt in geen enkel bestand gebruikt |
-| 🏳️ | 1.6 stap6_2 | 9. Security\2. Workshop Threat modeling\src\1.6 stap6_2.png | Afbeelding wordt in geen enkel bestand gebruikt |
-| 🏳️ | 1.7 stap6_3 | 9. Security\2. Workshop Threat modeling\src\1.7 stap6_3.png | Afbeelding wordt in geen enkel bestand gebruikt |
+| 🔨 | 1.1 stap2 | 9. Security\2. Workshop Threat modeling\src\1.1 stap2.png | Afbeelding wordt in geen enkel bestand gebruikt |
+| 🔨 | 1.2 stap3 | 9. Security\2. Workshop Threat modeling\src\1.2 stap3.png | Afbeelding wordt in geen enkel bestand gebruikt |
+| 🔨 | 1.3 stap4 | 9. Security\2. Workshop Threat modeling\src\1.3 stap4.png | Afbeelding wordt in geen enkel bestand gebruikt |
+| 🔨 | 1.4 stap5.3 opslaan | 9. Security\2. Workshop Threat modeling\src\1.4 stap5.3 opslaan.png | Afbeelding wordt in geen enkel bestand gebruikt |
+| 🔨 | 1.5 stap6_1 | 9. Security\2. Workshop Threat modeling\src\1.5 stap6_1.png | Afbeelding wordt in geen enkel bestand gebruikt |
+| 🔨 | 1.6 stap6_2 | 9. Security\2. Workshop Threat modeling\src\1.6 stap6_2.png | Afbeelding wordt in geen enkel bestand gebruikt |
+| 🔨 | 1.7 stap6_3 | 9. Security\2. Workshop Threat modeling\src\1.7 stap6_3.png | Afbeelding wordt in geen enkel bestand gebruikt |
 
 
 ## Geslaagde bestanden
-De onderstaande bestanden zijn succesvol verwerkt.
+*Doel: De onderstaande bestanden zijn succesvol verwerkt.*
 
 | Status | File | Path | Taxonomie | Tags | Errors |
 | --- | --- | --- | --- | --- | --- |
@@ -179,13 +181,11 @@ De onderstaande bestanden zijn succesvol verwerkt.
 | ✅ | 1. Uitleg If-Else | 4. Csharp\If-Else\1. Uitleg If-Else.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.OI<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else<br>Implementatieproces | N/A |
 | ✅ | 1. Uitleg If-Else-Logical-Operators | 3. Algoritmiek\1. Uitleg If-Else-Logical-Operators.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.OI<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else<br>Implementatieproces | N/A |
 | ✅ | 1. Uitleg Integer | 4. Csharp\Integer\1. Uitleg Integer.md | ib-19.2.Datatype-Primitief-Integer.OI<br>ib-19.3.Datatype-Primitief-Integer.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Bouwen softwaresysteem<br>Datatype-Primitief-Integer<br>Implementatieproces | N/A |
-| ✅ | 1. Uitleg Klassendiagram | 6. UML\Klassendiagram\1. Uitleg Klassendiagram.md | oo-15.1.Klassendiagram.OI<br>oo-15.2.Klassendiagram.OI | HBO-i/niveau-1<br>HBO-i/niveau-2<br>Klassendiagram<br>Ontwerpproces<br>Opstellen ontwerp<br>🏳️ | N/A |
 | ✅ | 1. Uitleg String | 4. Csharp\String\1. Uitleg String.md | ib-19.2.Datatype-String.OI<br>ib-19.3.Datatype-String.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Bouwen softwaresysteem<br>Datatype-String<br>Implementatieproces | N/A |
 | ✅ | 1. Uitleg Unsigned Integer | 4. Csharp\Unsigned Integer\1. Uitleg Unsigned Integer.md | ib-19.2.Datatype-Primitief-Uint.OI<br>ib-19.3.Datatype-Primitief-Uint.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Bouwen softwaresysteem<br>Datatype-Primitief-Uint<br>Implementatieproces | N/A |
 | ✅ | 1. Uitleg While | 4. Csharp\While\1. Uitleg While.md | ib-19.2.Controlestructuur-Herhaling-While.OI<br>ib-19.3.Controlestructuur-Herhaling-While.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Bouwen softwaresysteem<br>Controlestructuur-Herhaling-While<br>Implementatieproces | N/A |
 | ✅ | 10. GitHub website | 7. Git\1. Uitleg\10. GitHub website.md | bg-24.2.Git-GitHub.OI<br>bg-24.3.Git-GitHub.OI<br>bg-24.2.Git-Tags-en-releases.OI<br>bg-24.3.Git-Tags-en-releases.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-GitHub<br>Git-Tags-en-releases | N/A |
 | ✅ | 2. Git Repositories | 7. Git\1. Uitleg\2. Git Repositories.md | bg-24.2.Git-Repositories.OI<br>bg-24.3.Git-Repositories.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Repositories | N/A |
-| ✅ | 2. Git Repositories | 7. Git\2. Workshop\2. Git Repositories.md | bg-24.2.Git-Repositories.PI<br>bg-24.3.Git-Repositories.PI<br>bg-24.2.Git-Commits.PI<br>bg-24.3.Git-Commits.PI<br>bg-24.2.Git-Files.PI<br>bg-24.3.Git-Files.PI<br>bg-24.2.Git-Tools.PI<br>bg-24.3.Git-Tools.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Commits<br>Git-Files<br>Git-Repositories<br>Git-Tools | N/A |
 | ✅ | 2. Oefeningen Boolean | 4. Csharp\Boolean\2. Oefeningen Boolean.md | ib-19.2.Datatype-Primitief-Boolean.DT<br>ib-19.3.Datatype-Primitief-Boolean.DT | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Bouwen softwaresysteem<br>Datatype-Primitief-Boolean<br>Implementatieproces | N/A |
 | ✅ | 2. Oefeningen Byte | 4. Csharp\Byte\2. Oefeningen Byte.md | ib-19.2.Datatype-Primitief-Byte.DT<br>ib-19.3.Datatype-Primitief-Byte.DT | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Bouwen softwaresysteem<br>Datatype-Primitief-Byte<br>Implementatieproces | N/A |
 | ✅ | 2. Oefeningen Char | 4. Csharp\Char\2. Oefeningen Char.md | ib-19.2.Datatype-Primitief-Char.DT<br>ib-19.3.Datatype-Primitief-Char.DT | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Bouwen softwaresysteem<br>Datatype-Primitief-Char<br>Implementatieproces | N/A |
@@ -202,11 +202,9 @@ De onderstaande bestanden zijn succesvol verwerkt.
 | ✅ | 3. Git Forks & Branches | 7. Git\2. Workshop\3. Git Forks & Branches.md | bg-24.2.Git-Repositories.PI<br>bg-24.3.Git-Repositories.PI<br>bg-24.2.Git-Branches.PI<br>bg-24.3.Git-Branches.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Branches<br>Git-Repositories | N/A |
 | ✅ | 3. Oefeningen If-Else | 4. Csharp\If-Else\3. Oefeningen If-Else.md | ib-19.2.Controlestructuur-Beslissingen-If-Else.DT<br>ib-19.3.Controlestructuur-Beslissingen-If-Else.DT | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Bouwen softwaresysteem<br>Controlestructuur-Beslissingen-If-Else<br>Implementatieproces | N/A |
 | ✅ | 3. Oefeningen While | 4. Csharp\While\3. Oefeningen While.md | ib-19.2.Controlestructuur-Herhaling-While.DT<br>ib-19.3.Controlestructuur-Herhaling-While.DT | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Bouwen softwaresysteem<br>Controlestructuur-Herhaling-While<br>Implementatieproces | N/A |
-| ✅ | 4. Git Commits | 7. Git\1. Uitleg\4. Git Commits.md | bg-24.2.Git-Commits.OI<br>bg-24.3.Git-Commits.OI<br>bg-24.2.Git-Tags-en-releases.OI<br>bg-24.3.Git-Tags-en-releases.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Commits<br>Git-Tags-en-releases | N/A |
 | ✅ | 4. Git Pull Requests | 7. Git\2. Workshop\4. Git Pull Requests.md | bg-24.2.Git-Pull-requests.PI<br>bg-24.3.Git-Pull-requests.PI<br>bg-24.2.Git-Mergen.PI<br>bg-24.3.Git-Mergen.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Mergen<br>Git-Pull-requests | N/A |
 | ✅ | 5. Git Mergen | 7. Git\1. Uitleg\5. Git Mergen.md | bg-24.2.Git-Mergen.OI<br>bg-24.3.Git-Mergen.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Mergen | N/A |
 | ✅ | 5. Git Tags & Releases | 7. Git\2. Workshop\5. Git Tags & Releases.md | bg-24.2.Git-Tags-en-releases.PI<br>bg-24.3.Git-Tags-en-releases.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Tags-en-releases | N/A |
 | ✅ | 6. Git Pull requests | 7. Git\1. Uitleg\6. Git Pull requests.md | bg-24.2.Git-Pull-requests.OI<br>bg-24.3.Git-Pull-requests.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Pull-requests | N/A |
-| ✅ | 7. GitHub Desktop | 7. Git\1. Uitleg\7. GitHub Desktop.md | bg-24.2.Git-Tools.OI<br>bg-24.3.Git-Tools.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Tools | N/A |
-| ✅ | 8. Git Files | 7. Git\1. Uitleg\8. Git Files.md | bg-24.2.Git-Files.OI<br>bg-24.3.Git-Files.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Files | N/A |
+| ✅ | 8. Git files | 7. Git\1. Uitleg\8. Git files.md | bg-24.2.Git-Files.OI<br>bg-24.3.Git-Files.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Files | N/A |
 | ✅ | 9. GitHub Actions | 7. Git\1. Uitleg\9. GitHub Actions.md | bg-24.2.Git-Actions.OI<br>bg-24.3.Git-Actions.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Actions | N/A |
