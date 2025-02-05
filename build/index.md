@@ -1,5 +1,9 @@
 ---
-title: Welkom bij Windesheim Leerlijn SE
+title: index
+taxonomie: None
+tags:
+
+
 ---
 
 Welkom!
