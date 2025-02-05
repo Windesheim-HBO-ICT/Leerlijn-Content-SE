@@ -11,7 +11,7 @@ Om toegang te krijgen tot de Microsoft Threat Modeling Tool, kun je de onderstaa
 ## Stap 2. Nieuwe model aanmaken
 ---
 Voordat je een [threat model](2.%20Wat%20is%20een%20Threat%20Model.md) kan maken moet er eerst een nieuw project worden opgestart.
-![[stap2.png]]
+![[1.1 stap2.png]]
 
 ## Stap 3. Ontwerp een threat model
 ---
@@ -24,31 +24,32 @@ Aan de rechterzijde van het scherm bevinden zich de beschikbare componenten waar
 - Database 
 
 **Een handige tip**: door op een component te klikken, kunt u aan de rechterzijde van het scherm, onder het gedeelte van het component, de naam wijzigen.
-![[stap3.png]]
+![[1.2 stap3.png]]
+
 ## Stap 4. Rapport generen
 ---
 Om een volledig rapport te genereren, klik je bovenaan op "Rapports". Selecteer vervolgens de optie "Generate full rapport". Zodra je een naam hebt ingevoerd, wordt het rapport automatisch gegenereerd. In dit rapport worden alle mogelijke kwetsbaarheden op basis van het **STRIDE-model** beschreven, samen met mogelijke maatregelen om ze te verminderen.
 
-![[stap4.png]]
+![[1.3 stap4.png]]
 
 ## Stap 5. Threat List genereren
 ---
 ### Stap 5.1. Analysis View
 Om de Threat List te genereren die je kunt exporteren naar csv klik je bovenaan op Analysis View.
 
-![[stap6_1.png]]
+![[1.5 stap6_1.png]]
 
 ### Stap 5.2 Exporteren
 Klik vervolgens op ‘Export to csv’.
 
-![[stap6_2.png]]
+![[1.6 stap6_2.png]]
 
 ### Stap 5.3 Opslaan
 Sla het project op in de map van het vak security of bij je showcase bestanden. Op deze manier kan je gaandeweg de realisatie van het project de threat model eenvoudig aanpassen als dit nodig is.
 
 Om het project op te slaan klik je links boven op `File`, `Save As` en geef een logische locatie en bestandsnaam op. Klik vervolgens op `Opslaan` om het bestand op te slaan.
 
-![[stap5.3 opslaan.png]]
+![[1.4 stap5.3 opslaan.png]]
 ### Stap 5.4 Openen in Excel
 Importeer het `.csv` bestand in Excel en zet het om naar een tabel. Door de threat list te exporteren naar een `xls` of vergelijkbaar bestandstype kan je erg eenvoudig de lijst langslopen en passende mitigaties uitwerken. 
 #### Stap 5.4.1. Tekst naar kolommen / Text to Columns
@@ -60,6 +61,6 @@ Zorg ervoor dat alleen de optie `Komma / Comma` en `Dubbele scheidingsteken als 
 #### Stap 5.4.4 Voltooien
 Laat de instellingen staan zoals ze standaard staan en klik op `Voltooien / Finish`.
 
-![[stap6_3.png]]
+![[1.7 stap6_3.png]]
 #### Stap 5.4.5 Opslaan
 Om het bestand later te kunnen gebruiken zorg ervoor dat je het opslaan als een `.xls` of vergelijkbaar bestandstype en niet als `.csv`. `.csv` ondersteund geen tabellen.
