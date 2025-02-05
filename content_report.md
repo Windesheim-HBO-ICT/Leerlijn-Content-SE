@@ -93,7 +93,6 @@ Deze todo items moeten nog worden afgehandeld.
 | ❌ | 2. Destructuring | 5. JS\9. ES6\2. Destructuring.md | N/A | JS/Destructuring | Geen taxco gevonden |
 | ❌ | 2. Docker Desktop | 8. Docker\1. Uitleg\2. Docker Desktop.md | N/A | Docker | Geen taxco gevonden |
 | ❌ | 2. Dockerfile HTML pagina | 8. Docker\2. Workshop\2. Dockerfile HTML pagina.md | N/A | Docker | Geen taxco gevonden |
-| ⚠️ | 2. Git Repositories | 7. Git\2. Workshop\2. Git Repositories.md | bg-24.2.Git-Repositories.PI<br>bg-24.3.Git-Repositories.PI<br>bg-24.2.Git-Commits.PI<br>bg-24.3.Git-Commits.PI<br>bg-24.2.Git-Files.PI<br>bg-24.3.Git-Files.PI<br>bg-24.2.Git-Tools.PI<br>bg-24.3.Git-Tools.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Commits<br>Git-Files<br>Git-Repositories<br>Git-Tools | Dynamische link fout:  `[[8. Git Files]]` |
 | ❌ | 2. Hoe zit ZAP in elkaar | 9. Security\3. ZAP\2. Hoe zit ZAP in elkaar.md | None | N/A | Geen taxco gevonden |
 | ⚠️ | 2. Oefeningen Boolean | 4. Csharp\Boolean\2. Oefeningen Boolean.md | ib-19.2.Boolean.DT<br>ib-19.3.Boolean.DT | N/A | Taxco niet in dataset:  `ib-19.2.Boolean.DT` |
 | ⚠️ | 2. Oefeningen Byte | 4. Csharp\Byte\2. Oefeningen Byte.md | ib-19.2.Byte.DT<br>ib-19.3.Byte.DT | N/A | Taxco niet in dataset:  `ib-19.2.Byte.DT` |
@@ -141,7 +140,6 @@ Deze todo items moeten nog worden afgehandeld.
 | ❌ | 4. Control structures | 5. JS\2. Basis\4. Control structures.md | N/A | JS/Data-types | Geen taxco gevonden |
 | ❌ | 4. Docker Images | 8. Docker\1. Uitleg\4. Docker Images.md | N/A | Docker | Geen taxco gevonden |
 | ❌ | 4. Docker volumes | 8. Docker\2. Workshop\4. Docker volumes.md | N/A | Docker | Geen taxco gevonden |
-| ⚠️ | 4. Git Commits | 7. Git\1. Uitleg\4. Git Commits.md | bg-24.2.Git-Commits.OI<br>bg-24.3.Git-Commits.OI<br>bg-24.2.Git-Tags-en-releases.OI<br>bg-24.3.Git-Tags-en-releases.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Commits<br>Git-Tags-en-releases | Dynamische link fout:  `[[8. Git Files\|.gitignore]]` |
 | ⚠️ | 4. Oefeningen Constructor Chaining | 4. Csharp\Constructor\4. Oefeningen Constructor Chaining.md | ib-19.2.Constructors.DT<br>ib-19.3.Constructors.DT | N/A | Taxco niet in dataset:  `ib-19.2.Constructors.DT` |
 | ⚠️ | 4. Oefeningen Method Overloading | 4. Csharp\Methodes\4. Oefeningen Method Overloading.md | ib-19.2.Methods.DT<br>ib-19.3.Methods.DT | N/A | Taxco niet in dataset:  `ib-19.2.Methods.DT` |
 | ❌ | 4. Setup Debian | 9. Security\4. Workshop Skylab\4. Setup Debian.md | N/A | N/A | Geen taxco gevonden |
@@ -161,7 +159,6 @@ Deze todo items moeten nog worden afgehandeld.
 | ❌ | 6. Docker Compose | 8. Docker\1. Uitleg\6. Docker Compose.md | N/A | Docker | Geen taxco gevonden |
 | ❌ | 6. Uitvoeren configuratie-, change- en releasemangement | 2. Processen\6. Beheerproces\6. Uitvoeren configuratie-, change- en releasemangement.md | N/A | N/A | Geen taxco gevonden |
 | ❌ | 7. Docker Volumes | 8. Docker\1. Uitleg\7. Docker Volumes.md | N/A | Docker | Geen taxco gevonden |
-| ⚠️ | 7. GitHub Desktop | 7. Git\1. Uitleg\7. GitHub Desktop.md | bg-24.2.Git-Tools.OI<br>bg-24.3.Git-Tools.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Tools | Dynamische link fout:  `[[8. Git Files]]` |
 | ❌ | 8. Docker Environment | 8. Docker\1. Uitleg\8. Docker Environment.md | N/A | Docker | Geen taxco gevonden |
 | ❌ | 9. Command parameters | 8. Docker\1. Uitleg\9. Command parameters.md | N/A | Docker | Geen taxco gevonden |
 | ❌ | Browser API | 5. JS\5. DOM manipulation\Browser API.md | N/A | HTML/BOM | Geen taxco gevonden |
@@ -202,10 +199,14 @@ Deze todo items moeten nog worden afgehandeld.
 | ✅ | 1. Uitleg Klassendiagram | 6. UML\Klassendiagram\1. Uitleg Klassendiagram.md | oo-15.2.Klassendiagram.OI<br>oo-15.3.Klassendiagram.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Klassendiagram<br>Ontwerpproces<br>Opstellen ontwerp | N/A |
 | ✅ | 10. GitHub website | 7. Git\1. Uitleg\10. GitHub website.md | bg-24.2.Git-GitHub.OI<br>bg-24.3.Git-GitHub.OI<br>bg-24.2.Git-Tags-en-releases.OI<br>bg-24.3.Git-Tags-en-releases.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-GitHub<br>Git-Tags-en-releases | N/A |
 | ✅ | 2. Git Repositories | 7. Git\1. Uitleg\2. Git Repositories.md | bg-24.2.Git-Repositories.OI<br>bg-24.3.Git-Repositories.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Repositories | N/A |
+| ✅ | 2. Git Repositories | 7. Git\2. Workshop\2. Git Repositories.md | bg-24.2.Git-Repositories.PI<br>bg-24.3.Git-Repositories.PI<br>bg-24.2.Git-Commits.PI<br>bg-24.3.Git-Commits.PI<br>bg-24.2.Git-Files.PI<br>bg-24.3.Git-Files.PI<br>bg-24.2.Git-Tools.PI<br>bg-24.3.Git-Tools.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Commits<br>Git-Files<br>Git-Repositories<br>Git-Tools | N/A |
 | ✅ | 3. Git Branches | 7. Git\1. Uitleg\3. Git Branches.md | bg-24.2.Git-Branches.OI<br>bg-24.3.Git-Branches.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Branches | N/A |
 | ✅ | 3. Git Forks & Branches | 7. Git\2. Workshop\3. Git Forks & Branches.md | bg-24.2.Git-Repositories.PI<br>bg-24.3.Git-Repositories.PI<br>bg-24.2.Git-Branches.PI<br>bg-24.3.Git-Branches.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Branches<br>Git-Repositories | N/A |
+| ✅ | 4. Git Commits | 7. Git\1. Uitleg\4. Git Commits.md | bg-24.2.Git-Commits.OI<br>bg-24.3.Git-Commits.OI<br>bg-24.2.Git-Tags-en-releases.OI<br>bg-24.3.Git-Tags-en-releases.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Commits<br>Git-Tags-en-releases | N/A |
 | ✅ | 4. Git Pull Requests | 7. Git\2. Workshop\4. Git Pull Requests.md | bg-24.2.Git-Pull-requests.PI<br>bg-24.3.Git-Pull-requests.PI<br>bg-24.2.Git-Mergen.PI<br>bg-24.3.Git-Mergen.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Mergen<br>Git-Pull-requests | N/A |
 | ✅ | 5. Git Mergen | 7. Git\1. Uitleg\5. Git Mergen.md | bg-24.2.Git-Mergen.OI<br>bg-24.3.Git-Mergen.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Mergen | N/A |
 | ✅ | 5. Git Tags & Releases | 7. Git\2. Workshop\5. Git Tags & Releases.md | bg-24.2.Git-Tags-en-releases.PI<br>bg-24.3.Git-Tags-en-releases.PI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Tags-en-releases | N/A |
 | ✅ | 6. Git Pull requests | 7. Git\1. Uitleg\6. Git Pull requests.md | bg-24.2.Git-Pull-requests.OI<br>bg-24.3.Git-Pull-requests.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Pull-requests | N/A |
+| ✅ | 7. GitHub Desktop | 7. Git\1. Uitleg\7. GitHub Desktop.md | bg-24.2.Git-Tools.OI<br>bg-24.3.Git-Tools.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Tools | N/A |
+| ✅ | 8. Git Files | 7. Git\1. Uitleg\8. Git Files.md | bg-24.2.Git-Files.OI<br>bg-24.3.Git-Files.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Files | N/A |
 | ✅ | 9. GitHub Actions | 7. Git\1. Uitleg\9. GitHub Actions.md | bg-24.2.Git-Actions.OI<br>bg-24.3.Git-Actions.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheerproces<br>Gebruiken beheersysteem<br>Git-Actions | N/A |
