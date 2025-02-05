@@ -59,7 +59,6 @@ Deze todo items moeten nog worden afgehandeld.
 | ❌ | 1. Introductie Skylab | 9. Security\4. Workshop Skylab\1. Introductie Skylab.md | N/A | N/A | Geen taxco gevonden |
 | ❌ | 1. Introductie ZAP | 9. Security\3. ZAP\Workshop\1. Introductie ZAP.md | N/A | N/A | Geen taxco gevonden |
 | ❌ | 1. Introductie tot Docker | 8. Docker\1. Uitleg\1. Introductie tot Docker.md | N/A | Docker | Geen taxco gevonden |
-| ❌ | 1. Managen ontwikkelproces | 2. Processen\6. Beheerproces\1. Managen ontwikkelproces.md | N/A | N/A | Geen taxco gevonden |
 | ❌ | 1. Opstellen teststrategie | 2. Processen\5. Testproces\1. Opstellen teststrategie.md | N/A | N/A | Geen taxco gevonden |
 | ❌ | 1. Requirements | 1. SSDLC\1. Requirements.md | N/A | N/A | Geen taxco gevonden |
 | ❌ | 1. Threat Modeling | 2. Processen\3. Ontwerpproces\1. Opstellen ontwerp\1. Opstellen TO\1. Threat Modeling.md | None | N/A | Geen taxco gevonden |
@@ -68,7 +67,7 @@ Deze todo items moeten nog worden afgehandeld.
 | ⚠️ | 1. Uitleg Byte | 4. Csharp\Byte\1. Uitleg Byte.md | ib-19.2.Byte.OI<br>ib-19.3.Byte.OI | N/A | Taxco niet in dataset:  `ib-19.2.Byte.OI` |
 | ⚠️ | 1. Uitleg Char | 4. Csharp\Char\1. Uitleg Char.md | ib-19.2.Char.DT<br>ib-19.3.Char.DT | N/A | Taxco niet in dataset:  `ib-19.2.Char.DT` |
 | ⚠️ | 1. Uitleg Classes | 4. Csharp\Classes\1. Uitleg Classes.md | ib-19.2.Classes.OI<br>ib-19.3.Classes.OI | N/A | Taxco niet in dataset:  `ib-19.2.Classes.OI` |
-| ⚠️ | 1. Uitleg Continue | 4. Csharp\Continue\1. Uitleg Continue.md | ib-19.2.Continue.OI<br>ib-19.3.Continue.OI | N/A | Dynamische link fout:  `[[1. Break]]`<br>Taxco niet in dataset:  `ib-19.2.Continue.OI` |
+| ⚠️ | 1. Uitleg Continue | 4. Csharp\Continue\1. Uitleg Continue.md | ib-19.2.Continue.OI<br>ib-19.3.Continue.OI | N/A | Taxco niet in dataset:  `ib-19.2.Continue.OI` |
 | ⚠️ | 1. Uitleg Double | 4. Csharp\Double\1. Uitleg Double.md | ib-19.2.Double.OI<br>ib-19.3.Double.OI | N/A | Taxco niet in dataset:  `ib-19.2.Double.OI` |
 | ⚠️ | 1. Uitleg Enum | 4. Csharp\Enum\1. Uitleg Enum.md | ib-19.2.Enums.OI<br>ib-19.3.Enums.OI | N/A | Taxco niet in dataset:  `ib-19.2.Enums.OI` |
 | ⚠️ | 1. Uitleg Exceptions | 4. Csharp\Exceptions\1. Uitleg Exceptions.md | ib-19.2.Exceptions.OI<br>ib-19.3.Exceptions.OI | N/A | Taxco niet in dataset:  `ib-19.2.Exceptions.OI` |
