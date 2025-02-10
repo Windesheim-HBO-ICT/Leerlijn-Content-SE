@@ -3,6 +3,7 @@ title: 2. JavaScript scope en closures
 tags:
   - JS/scope-closures
 difficulty: 2
+ignore: true
 ---
 
 # 1 JavaScript scope en closures

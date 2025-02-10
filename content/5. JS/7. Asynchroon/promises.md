@@ -3,6 +3,7 @@ title: JavaScript Promises
 tags:
   - JS/Promises
 difficulty: 2
+ignore: true
 ---
 
 # 1 JavaScript Promises

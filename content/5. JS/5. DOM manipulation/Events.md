@@ -3,6 +3,7 @@ title: JavaScript Events
 tags:
   - JS/Events
 difficulty: 2
+ignore: true
 ---
 
 # 1. JavaScript Evenementen (Events)

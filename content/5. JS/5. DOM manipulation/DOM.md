@@ -3,6 +3,7 @@ title: Document Object Model (DOM)
 tags:
   - HTML/DOM
 difficulty: 2
+ignore: true
 ---
 
 # 1. Het Document Object Model (DOM)

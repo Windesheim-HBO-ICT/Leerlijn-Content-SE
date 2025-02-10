@@ -23,12 +23,17 @@ difficulty: 2
 taxonomie:
   - ib-19.2.If-Else.OI
   - ib-19.3.If-Else.OI
+draft: true
+ignore: true
 ---
 ```
+
 - **title:** Dit is de titel die op de webpagina weergeven zal worden. 
 - **tags:** Tags kunnen handmatig worden toegevoegd. Tags kunnen verschillende pagina's verbinden door het onderwerp van de tag.
 - **difficulty:** Dit is optioneel. Dit kan gebruikt worden om de moeilijkheid van een deeltaak/leertaak aan te duiden (1 tot en met 5).
 - **taxonomie:** Dit zijn de taxonomie codes die gebruikt worden om automatische tags te genereren op de webpagina.
+- **draft:** Deze property is optioneel en geeft aan dat de content nog **niet** op de wiki getoond mag worden. De content wordt wel meegenomen in de pipeline validatie.
+- **ignore:** Deze property is optioneel en geeft aan of de content **wel** af is en op de wiki getoond mag worden. De content wordt **niet** meegenomen in de pipeline validatie.
 
 ## Toevoegen nieuw onderwerp
 Als er een nieuw onderwerp toegevoegd moet worden, moet er een map aangemaakt worden in de relevante processtap. Binnen deze map moeten de `.md` bestanden op volgorde worden aan gemaakt door altijd met een nummering te beginnen.

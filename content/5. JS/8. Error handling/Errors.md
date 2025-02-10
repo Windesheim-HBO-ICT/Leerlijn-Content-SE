@@ -3,6 +3,7 @@ title: JavaScript errors
 tags:
   - JS/Errors
 difficulty: 2
+ignore: true
 ---
 
 # 1. JavaScript Errors

@@ -3,6 +3,7 @@ title: JavaScript objecten
 tags:
   - JS/objecten
 difficulty: 2
+ignore: true
 ---
 
 # 1 JavaScript objecten

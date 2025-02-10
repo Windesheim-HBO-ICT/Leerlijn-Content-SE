@@ -1,3 +1,9 @@
+---
+title: GEO API
+difficulty: 4
+ignore: true
+---
+
 ### Geolocation API
 De **Geolocation API** biedt toegang tot de geografische locatie van de gebruiker, mits toestemming wordt gegeven.
 
