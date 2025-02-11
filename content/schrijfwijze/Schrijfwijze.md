@@ -69,6 +69,9 @@ ib-19.3.If-Else.DT
 ## Afbeeldingen
 Als je een afbeeldingen toevoegt maak dan een mapje `src` aan in dezelfde map als de `md` bestanden. Deze bestanden moet er als volgt uitzien: `Bestandsnummer_Onderwerp_nummer`. Hierbij moet bestandsnummer vervangen worden met het bestand waar de afbeelding in voorkomt. 
 
+Een voorbeeld:
+Als in het bestand `3. Uitleg Klassendiagrammen` een figuur wordt gebruikt, zal deze de naam krijgen `3.1 Voorbeeld van een klassendiagram1`.
+
 Voeg figuur onderschrift toe door onder de afbeelding / diagram *italic* toelichting te geven.
 Format: `*Figuur [nummer]: [toelichting]*`.
 
