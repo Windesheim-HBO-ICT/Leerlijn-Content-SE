@@ -15,7 +15,7 @@ draft: true
 [Hier een toelichting over hoe de structuur van het onderwerp in elkaar zit]
 
 ### Codevoorbeeld
-```C#
+```csharp
 [Voorbeelden van de code]
 ```
 
@@ -28,7 +28,7 @@ draft: true
 >[Duidelijke casus met een lijst van concrete eisen. Maak er eerst een verhaaltje van en daarna pas de lijst met eisen]
 
 **Mogelijke uitwerking van de casus**
-```C#
+```csharp
 [Mogelijke uitwerking van de casus]
 ```
 

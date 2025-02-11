@@ -3,6 +3,7 @@ title: JavaScript set en map
 tags:
   - JS/set-map
 difficulty: 2
+ignore: true
 ---
 
 # 1 JavaScript `Set` en `Map`

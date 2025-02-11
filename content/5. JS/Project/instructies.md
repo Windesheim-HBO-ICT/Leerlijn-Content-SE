@@ -3,6 +3,7 @@ title: Project instructies
 tags:
   - Project
 difficulty: 3
+ignore: true
 ---
 
 # 1. JavaScript Project

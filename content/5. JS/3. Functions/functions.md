@@ -3,6 +3,7 @@ title: 2. Javascript functions
 tags:
   - JS/functions
 difficulty: 2
+ignore: true
 ---
 
 # 1. JavaScript functions

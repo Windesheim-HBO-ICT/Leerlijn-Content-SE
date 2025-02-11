@@ -3,6 +3,7 @@ title: Browser Object Model (BOM)
 tags:
   - HTML/BOM
 difficulty: 2
+ignore: true
 ---
 
 # 1. Browser Object Model (BOM)

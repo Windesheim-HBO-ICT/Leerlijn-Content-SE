@@ -2,8 +2,8 @@
 title: JavaScript Debugging
 tags:
   - JS/debugging
-  - page
 difficulty: 2
+ignore: true
 ---
 
 # 1. JavaScript Debugging
