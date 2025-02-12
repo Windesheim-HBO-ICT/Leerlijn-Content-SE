@@ -3,6 +3,7 @@ title: JavaScript Callbacks
 tags:
   - JS/Callbacks
 difficulty: 2
+ignore: true
 ---
 
 # 1 JavaScript Callbacks

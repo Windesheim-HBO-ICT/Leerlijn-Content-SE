@@ -3,6 +3,7 @@ title: JavaScript arrays
 tags:
   - JS/Arrays
 difficulty: 2
+ignore: true
 ---
 
 # 1 JavaScript Arrays

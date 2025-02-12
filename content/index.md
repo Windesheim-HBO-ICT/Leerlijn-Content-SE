@@ -1,5 +1,6 @@
 ---
 title: Welkom bij Windesheim Leerlijn SE
+ignore: true
 ---
 
 Welkom!

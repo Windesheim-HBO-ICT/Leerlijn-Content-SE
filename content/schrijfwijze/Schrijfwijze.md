@@ -23,12 +23,17 @@ difficulty: 2
 taxonomie:
   - ib-19.2.If-Else.OI
   - ib-19.3.If-Else.OI
+draft: true
+ignore: true
 ---
 ```
+
 - **title:** Dit is de titel die op de webpagina weergeven zal worden. 
 - **tags:** Tags kunnen handmatig worden toegevoegd. Tags kunnen verschillende pagina's verbinden door het onderwerp van de tag.
 - **difficulty:** Dit is optioneel. Dit kan gebruikt worden om de moeilijkheid van een deeltaak/leertaak aan te duiden (1 tot en met 5).
 - **taxonomie:** Dit zijn de taxonomie codes die gebruikt worden om automatische tags te genereren op de webpagina.
+- **draft:** Deze property is optioneel en geeft aan dat de content nog **niet** op de wiki getoond mag worden. De content wordt wel meegenomen in de pipeline validatie.
+- **ignore:** Deze property is optioneel en geeft aan of de content **wel** af is en op de wiki getoond mag worden. De content wordt **niet** meegenomen in de pipeline validatie.
 
 ## Toevoegen nieuw onderwerp
 Als er een nieuw onderwerp toegevoegd moet worden, moet er een map aangemaakt worden in de relevante processtap. Binnen deze map moeten de `.md` bestanden op volgorde worden aan gemaakt door altijd met een nummering te beginnen.
@@ -62,7 +67,10 @@ ib-19.3.If-Else.DT
 - Tussen een einde van een alinea en een nieuwe heading moet **één** witregel worden gebruikt. 
 
 ## Afbeeldingen
-Als je een afbeeldingen toevoegt maak dan een mapje `src` aan in dezelfde map als de `md` bestanden. Deze bestanden moet er als volgt uitzien: `OI_Onderwerp_nummer`. Hierbij moet OI vervangen worden met het 4C/ID model waaraan gewerkt wordt (OI, PI, DT of LT).
+Als je een afbeeldingen toevoegt maak dan een mapje `src` aan in dezelfde map als de `md` bestanden. Deze bestanden moet er als volgt uitzien: `Bestandsnummer_Onderwerp_nummer`. Hierbij moet bestandsnummer vervangen worden met het bestand waar de afbeelding in voorkomt. 
+
+Een voorbeeld:
+Als in het bestand `3. Uitleg Klassendiagrammen` een figuur wordt gebruikt, zal deze de naam krijgen `3.1 Voorbeeld van een klassendiagram1`.
 
 Voeg figuur onderschrift toe door onder de afbeelding / diagram *italic* toelichting te geven.
 Format: `*Figuur [nummer]: [toelichting]*`.
@@ -77,7 +85,8 @@ Wanneer een variabele echter meerdere vaste waarden nodig heeft, dus meer dan al
 ```
 
 ## Diagrammen
-Als je een diagram wil toevoegen doe dit dan via [[Mermaid]].
+Als je een diagram wil toevoegen doe dit dan via [[Mermaid]] of [plantuml](https://plantuml.com/).
+In het geval van use case diagrammen zet de UML richting op `left to right` 
 Bij diagrammen kan je denken aan sequentiediagram, flowchart of klassendiagrammen.
 
 ## Links
@@ -208,12 +217,15 @@ Controleer of je content voldoet aan de eisen uit het Word bestand: `Kwaliteitse
 
 # Deeltaken
 * Structuur gelijk aan die van If-else.
-* 4 opdrachten voor eenvoudige onderwerpen zoals primitieve datatypes.
-* 10 opdrachten voor complexere onderwerpen met klein beetje oplopende complexiteit.
 * Mogelijke uitwerking aanwezig.
 * Gebruik de taal C#.
 * Vergeet niet dingen als `using System;`.
 * Test zelf de code blokken van het "Mogelijk antwoord" blok. Dit kan met de codeblock in obsidian of in een eigen editor zoals hieronder beschreven.
+* Complexere opdrachten mogen de studenten in een eigen IDE uitvoeren. Als dit het geval is geef dit dan duidelijk aan via een [[Schrijfwijze#Blokken|warning blokken]].
+* Complexere opdrachten mogen worden ondersteund met UML diagrammen. Maak dan wel een verwijzing naar de uitleg van de relevante UML standaard.
+* Het is toegestaan dat voor complexere opdrachten alleen een klassendiagram wordt gegeven en deze *volledig* door de student moet worden uitgewerkt.
+	* Geef wel **altijd** een mogelijke uitwerking
+* Het is toegestaan om pas *halverwege* UML diagrammen te geven. In dit geval zet een duidelijke page break `---` boven en onder het diagram. Geef desnoods toelichting via use case diagrammen.  
 
 ## Codeblock / Coderunner
 Er zijn drie verschillende soorten codeblocks: read only, runnable en sandbox. Om de codeblock werkt te hebben binnen de editor Obsidian, moet een community plugin worden geïnstalleerd.
