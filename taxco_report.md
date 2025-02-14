@@ -46,7 +46,7 @@ Bij kolom *TC2*, *Leertaken*, *Ondersteunende informatie*, *Procedurele informat
 | Git-Actions | bg-24 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
 | Git-Tools | bg-24 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
 | Git-Tags-en-releases | bg-24 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
-| Git-Flow | bg-24 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
+| Git-Flow | bg-24 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
 | If-Else | ib-19 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ |
 | Switch | ib-19 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ |
 | For | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
@@ -55,7 +55,8 @@ Bij kolom *TC2*, *Leertaken*, *Ondersteunende informatie*, *Procedurele informat
 | Using | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
 | Async | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
 | Await | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
-| Declaratie-en-Initialisatie | ib-19 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
+| Declaratie | ib-19 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
+| Initialisatie | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
 | Tupel | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
 | List | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
 | Set | ib-19 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
@@ -72,11 +73,8 @@ Bij kolom *TC2*, *Leertaken*, *Ondersteunende informatie*, *Procedurele informat
 | OTAP-acceptatietest | bb-25 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
 | IDE-setup-en-build | ii-18 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ 🏳️ | 🏳️ ⛔️ 🏳️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
 | Acitviteitendiagram | oo-15 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
-| Branching-strategiën | bg-24 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
-| Gitflow | bg-24 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
 | Teststrategie | ta-6 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
 | Functioneel-Testen | tu-4 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
-| Inheritance-Polymorphism-Generics | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
 | Use-Case-Diagram | rs-10 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
 | Product-Backlog | bm-22 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
 | Domein-Analyse | ra-9 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
@@ -102,24 +100,23 @@ Bij kolom *TC2*, *Leertaken*, *Ondersteunende informatie*, *Procedurele informat
 | String | ib-19 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
 | Types | ib-19 | 🏳️ ✅ ✅ | 🏳️ ⛔️ ⛔️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
 | Arrays | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
-| Classes | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
+| Classes | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
 | Constructors | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
 | Properties | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
 | Methods | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
 | Enums | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
-| Inheritance-AbstractClasses | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
-| Polymorphism-Interfaces | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
-| Generic-Type | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
-| Generic-Methods | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
+| Inheritance-AbstractClasses | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
+| Polymorfisme-Interfaces | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
+| Generic-Type | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
+| Generic-Methods | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
 | Unit-Testing | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
 | Mocking | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
 | Exceptions | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
 | MAUI | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
-| Events | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
-| Code review | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
-| Delegates | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
-| LINQ-query-syntax | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
-| Anonymous-object | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
-| LINQ-method-syntax | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
-| Let-en-anonieme types | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
-| Lambda's | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
+| Events-Delegates | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
+| Code-review | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
+| LINQ-query-syntax | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
+| Anonymous-object | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
+| LINQ-method-syntax | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
+| Let-en-anonieme-typen | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
+| Lambda-expressies | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
