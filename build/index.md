@@ -1,9 +1,9 @@
 ---
 title: index
-taxonomie: None
+taxonomie: []
 tags:
 
-
+ignore: true 
 ---
 
 Welkom!

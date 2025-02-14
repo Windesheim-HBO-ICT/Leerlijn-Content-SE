@@ -1,10 +1,10 @@
 ---
 title: promises
-taxonomie: None
+taxonomie: []
 tags:
-- JS/Promises
-difficulty: 2
 
+difficulty: 2
+ignore: true 
 ---
 
 # 1 JavaScript Promises
