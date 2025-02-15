@@ -36,12 +36,20 @@ ignore: true
 - **ignore:** Deze property is optioneel en geeft aan of de content **wel** af is en op de wiki getoond mag worden. De content wordt **niet** meegenomen in de pipeline validatie.
 
 ## Toevoegen nieuw onderwerp
-Als er een nieuw onderwerp toegevoegd moet worden, moet er een map aangemaakt worden in de relevante processtap. Binnen deze map moeten de `.md` bestanden op volgorde worden aan gemaakt door altijd met een nummering te beginnen.
+Als er een nieuw onderwerp toegevoegd moet worden, moet dit onderwerp een eigen map krijgen. Voor een onderwerp moet elk document beginnen met een nummering. 
+
+Voor de verschillende 4CID componenten moeten verschillende formatten worden gebruikt:
+- OI: `[nummering]. Uitleg [onderwerp]` 
+- PI: `[nummering]. Stappen [onderwerp]`
+- DT: `[nummering]. Oefeningen [onderwerp]`
 
 > [!tip] Voorbeeld
 > Voor het onderwerp `If-Else`:
-> In de map `3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem` moet een nieuwe map `If-Else` worden aangemaakt.
-> In deze map begint het eerste bestand met `1. Titel` en het tweede bestand met `2. Titel`.
+> In de map `4. Csharp/Controle-structuur` moet een nieuwe map `If-Else` worden aangemaakt.
+> In deze map staat een OI bestand met `1. Uitleg If-Else`, een PI bestand met `2. Stappen If-Else` en een DT bestand met `3. Oefeningen If-Else` als titels.
+> 
+> Als er een onderwerp is wat alleen OI en DT nodig heeft, wordt de titel van het OI bestand `1. Uitleg [onderwerp]` en het DT bestand `2. Oefeningen [onderwerp]`.
+
 
 ## Taxonomie
 * Binnen Obsidian kan je door aan het begin gelijk `---` te typen page properties opgeven.
@@ -56,7 +64,7 @@ ib-19.3.If-Else.OI
 ib-19.3.If-Else.PI
 ib-19.3.If-Else.DT 
 ```
-* Let op hoofdletters, de pipeline is nu (nog) hoofdletter gevoelig
+* Let op hoofdletters, de pipeline is (nu nog) hoofdletter gevoelig
 
 ## Headings
 - De grootste heading die gebruikt moet worden is `##`.
@@ -159,8 +167,12 @@ Bij het gebruik van blokken zijn er een aantal standaard veelgebruikte keywoorde
 - **Warning:**
 	- Aanduiden waar mogelijke gevaren zitten.
 
-![image](https://github.com/Windesheim-HBO-ICT/Leertaken/assets/113350398/8c77e7d0-4231-4166-8921-7013fbc8191c)
-
+Blokken kunnen ook nog genest worden. Dit ziet er als volgt uit:
+> [!info] geneste blokken
+> Dit is de tekst binnen de eerste blok
+> > [!warning] Let op
+> > Dit is de tekst binnen het geneste blok
+  
 > [!warning] Let op
 > Zorg ervoor dat er een spatie zit tussen `>` en de zin:
 > 	```
