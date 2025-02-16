@@ -34,6 +34,9 @@ draft: true
 
 [Mogelijk een extra diagram zoals een flowchart of sequentiediagrammen. Doe dit in mermaid]
 
+Indien bronnen:
+> [!info] Bronnen
+> Bron: link
 
 ---
 
