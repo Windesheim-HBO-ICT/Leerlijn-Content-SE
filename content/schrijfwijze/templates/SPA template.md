@@ -36,4 +36,4 @@ Splits het probleem in subdoelen, zoals:
 
 ---
 
-> Volgende stap: [verwijzing naar DT]
+> Volgende stap: [verwijzing naar PI]
