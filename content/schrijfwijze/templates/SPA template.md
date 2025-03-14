@@ -1,7 +1,9 @@
 ---
 title: Hier een titel beginnend met 1. Systematische Probleem Aanpak [Onderwerp]
 taxonomie:
-  - "[taxco].SPA"
+  - "[taxco].OI"
+tags:
+  - Aanpak
 draft: true
 ---
 
