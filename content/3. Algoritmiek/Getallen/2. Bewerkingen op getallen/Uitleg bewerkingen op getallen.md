@@ -71,8 +71,7 @@ $\begin{array}{rcl}
 
 > [!TIP]- Achtergrond (geen lesstof)
 > Gegeven de volgende stelling:
-> $$\forall x,n\in\Bbb{N} : \exists q,r\in\Bbb{N} :
-> r< n \wedge q\cdot n + r = x$$
+> $$\forall x,n\in\Bbb{N} : \exists q,r\in\Bbb{N} : r< n \wedge q\cdot n + r = x$$
 > 
 > Hier staat: voor alle natuurlijke getallen (gehele getallen $\geq0$)
 > $x$ en $n$ bestaan natuurlijke getallen $q$ en $r$, waarbij $r$
