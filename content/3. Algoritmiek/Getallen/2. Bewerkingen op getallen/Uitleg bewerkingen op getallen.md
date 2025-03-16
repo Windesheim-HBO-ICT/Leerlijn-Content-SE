@@ -26,14 +26,14 @@ gebruiken we de tekens $\lceil~\rceil$.
 
 Voorbeelden:
 
-$$\begin{array}{rcl}
+$\begin{array}{rcl}
 \lfloor 3\rfloor & = & 3 \\
 \lceil 3\rceil & = & 3 \\
 \lfloor 3.1\rfloor & = & 3 \\
 \lceil 3.1\rceil & = & 4 \\
 \lfloor -3.1\rfloor & = & -4 \\
 \lceil -3.1\rceil & = & -3
-\end{array}$$
+\end{array}$
 
 > [!warning] Let op!
 > Negatieve getallen worden *naar beneden* afgerond
@@ -50,24 +50,24 @@ kunnen stellen dat $7~\textrm{\textbf{div}}~3 = 2$, want 3 past 2x in
 7. De rest (1) wordt genegeerd.
 
 Voorbeelden:
-$$\begin{array}{rcl}
+$\begin{array}{rcl}
 7~\textrm{\textbf{div}}~3 & = & 2\\
 17~\textrm{\textbf{div}}~5 & = & 3\\
 15~\textrm{\textbf{div}}~5 & = & 3\\
 123456~\textrm{\textbf{div}}~10 & = & 12345
-\end{array}$$
+\end{array}$
 
 De bewerking **modulo** (of kortweg **mod**) is de rest van een
 deling. Het is dus de rest die overblijft na het uitvoeren van een
 **div**.
 
 Voorbeelden:
-$$\begin{array}{rcl}
+$\begin{array}{rcl}
 7~\textrm{\textbf{mod}}~3 & = & 1\\
 17~\textrm{\textbf{mod}}~5 & = & 2\\
 15~\textrm{\textbf{mod}}~5 & = & 0\\
 123456~\textrm{\textbf{mod}}~10 & = & 6
-\end{array}$$
+\end{array}$
 
 > [!TIP]- Achtergrond (geen lesstof)
 > Gegeven de volgende stelling:
