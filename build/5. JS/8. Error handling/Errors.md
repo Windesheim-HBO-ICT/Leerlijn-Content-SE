@@ -1,10 +1,10 @@
 ---
 title: Errors
-taxonomie: None
+taxonomie: []
 tags:
-- JS/Errors
+
 difficulty: 2
-draft: true 
+ignore: true 
 ---
 
 # 1. JavaScript Errors

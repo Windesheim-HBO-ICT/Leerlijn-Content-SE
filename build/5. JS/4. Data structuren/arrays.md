@@ -1,10 +1,10 @@
 ---
 title: arrays
-taxonomie: None
+taxonomie: []
 tags:
-- JS/Arrays
+
 difficulty: 2
-draft: true 
+ignore: true 
 ---
 
 # 1 JavaScript Arrays

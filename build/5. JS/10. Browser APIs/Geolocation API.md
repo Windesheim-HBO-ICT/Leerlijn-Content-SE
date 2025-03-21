@@ -1,10 +1,13 @@
 ---
 title: Geolocation API
-taxonomie: None
+taxonomie: []
 tags:
 
-draft: true 
----### Geolocation API
+difficulty: 4
+ignore: true 
+---
+
+### Geolocation API
 De **Geolocation API** biedt toegang tot de geografische locatie van de gebruiker, mits toestemming wordt gegeven.
 
 **Locatie opvragen**
