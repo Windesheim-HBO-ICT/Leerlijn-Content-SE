@@ -1,19 +1,20 @@
 ---
-title: Hier een titel beginnend met 1. Stappen [Onderwerp]
+title: Hier een titel beginnend met 1. Systematische Probleem Aanpak [Onderwerp]
 taxonomie:
-  - "[taxco].PI"
+  - "[taxco].OI"
+tags:
+  - Aanpak
 draft: true
 ---
 
 > Meer informatie over [verwijzing naar OI]
 
-## 1 Doel
+## 1. Doel
 [Leg het doel van het onderwerp uit]
 
-## 2 Stappenplan
-Splits het probleem in stappen, zoals:
-  1. [Naam stap 1]
-  2. [Naam stap 2]
+## 2. Subdoelen
+Splits het probleem in subdoelen, zoals:
+  - [Lijst met mogelijke subdoelen]
 
 > [!info] Tip 
 > [Als je een tip hebt voor de subdoelen dan hier neerzetten, kan je weglaten als het niks toevoegd]
@@ -21,29 +22,18 @@ Splits het probleem in stappen, zoals:
 >[!TIP] Casus
 > [Werkt hier een casus uit. Onderbouw het met eventuele verwijzingen, tabellen, diagrammen etc.]
 
-### 2.1 [Naam stap 1]
-[Uitwerking van de stap] 
+## 3. Fasen
+1. [De verschillende fases waaruit het opbouwen van je onderwerp bestaat. Bij een primitief datatype zoals int, float zou hier waarschijnlijk niks komen te staan. Bij while en for kan je wel perfect de verschillende fases uitwerken]
 
-#### Correctieve feedback tijdens de uitvoer [optioneel]
+## Correctieve feedback tijdens de uitvoer
 [Leg hier mogelijke problemen of aandachtspunten uit]
 
 > [!INFO] Tip  
 > [Als je nog een tip hebt voor het zoeken / opstellen van feedback leg dat dan hier uit. Kan je weglaten als je niks hebt]
 
-#### Tips voor stap [Naam stap 1] [optioneel]
+## Tips voor efficiënt gebruik van [onderwerp]
 [Laatste lijst met tips, soort van samenvatting. Doe dit via bullet list]
-
-
-### 2.2 [Naam stap 2]
-[Uitwerking van de stap]
-
-## Samenvattend [optioneel]
-
-### Tips [onderwerp] [optioneel]
-[Laatste lijst met tips, soort van samenvatting. Doe dit via bullet list]
-
-
 
 ---
 
-> Volgende stap: [verwijzing naar DT]
+> Volgende stap: [verwijzing naar PI]
