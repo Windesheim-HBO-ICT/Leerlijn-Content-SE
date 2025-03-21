@@ -11,3 +11,4 @@
 - [ ] Figuur onderschriften toegevoegd waar nodig
 - [ ] Taxonomie codes toegevoegd
 - [ ] Witregels gecheckt
+- [ ] Bronnenlijst toegevoegd (indien nodig)
