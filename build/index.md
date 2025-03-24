@@ -1,5 +1,5 @@
 ---
-title: Welkom op Windesheim Leerlijn SE!
+title: index
 taxonomie: []
 tags:
 
