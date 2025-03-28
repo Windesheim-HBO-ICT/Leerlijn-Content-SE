@@ -1,7 +1,7 @@
 ---
 title: Hier een titel beginnend met 1. Stappen [Onderwerp]
 taxonomie:
-  - "[taxco].PI"
+  - [taxco].PI
 draft: true
 ---
 
@@ -42,8 +42,6 @@ Splits het probleem in stappen, zoals:
 ### Tips [onderwerp] [optioneel]
 [Laatste lijst met tips, soort van samenvatting. Doe dit via bullet list]
 
-
-
 ---
 
-> Volgende stap: [verwijzing naar DT]
+> Volgende stap: [[verwijzing naar DT]]

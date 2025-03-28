@@ -1,7 +1,7 @@
 ---
 title: Hier een titel beginnend met 1. Uitleg [Onderwerp] 
 taxonomie:
-  - "[taxco].OI"
+  - [taxco].OI
 draft: true
 ---
 
@@ -40,4 +40,4 @@ Indien bronnen:
 
 ---
 
-> Volgende stap: [verwijzing naar SPA/PI]
+> Volgende stap: [[verwijzing naar SPA/PI]]
