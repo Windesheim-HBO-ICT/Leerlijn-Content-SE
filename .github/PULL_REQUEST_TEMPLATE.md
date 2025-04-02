@@ -12,3 +12,4 @@
 - [ ] Taxonomie codes toegevoegd
 - [ ] Witregels gecheckt
 - [ ] Bronnenlijst toegevoegd (indien nodig)
+- [ ] content-branch gepulled in de feature branch
