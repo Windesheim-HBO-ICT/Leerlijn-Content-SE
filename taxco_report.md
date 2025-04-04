@@ -1,5 +1,5 @@
 ---
-draft: true
+
 ---
 ## Rapport 1 - Processtappen
 *Doel: achterhalen welke processtappen nog helemaal niet zijn geïmplementeerd*
