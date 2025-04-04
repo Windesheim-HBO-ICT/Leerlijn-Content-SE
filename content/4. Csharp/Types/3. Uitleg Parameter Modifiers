@@ -1,0 +1,125 @@
+---
+title: 3. Uitleg Parameter Modifiers
+taxonomie:
+- ib-19.2.Types.OI
+- ib-19.3.Types.OI
+---
+
+## Wat zijn Parameter Modifiers?
+Reference types en value types zorgen voor standaard gedrag als ze meegegeven worden als parameter in een functie. 
+Dit gedrag is aan te passen met zogeheten **parameter modifiers**. Deze passen de werking van de parameter aan.
+
+> [!TIP] Casus
+> Je geeft een getal mee die de maximale temperatuur voorstelt, maar als in de functie een hogere temperatuur berekend wordt, wil je deze ook buiten de functie kunnen gebruiken. Dan is een `ref` modifier handig.
+
+## Hoe zitten Parameter Modifiers in elkaar?
+Er zijn verschillende modifiers:
+| Modifier | Omschrijving
+|---|---|
+| ref | Gebruik dit keyword om een variable mee te geven aan een functie, als de functie deze waarde van de parameter wijzigt is de wijziging ook beschikbaar buiten de functie. |
+| out | Gebruik dit keyword om een variabele die in de functie gemaakt wordt ook daarbuiten te gebruiken buiten de standaard return waarde om. | 
+| in | Gebruik dit keyword om een variabele mee te geven die in de functie niet gewijzigd mag worden.
+
+Ook sommige standaard C# functies maken gebruik van deze manier van parameters verwerken zoals te zien is in dit onderstaande codevoorbeeld met de `int.TryParse`. 
+
+### Codevoorbeeld
+```csharp
+string input = "123";
+if (int.TryParse(input, out int number))
+{
+    Console.WriteLine($"Conversion successful! Number: {number}");
+}
+else
+{
+    Console.WriteLine("Conversion failed! Invalid input.");
+}
+```
+
+## Hoe gebruik je Parameter Modifiers?
+De verschillende keywords werken qua syntax hetzelfde, zowel bij de definitie van de functie als bij de aanroep moet het keyword meegegeven worden. 
+
+### `ref` keyword
+Met het `ref` keyword kan je een reference naar de waarde meegeven. Zeker voor types waar normaal gesproken een kopie van meegegeven wordt aan de functie kan dit handig zijn.
+Onderstaand voorbeeld geeft een integer (dit is een value type) mee aan de `DoubleValue` functie. In deze functie wordt number verdubbeld en omdat deze met het ref keyword wordt meegegven is ook in de `Main` functie deze na de `DoubleValue` functieaanroep veranderd.
+
+```csharp
+using System;
+
+class Program
+{
+    static void DoubleValue(ref int number)
+    {
+        number *= 2; // Verdubbelt de waarde
+    }
+
+    static void Main()
+    {
+        int value = 10;
+        Console.WriteLine($"Before: {value}");
+
+        DoubleValue(ref value); // Waarde wordt doorgegeven met ref
+
+        Console.WriteLine($"After: {value}");
+    }
+}
+```
+#### Output
+```
+Before: 10
+After: 20
+```
+
+### `out` keyword
+Het `out` keyword heeft overeenkomsten met het `ref` keyword maar bij het `out` keyword hoeft de variabele die via de parameters gezet wordt niet te bestaan voor de functieaanroep. In onderstaand voorbeeld bestaat de `circumference` parameter niet voor de functieaanroep naar `CalculateCircle` in de `Main` functie.
+
+
+#### Codevoorbeeld
+```csharp
+using System;
+
+class Program
+{
+    static double CalculateCircle(double r, out double circ)
+    {
+        circ = 2 * Math.PI * r; // Out parameter
+        return Math.PI * r * r;     // Return value
+    }
+
+    static void Main()
+    {
+        double radius = 5;
+        double area = CalculateCircle(radius, out double circumference);
+
+        Console.WriteLine($"Radius: {radius}");
+        Console.WriteLine($"Area: {area}");
+        Console.WriteLine($"Circumference: {circumference}");
+    }
+}
+```
+Een veelgebruikte plek voor deze constructie is het gebruik van de `TryParse` functies van verschillende datatypes. Deze functies geven een boolean terug of de input string omgezet kan worden naar een int/double/DateTime etc... De daadwerkelijke omzetting gebeurd in diezelfde aanroep, de waarde komt via een out parameter terug in de aanroepende code.
+
+### `in` keyword
+Het `in` keyword kan gebruikt worden om aan te geven in een functie dat de meegegeven parameter niet gewijzigd mag worden in de functie. Voor reference types geldt dat wel de properties ervan aangepast mogen worden. Voor value types of structs geldt dat zelfs dat niet mag.
+
+```csharp
+using System;
+
+class Program
+{
+    static void PrintSquare(in int number)
+    {
+        //number = 42; this line would give an error
+        Console.WriteLine($"The square of {number} is {number * number}");
+    }
+
+    static void Main()
+    {
+        int value = 5;
+        PrintSquare(value);
+    }
+}
+```
+
+---
+
+> Volgende stap: [[4. Oefeningen parameter modifiers|Oefeningen Parameter Modifiers]]

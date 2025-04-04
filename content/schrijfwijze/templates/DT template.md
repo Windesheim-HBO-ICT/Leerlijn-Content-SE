@@ -1,7 +1,7 @@
 ---
 title: Hier een titel beginnend met 1. Onderwerp
 taxonomie:
-  - "[taxco]"
+  - [taxco]
 draft: true
 ---
 

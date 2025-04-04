@@ -1,7 +1,7 @@
 ---
 title: Hier een titel beginnend met 1. Systematische Probleem Aanpak [Onderwerp]
 taxonomie:
-  - "[taxco].OI"
+  - [taxco].OI
 tags:
   - Aanpak
 draft: true
@@ -36,4 +36,4 @@ Splits het probleem in subdoelen, zoals:
 
 ---
 
-> Volgende stap: [verwijzing naar PI]
+> Volgende stap: [[verwijzing naar PI]]

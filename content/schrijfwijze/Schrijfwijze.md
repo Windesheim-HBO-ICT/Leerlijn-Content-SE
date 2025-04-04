@@ -5,13 +5,17 @@ draft: true
 # Algemeen
 De template bestanden hebben een page property draft true. Let erop dat je geschreven content geen draft true heeft.
 
-## Checklist content
+## Checklist
 - [ ] Content voldoet aan gestelde eisen uit `Kwaliteitseisen Onderwijs Aanbod.docx`
 - [ ] Spellingscheck gedaan
-- [ ] Zinnen niet te lang
-- [ ] Figuur onderschrift
-- [ ] Verwijzingen gemaakt of een post in Discord `#verwijzingen` gezet
-- [ ] Pull request gemaakt
+- [ ] Content geschreven volgens de gekoppelde 4C/ID componenten templates
+- [ ] De naam van het onderwerp in de tekst is bold
+- [ ] Koppen zonder bold teksten
+- [ ] Juiste format voor image/figuur naamgevingen
+- [ ] Figuur onderschriften toegevoegd waar nodig
+- [ ] Taxonomie codes toegevoegd
+- [ ] Witregels gecheckt
+- [ ] Bronnenlijst toegevoegd (indien nodig)
 
 ## Page properties
 Aan het begin van een pagina moeten page properties toegevoegd worden.
@@ -91,7 +95,6 @@ Een voorbeeld:
 ```
 Wanneer een variabele echter meerdere vaste waarden nodig heeft, dus meer dan alleen `true` en `false`, is het mogelijk om in plaats daarvan een -=ENUM=- te implementeren.
 ```
-
 ## Diagrammen
 Als je een diagram wil toevoegen doe dit dan via [[Mermaid]] of [plantuml](https://plantuml.com/).
 In het geval van use case diagrammen zet de UML richting op `left to right` 
@@ -184,7 +187,7 @@ Blokken kunnen ook nog genest worden. Dit ziet er als volgt uit:
 > 	```
 
 ### Bronnen
-In het geval dat er bronnen gebruikt zijn om informatie/opdrachten te schrijven voor een pagina, moet er onderaan de pagina een bronnenlijst opgenomen worden. Bronnen moeten worden geformuleerd volgens APA7
+In het geval dat er bronnen gebruikt zijn om informatie/opdrachten te schrijven voor een pagina, moet er onderaan de pagina een bronnenlijst opgenomen worden. Bronnen moeten worden geformuleerd volgens APA7. Plaats de bronnen boven de laatste devider (`---`)
 
 Als er meerdere bronnen zijn, dan moet elke bronlink afgesloten worden met een `\`.
 > [!info] Bronnen
