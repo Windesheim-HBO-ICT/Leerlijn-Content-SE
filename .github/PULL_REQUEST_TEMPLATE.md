@@ -6,10 +6,11 @@
 - [ ] Spellingscheck gedaan
 - [ ] Content geschreven volgens de gekoppelde 4C/ID componenten templates
 - [ ] De naam van het onderwerp in de tekst is bold
-- [ ] Koppen zonder bold teksten
+- [ ] MD koppen hebben geen bold teksten
 - [ ] Juiste format voor image/figuur naamgevingen
 - [ ] Figuur onderschriften toegevoegd waar nodig
 - [ ] Taxonomie codes toegevoegd
 - [ ] Witregels gecheckt
 - [ ] Bronnenlijst toegevoegd (indien nodig)
-- [ ] content-branch gepulled in de feature branch
+- [ ] Content-branch gepulled in de feature branch
+- [ ] Benodigde verwijzingen toegevoegd
