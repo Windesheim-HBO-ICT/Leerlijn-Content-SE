@@ -7,7 +7,7 @@ Deze todo items moeten nog worden afgehandeld.
 
 | Status | File | Path | Taxonomie | Tags | Errors |
 | --- | --- | --- | --- | --- | --- |
-| 🔨 | 1. Domein Analyse | 6. UML\Domein Analyse\1. Domein Analyse.md | ra-9.2.Domein-Analyse.OI<br>ra-9.3.Domein-Analyse.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Analyseren requirements<br>Domein-Analyse<br>Requirementsanalyseproces<br>ra-9.2.Domein-Analyse.OI<br>ra-9.3.Domein-Analyse.OI | Work-in-progress items gevonden: <br>-=PRESENTATIE=-<br>-=FO=- |
+| 🔨 | 1. Domein Analyse | 6. UML\Domein Analyse\1. Domein Analyse.md | ra-9.2.Domein-Analyse.OI<br>ra-9.3.Domein-Analyse.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Analyseren requirements<br>Domein-Analyse<br>Requirementsanalyseproces<br>ra-9.2.Domein-Analyse.OI<br>ra-9.3.Domein-Analyse.OI | Bestand niet gevonden:  `1. Definiëren probleemdomein\|Definiëren probleemdomein`<br>Work-in-progress items gevonden: <br>-=FO=- |
 | 🔨 | 1. Uitleg Access-Modifiers | 4. Csharp\Datatypen\Objecten\Access modifiers\1. Uitleg Access-Modifiers.md | ib-19.2.Access-modifiers.OI<br>ib-19.3.Access-modifiers.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Access-modifiers<br>Bouwen softwaresysteem<br>Implementatieproces<br>ib-19.2.Access-modifiers.OI<br>ib-19.3.Access-modifiers.OI | Work-in-progress items gevonden: <br>-=OEFENINGEN=- |
 | 🔨 | 1. Uitleg Constructor | 4. Csharp\Datatypen\Objecten\Constructor\1. Uitleg Constructor.md | ib-19.2.Constructors.OI<br>ib-19.3.Constructors.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Bouwen softwaresysteem<br>Constructors<br>Implementatieproces<br>ib-19.2.Constructors.OI<br>ib-19.3.Constructors.OI | Work-in-progress items gevonden: <br>-=INITIALISEREN=- |
 | 🔨 | 1. Uitleg Declaratie | 4. Csharp\Datatypen\Declaratie\1. Uitleg Declaratie.md | ib-19.2.Declaratie.OI<br>ib-19.3.Declaratie.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Bouwen softwaresysteem<br>Declaratie<br>Implementatieproces<br>ib-19.2.Declaratie.OI<br>ib-19.3.Declaratie.OI | Work-in-progress items gevonden: <br>-=INITIALISATIE=- |
@@ -46,9 +46,12 @@ Deze todo items moeten nog worden afgehandeld.
 | Status | File | Path | Taxonomie | Tags | Errors |
 | --- | --- | --- | --- | --- | --- |
 | ❌ | 1. Requirements | 1. SSDLC\1. Requirements.md | N/A | N/A | Geen taxco gevonden |
+| ⚠️ | 1. Stappen introductie Rider Windows | 2. Processen\4. Implementatieproces\1. Inrichten ontwikkelomgeving\1. Setup IDE\Setup Rider Windows\1. Stappen introductie Rider Windows.md | ii-18.2-IDE-setup-en-build.OI<br>ii-18.3-IDE-setup-en-build.OI | N/A | Ongeldige taxco:  `ii-18.2-IDE-setup-en-build.OI`<br>Ongeldige taxco:  `ii-18.3-IDE-setup-en-build.OI` |
+| ⚠️ | 1. Stappen introductie Rider macOS | 2. Processen\4. Implementatieproces\1. Inrichten ontwikkelomgeving\1. Setup IDE\Setup Rider macOS\1. Stappen introductie Rider macOS.md | ii-18.2-IDE-setup-en-build.OI<br>ii-18.3-IDE-setup-en-build.OI | N/A | Ongeldige taxco:  `ii-18.2-IDE-setup-en-build.OI`<br>Ongeldige taxco:  `ii-18.3-IDE-setup-en-build.OI` |
 | ❌ | 1. Threat Modeling | 2. Processen\3. Ontwerpproces\Archief\1. Opstellen TO\1. Threat Modeling.md | None | N/A | Geen taxco gevonden |
 | ⚠️ | 1. Uitleg Sequentiediagram | 6. UML\Sequentiediagram\1. Uitleg Sequentiediagram.md | UML.Sequentiediagram | N/A | Ongeldige taxco:  `UML.Sequentiediagram` |
 | ⚠️ | 1. Uitleg Toestandsdiagram | 6. UML\Toestandsdiagram\1. Uitleg Toestandsdiagram.md | UML.Toestandsdiagram | N/A | Ongeldige taxco:  `UML.Toestandsdiagram` |
+| ⚠️ | 1. Uitleg detecteren gebreken in requirements | 2. Processen\1. Requirementsanalyseproces\3. Analyseren requirements\1. Uitleg detecteren gebreken in requirements.md | ra-9.2.Detecteren-gebreken-in-requirements.OI | N/A | Taxco niet in dataset:  `ra-9.2.Detecteren-gebreken-in-requirements.OI` |
 | ❌ | 1. Uitleg inrichten ontwikkelomgeving | 2. Processen\4. Implementatieproces\1. Uitleg inrichten ontwikkelomgeving.md | N/A | N/A | Geen taxco gevonden |
 | ❌ | 1. Uitleg logische operatoren | 3. Algoritmiek\1. Uitleg logische operatoren.md | N/A | N/A | Geen taxco gevonden |
 | ⚠️ | 1. Uitleg talstelsels | 3. Algoritmiek\Getallen\1. Talstelsels\1. Uitleg talstelsels.md | ib-19.2.Talstelsels.OI | N/A | Taxco niet in dataset:  `ib-19.2.Talstelsels.OI` |
@@ -57,25 +60,32 @@ Deze todo items moeten nog worden afgehandeld.
 | ❌ | 2. Adviseren onderdeelselectie | 2. Processen\2. Pakketselectieproces\2. Adviseren onderdeelselectie.md | N/A | N/A | Geen taxco gevonden |
 | ❌ | 2. Design | 1. SSDLC\2. Design.md | N/A | N/A | Geen taxco gevonden |
 | ⚠️ | 2. Stappen omzetten naar decimaal | 3. Algoritmiek\Getallen\1. Talstelsels\2. Stappen omzetten naar decimaal.md | ib-19.2.Talstelsels.PI | N/A | Taxco niet in dataset:  `ib-19.2.Talstelsels.PI` |
+| ⚠️ | 2. Stappen setup Rider Windows | 2. Processen\4. Implementatieproces\1. Inrichten ontwikkelomgeving\1. Setup IDE\Setup Rider Windows\2. Stappen setup Rider Windows.md | ii-18.2-IDE-setup-en-build.OI<br>ii-18.3-IDE-setup-en-build.OI | N/A | Ongeldige taxco:  `ii-18.2-IDE-setup-en-build.OI`<br>Ongeldige taxco:  `ii-18.3-IDE-setup-en-build.OI` |
+| ⚠️ | 2. Stappen setup Rider macOS | 2. Processen\4. Implementatieproces\1. Inrichten ontwikkelomgeving\1. Setup IDE\Setup Rider macOS\2. Stappen setup Rider macOS.md | ii-18.2-IDE-setup-en-build.OI<br>ii-18.3-IDE-setup-en-build.OI | N/A | Ongeldige taxco:  `ii-18.2-IDE-setup-en-build.OI`<br>Ongeldige taxco:  `ii-18.3-IDE-setup-en-build.OI` |
+| ⚠️ | 2. Uitleg prioriteren requirements | 2. Processen\1. Requirementsanalyseproces\3. Analyseren requirements\2. Uitleg prioriteren requirements.md | ra-9.2.Prioriteren-requirements.OI | N/A | Bestand niet gevonden:  `3. Uitleg bepalen haalbaarheid requirements\|Utileg bepalen haalbaarheid requirements`<br>Taxco niet in dataset:  `ra-9.2.Prioriteren-requirements.OI` |
 | ❌ | 2. Uitleg verzamelen requirements | 2. Processen\1. Requirementsanalyseproces\2. Uitleg verzamelen requirements.md | N/A | N/A | Geen taxco gevonden |
 | ❌ | 2. Wat is een Threat Model | 2. Processen\3. Ontwerpproces\Archief\1. Opstellen TO\2. Wat is een Threat Model.md | None | N/A | Bestand niet gevonden:  `3. Analyseren requirements`<br>Geen taxco gevonden |
+| ⚠️ | 3.  Uitleg bepalen haalbaarheid requirements | 2. Processen\1. Requirementsanalyseproces\3. Analyseren requirements\3.  Uitleg bepalen haalbaarheid requirements.md | ra-9.2.Bepalen-haalbaarheid-requirements.OI | N/A | Bestand niet gevonden:  `1. Uitleg vastleggen requirements\|Uitleg vastleggen requirements`<br>Taxco niet in dataset:  `ra-9.2.Bepalen-haalbaarheid-requirements.OI`<br>Titel komt niet overeen met bestandsnaam<br>- Titel: 3. Uitleg bepalen haalbaarheid requirements<br>- Bestandsnaam: 3.  Uitleg bepalen haalbaarheid requirements |
 | ❌ | 3. Development | 1. SSDLC\3. Development.md | N/A | N/A | Geen taxco gevonden |
 | ⚠️ | 3. Oefeningen omzetten naar decimaal | 3. Algoritmiek\Getallen\1. Talstelsels\3. Oefeningen omzetten naar decimaal.md | ib-19.2.Talstelsels.DT | N/A | Taxco niet in dataset:  `ib-19.2.Talstelsels.DT` |
+| ⚠️ | 3. Stappen eerste project in Rider Windows | 2. Processen\4. Implementatieproces\1. Inrichten ontwikkelomgeving\1. Setup IDE\Setup Rider Windows\3. Stappen eerste project in Rider Windows.md | ii-18.2-IDE-setup-en-build.OI<br>ii-18.3-IDE-setup-en-build.OI | N/A | Ongeldige taxco:  `ii-18.2-IDE-setup-en-build.OI`<br>Ongeldige taxco:  `ii-18.3-IDE-setup-en-build.OI` |
+| ⚠️ | 3. Stappen eerste project in Rider macOS | 2. Processen\4. Implementatieproces\1. Inrichten ontwikkelomgeving\1. Setup IDE\Setup Rider macOS\3. Stappen eerste project in Rider macOS.md | ii-18.2-IDE-setup-en-build.OI<br>ii-18.3-IDE-setup-en-build.OI | N/A | Ongeldige taxco:  `ii-18.2-IDE-setup-en-build.OI`<br>Ongeldige taxco:  `ii-18.3-IDE-setup-en-build.OI` |
 | ❌ | 3. Threat Model naar mitigatie | 2. Processen\3. Ontwerpproces\Archief\1. Opstellen TO\3. Threat Model naar mitigatie.md | None | N/A | Geen taxco gevonden |
 | ❌ | 3. Uitleg refactoren applicatie | 2. Processen\4. Implementatieproces\3. Uitleg refactoren applicatie.md | N/A | N/A | Geen taxco gevonden |
 | ⚠️ | 4. Stappen omzetten vanuit decimaal | 3. Algoritmiek\Getallen\1. Talstelsels\4. Stappen omzetten vanuit decimaal.md | ib-19.2.Talstelsels.PI | N/A | Taxco niet in dataset:  `ib-19.2.Talstelsels.PI` |
 | ❌ | 4. Testing | 1. SSDLC\4. Testing.md | N/A | N/A | Geen taxco gevonden |
-| ❌ | 4. Uitleg specificeren requirements | 2. Processen\1. Requirementsanalyseproces\4. Uitleg specificeren requirements.md | N/A | N/A | Geen taxco gevonden |
+| ⚠️ | 4. Uitleg specificeren requirements | 2. Processen\1. Requirementsanalyseproces\4. Uitleg specificeren requirements.md | rs-10.2.Specificeren-requirements.OI | N/A | Taxco niet in dataset:  `rs-10.2.Specificeren-requirements.OI` |
 | ❌ | 5. Deployment | 1. SSDLC\5. Deployment.md | N/A | N/A | Geen taxco gevonden |
 | ❌ | 5. Evalueren ontwikkelstraat | 2. Processen\6. Beheerproces\5. Evalueren ontwikkelstraat.md | N/A | N/A | Geen taxco gevonden |
 | ⚠️ | 5. Oefeningen omzetten vanuit decimaal | 3. Algoritmiek\Getallen\1. Talstelsels\5. Oefeningen omzetten vanuit decimaal.md | ib-19.2.Talstelsels.DT | N/A | Taxco niet in dataset:  `ib-19.2.Talstelsels.DT` |
 | ⚠️ | 5. Uitleg .gitignore | 2. Processen\6. Beheerproces\2. Beheren ontwikkelstraat\5. Uitleg .gitignore.md | bb-24.2.Git-Gitignore.OI | N/A | Taxco niet in dataset:  `bb-24.2.Git-Gitignore.OI` |
 | ⚠️ | 5. Uitleg controle aansluiting op requirements | 2. Processen\3. Ontwerpproces\5. Uitleg controle aansluiting op requirements.md | ov-16.2.Controle-aansluiting-requirements.OI | N/A | Taxco niet in dataset:  `ov-16.2.Controle-aansluiting-requirements.OI` |
-| ❌ | 5. Uitleg valideren requirements | 2. Processen\1. Requirementsanalyseproces\5. Uitleg valideren requirements.md | N/A | N/A | Geen taxco gevonden |
+| ⚠️ | 5. Uitleg valideren requirements | 2. Processen\1. Requirementsanalyseproces\5. Uitleg valideren requirements.md | rv-11.2.Valideren-requirements.OI | N/A | Taxco niet in dataset:  `rv-11.2.Valideren-requirements.OI` |
+| ⚠️ | 6. Aanpak valideren requirements | 2. Processen\1. Requirementsanalyseproces\6. Aanpak valideren requirements.md | rv-11.2.Valideren-requirements.OI | Aanpak | Taxco niet in dataset:  `rv-11.2.Valideren-requirements.OI` |
 | ⚠️ | 6. Stappen omzetten naar octaal | 3. Algoritmiek\Getallen\1. Talstelsels\6. Stappen omzetten naar octaal.md | ib-19.2.Talstelsels.PI | N/A | Taxco niet in dataset:  `ib-19.2.Talstelsels.PI` |
-| ❌ | 6. Uitleg beheren requirements | 2. Processen\1. Requirementsanalyseproces\6. Uitleg beheren requirements.md | N/A | N/A | Geen taxco gevonden |
 | ❌ | 6. Uitvoeren configuratie-, change- en releasemangement | 2. Processen\6. Beheerproces\6. Uitvoeren configuratie-, change- en releasemangement.md | N/A | N/A | Geen taxco gevonden |
 | ⚠️ | 7. Oefeningen omzetten naar octaal | 3. Algoritmiek\Getallen\1. Talstelsels\7. Oefeningen omzetten naar octaal.md | ib-19.2.Talstelsels.DT | N/A | Taxco niet in dataset:  `ib-19.2.Talstelsels.DT` |
+| ⚠️ | 7. Uitleg beheren requirements | 2. Processen\1. Requirementsanalyseproces\7. Uitleg beheren requirements.md | rb-12.2.Beheren-van-requirements.OI | N/A | Bestand niet gevonden:  `1. Uitleg werking systeem\|Uitleg werking systeem`<br>Taxco niet in dataset:  `rb-12.2.Beheren-van-requirements.OI` |
 | ⚠️ | 7. Uitleg peerreviewen code | 2. Processen\4. Implementatieproces\2. Programmeren softwaresysteem\7. Uitleg peerreviewen code.md | ib-19.2.Peerreviewen-code.OI | HBO-i/niveau-2<br>Bouwen softwaresysteem<br>Implementatieproces<br>Peerreviewen-code<br>ib-19.2.Peerreviewen-code.OI | Bestand niet gevonden:  `8. Uitleg beredeneren bouwkeuzes\|Uitleg beredeneren bouwkeuzes` |
 | ⚠️ | 8. Stappen omzetten naar hexadecimaal | 3. Algoritmiek\Getallen\1. Talstelsels\8. Stappen omzetten naar hexadecimaal.md | ib-19.2.Talstelsels.PI | N/A | Taxco niet in dataset:  `ib-19.2.Talstelsels.PI` |
 | ⚠️ | 9. Oefeningen omzetten naar hexadecimaal | 3. Algoritmiek\Getallen\1. Talstelsels\9. Oefeningen omzetten naar hexadecimaal.md | ib-19.2.Talstelsels.DT | N/A | Taxco niet in dataset:  `ib-19.2.Talstelsels.DT` |
@@ -88,6 +98,7 @@ Deze todo items moeten nog worden afgehandeld.
 | Status | Image | Path | Error |
 | --- | --- | --- | --- |
 | 🔨 | .gitkeep | 10. SCRUM\.gitkeep | Afbeelding wordt niet gebruikt:  `.gitkeep` |
+| 🔨 | Richtlijnen-voor-C-sharp-code.pdf | 2. Processen\4. Implementatieproces\2. Programmeren softwaresysteem\src\Richtlijnen-voor-C-sharp-code.pdf | PDF wordt niet gebruikt:  `Richtlijnen-voor-C-sharp-code.pdf` |
 
 
 ## Genegeerde bestanden
