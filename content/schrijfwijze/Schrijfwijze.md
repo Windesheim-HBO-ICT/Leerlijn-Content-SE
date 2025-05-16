@@ -5,13 +5,17 @@ draft: true
 # Algemeen
 De template bestanden hebben een page property draft true. Let erop dat je geschreven content geen draft true heeft.
 
-## Checklist content
+## Checklist
 - [ ] Content voldoet aan gestelde eisen uit `Kwaliteitseisen Onderwijs Aanbod.docx`
 - [ ] Spellingscheck gedaan
-- [ ] Zinnen niet te lang
-- [ ] Figuur onderschrift
-- [ ] Verwijzingen gemaakt of een post in Discord `#verwijzingen` gezet
-- [ ] Pull request gemaakt
+- [ ] Content geschreven volgens de gekoppelde 4C/ID componenten templates
+- [ ] De naam van het onderwerp in de tekst is bold
+- [ ] Koppen zonder bold teksten
+- [ ] Juiste format voor image/figuur naamgevingen
+- [ ] Figuur onderschriften toegevoegd waar nodig
+- [ ] Taxonomie codes toegevoegd
+- [ ] Witregels gecheckt
+- [ ] Bronnenlijst toegevoegd (indien nodig)
 
 ## Page properties
 Aan het begin van een pagina moeten page properties toegevoegd worden.
@@ -36,12 +40,20 @@ ignore: true
 - **ignore:** Deze property is optioneel en geeft aan of de content **wel** af is en op de wiki getoond mag worden. De content wordt **niet** meegenomen in de pipeline validatie.
 
 ## Toevoegen nieuw onderwerp
-Als er een nieuw onderwerp toegevoegd moet worden, moet er een map aangemaakt worden in de relevante processtap. Binnen deze map moeten de `.md` bestanden op volgorde worden aan gemaakt door altijd met een nummering te beginnen.
+Als er een nieuw onderwerp toegevoegd moet worden, moet dit onderwerp een eigen map krijgen. Voor een onderwerp moet elk document beginnen met een nummering. 
+
+Voor de verschillende 4CID componenten moeten verschillende formatten worden gebruikt:
+- OI: `[nummering]. Uitleg [onderwerp]` 
+- PI: `[nummering]. Stappen [onderwerp]`
+- DT: `[nummering]. Oefeningen [onderwerp]`
 
 > [!tip] Voorbeeld
 > Voor het onderwerp `If-Else`:
-> In de map `3. Processen/4. Implementatieproces/2. Bouwen softwaresysteem` moet een nieuwe map `If-Else` worden aangemaakt.
-> In deze map begint het eerste bestand met `1. Titel` en het tweede bestand met `2. Titel`.
+> In de map `4. Csharp/Controle-structuur` moet een nieuwe map `If-Else` worden aangemaakt.
+> In deze map staat een OI bestand met `1. Uitleg If-Else`, een PI bestand met `2. Stappen If-Else` en een DT bestand met `3. Oefeningen If-Else` als titels.
+> 
+> Als er een onderwerp is wat alleen OI en DT nodig heeft, wordt de titel van het OI bestand `1. Uitleg [onderwerp]` en het DT bestand `2. Oefeningen [onderwerp]`.
+
 
 ## Taxonomie
 * Binnen Obsidian kan je door aan het begin gelijk `---` te typen page properties opgeven.
@@ -56,7 +68,7 @@ ib-19.3.If-Else.OI
 ib-19.3.If-Else.PI
 ib-19.3.If-Else.DT 
 ```
-* Let op hoofdletters, de pipeline is nu (nog) hoofdletter gevoelig
+* Let op hoofdletters, de pipeline is (nu nog) hoofdletter gevoelig
 
 ## Headings
 - De grootste heading die gebruikt moet worden is `##`.
@@ -83,7 +95,6 @@ Een voorbeeld:
 ```
 Wanneer een variabele echter meerdere vaste waarden nodig heeft, dus meer dan alleen `true` en `false`, is het mogelijk om in plaats daarvan een -=ENUM=- te implementeren.
 ```
-
 ## Diagrammen
 Als je een diagram wil toevoegen doe dit dan via [[Mermaid]] of [plantuml](https://plantuml.com/).
 In het geval van use case diagrammen zet de UML richting op `left to right` 
@@ -159,8 +170,12 @@ Bij het gebruik van blokken zijn er een aantal standaard veelgebruikte keywoorde
 - **Warning:**
 	- Aanduiden waar mogelijke gevaren zitten.
 
-![image](https://github.com/Windesheim-HBO-ICT/Leertaken/assets/113350398/8c77e7d0-4231-4166-8921-7013fbc8191c)
-
+Blokken kunnen ook nog genest worden. Dit ziet er als volgt uit:
+> [!info] geneste blokken
+> Dit is de tekst binnen de eerste blok
+> > [!warning] Let op
+> > Dit is de tekst binnen het geneste blok
+  
 > [!warning] Let op
 > Zorg ervoor dat er een spatie zit tussen `>` en de zin:
 > 	```
@@ -172,7 +187,7 @@ Bij het gebruik van blokken zijn er een aantal standaard veelgebruikte keywoorde
 > 	```
 
 ### Bronnen
-In het geval dat er bronnen gebruikt zijn om informatie/opdrachten te schrijven voor een pagina, moet er onderaan de pagina een bronnenlijst opgenomen worden. Bronnen moeten worden geformuleerd volgens APA7
+In het geval dat er bronnen gebruikt zijn om informatie/opdrachten te schrijven voor een pagina, moet er onderaan de pagina een bronnenlijst opgenomen worden. Bronnen moeten worden geformuleerd volgens APA7. Plaats de bronnen boven de laatste devider (`---`)
 
 Als er meerdere bronnen zijn, dan moet elke bronlink afgesloten worden met een `\`.
 > [!info] Bronnen

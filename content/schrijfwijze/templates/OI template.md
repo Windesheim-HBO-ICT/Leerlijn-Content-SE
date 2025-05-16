@@ -1,7 +1,7 @@
 ---
-title: Hier een titel beginnend met 1. Onderwerp 
+title: Hier een titel beginnend met 1. Uitleg [Onderwerp] 
 taxonomie:
-  - "[taxco]"
+  - [taxco].OI
 draft: true
 ---
 
@@ -34,7 +34,10 @@ draft: true
 
 [Mogelijk een extra diagram zoals een flowchart of sequentiediagrammen. Doe dit in mermaid]
 
+Indien bronnen:
+> [!info] Bronnen
+> Bron: link
 
 ---
 
-> Volgende stap: [verwijzing naar PI]
+> Volgende stap: [[verwijzing naar SPA/PI]]
