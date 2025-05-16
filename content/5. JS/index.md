@@ -1,3 +1,7 @@
+---
+title: JavaScript
+ignore: true
+---
 
 ### 1. **Introduction to JavaScript**
    - What is JavaScript?
