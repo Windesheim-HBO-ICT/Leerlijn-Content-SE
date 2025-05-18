@@ -36,6 +36,7 @@ Als `[variabel] = [waarde]`, komt in de console:
 > ```
 
 ---
+
 ## Opdracht 1
 Zet de volgende casus om naar een if-else block.
 
