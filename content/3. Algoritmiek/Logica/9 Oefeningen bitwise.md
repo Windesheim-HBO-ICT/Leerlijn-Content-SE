@@ -41,7 +41,6 @@ else
 	Console.WriteLine("Het getal is oneven."); 
 }
 ```
-`
 
 > [!info]- Mogelijke uitwerking
 > ```csharp
@@ -77,7 +76,6 @@ Als `x = 2`, komt in de console:
 ```
 Het derde bit staat UIT.
 ```
-
 
 ### Nu jij
 ```csharp
@@ -141,7 +139,6 @@ else
 	Console.WriteLine("Gebruiker heeft geen lees- en schrijfrechten");
 }
 ```
-
 
 > [!info]- Mogelijke uitwerking
 > ```csharp
@@ -226,11 +223,13 @@ Console.WriteLine(n + " / 2 = " + (n >> 1));
 ```
 
 > [!info]- Mogelijke uitwerking
+> ```csharp
 > using System;
 > 
 > int n = 4;
 > Console.WriteLine(n + " x 2 = " + (n << 1));
 > Console.WriteLine(n + " / 2 = " + (n >> 1));
+> ```
 
 ---
 
