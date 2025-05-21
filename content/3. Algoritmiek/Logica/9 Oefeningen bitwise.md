@@ -136,7 +136,7 @@ if ((rechten & leesRecht) != _________ && (rechten & schrijfRecht) != _________)
 }
 else 
 {
-	Console.WriteLine("Gebruiker heeft geen lees- en schrijfrechten");
+	Console.WriteLine("Gebruiker heeft geen lees- en schrijfrechten.");
 }
 ```
 
