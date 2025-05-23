@@ -64,7 +64,7 @@ Bij kolom *TC2*, *Leertaken*, *Ondersteunende informatie*, *Procedurele informat
 | Switch | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ |
 | For | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ |
 | While | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
-| Recursie | ib-19 | 🏳️ 🏳️ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ ✅ |
+| Recursie | ib-19 | 🏳️ 🏳️ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ ⛔️ |
 | Async | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
 | Await | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
 | Declaratie | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
@@ -131,9 +131,9 @@ Bij kolom *TC2*, *Leertaken*, *Ondersteunende informatie*, *Procedurele informat
 | Events-Delegates | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
 | Code-review | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
 | LINQ-query-syntax | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
-| Anonymous-object | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
+| Anonymous-object | ib-19 | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
 | LINQ-method-syntax | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
-| Let-en-anonieme-typen | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
+| Let-en-anonieme-typen | ib-19 | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
 | Lambda-expressies | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
 | Pipeline-testen | bb-23 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
 | Branching-Strategieën | bg-24 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
