@@ -131,7 +131,7 @@ Bij kolom *TC2*, *Leertaken*, *Ondersteunende informatie*, *Procedurele informat
 | Events-Delegates | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
 | Code-review | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
 | LINQ-query-syntax | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
-| Anonymous-object | ib-19 | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
+| Anonymous-object | ib-19 | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ |
 | LINQ-method-syntax | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
 | Let-en-anonieme-typen | ib-19 | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ | 🏳️ 🏳️ 🏳️ |
 | Lambda-expressies | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ |
@@ -172,10 +172,10 @@ Bij kolom *TC2*, *Leertaken*, *Ondersteunende informatie*, *Procedurele informat
 | Talstelsels | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ |
 | Getal-bewerkingen | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
 | Verzamelingen | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ |
-| Docker-framework | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
-| Docker-images | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
-| Docker-containers | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
-| Docker-dockerfile | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
-| Docker-compose | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
-| Docker-volumes | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
-| Docker-environment | ib-19 | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ | 🏳️ ⛔️ ⛔️ | 🏳️ ⛔️ ⛔️ | 🏳️ 🏳️ 🏳️ |
+| Docker-framework | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
+| Docker-images | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
+| Docker-containers | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
+| Docker-dockerfile | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
+| Docker-compose | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
+| Docker-volumes | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
+| Docker-environment | ib-19 | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ | 🏳️ ✅ ✅ | 🏳️ ✅ ✅ | 🏳️ 🏳️ 🏳️ |
