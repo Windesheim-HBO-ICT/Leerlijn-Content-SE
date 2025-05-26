@@ -42,7 +42,7 @@ else
 }
 ```
 
-> [!INFO] - Mogelijke uitwerking
+> [!INFO]- Mogelijke uitwerking
 > ```csharp
 > using System; 
 > 
