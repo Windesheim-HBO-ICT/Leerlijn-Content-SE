@@ -288,3 +288,8 @@ Console.WriteLine("Wissel case: " + toggled);
 > Console.WriteLine("Uppercase: " + upper);
 > Console.WriteLine("Wissel case: " + toggled);
 > ```
+
+
+---
+
+- Oefening van oefentenetamen opnemen
