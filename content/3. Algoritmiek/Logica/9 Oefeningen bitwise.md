@@ -289,7 +289,33 @@ Console.WriteLine("Wissel case: " + toggled);
 > Console.WriteLine("Wissel case: " + toggled);
 > ```
 
+---
+
+## Opdracht 7
+Geef een bitwise expressie die een integer x (16 bits) omzet in een getal y (16 bits). Hierbij worden de bits nummers 13 t/m 15 (vanaf links) "geïnverteerd".
+
+### Nu jij
+Hieronder staan twee voorbeelden hoe de integer geïnverteerd moet worden.
+- x = 0000_1100_1100_1111 -> y = 0000_1100_1100_0001
+- x = 0101_0101_1010_0101 -> y = 0101_0101_1010_1011
+
+> [!info]- Uitwerking
+> y = x ^ 0b0000_0000_0000_1110 
+> of
+> y = x ^ 0xE
 
 ---
 
-- Oefening van oefentenetamen opnemen
+## Opdracht 8
+Geef een bitwise expressie die een integer x (16 bits) omzet in een getal y (16 bits). Hierbij wordt het één na laatste bit (vanaf links) “gereset”.
+
+### Nu jij
+Hieronder staan drie voorbeelden hoe de integer gereset moet worden.
+- x = 0000_0000_0000_0000 -> y = 0000_0000_0000_0000
+- x = 0111_0111_0111_0111 -> y = 0111_0111_0100_0111
+- x = 1011_1110_1011_1110 -> y = 1011_1110_1000_1110
+
+> [!info]- Uitwerking
+> y = x & 0b1111_1111_1100_1111
+> of
+> y = x & 0xFFCF
