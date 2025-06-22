@@ -66,14 +66,14 @@ Deze todo items moeten nog worden afgehandeld.
 | ⚠️ | 1. Wat is ZAP | 9. Security\3. Workshop ZAP\Uitleg\1. Wat is ZAP.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 1. Workshop Docker | 9. Security\6. Workshop Docker\1. Workshop Docker.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 1. Workshop Git | 9. Security\10. Workshop Git\1. Workshop Git.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
-| ⚠️ | 1. Workshop Risk Assessment | 9. Security\1. Workshop Risk Assessment\1. Workshop Risk Assessment.md | N/A | N/A | Bestand niet gevonden:  `3. Analyseren requirements`<br>Bestand wordt genegeerd door ignore tag |
+| ⚠️ | 1. Workshop Risk Assessment | 9. Security\1. Workshop Risk Assessment\1. Workshop Risk Assessment.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 1. Workshop Threat Modeling | 9. Security\2. Workshop Threat modeling\1. Workshop Threat Modeling.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 16. Command parameters | 8. Docker\16. Command parameters.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 2. Destructuring | 5. JS\9. ES6\2. Destructuring.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 2. Dockerfile HTML pagina | 9. Security\6. Workshop Docker\2. Workshop\2. Dockerfile HTML pagina.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 2. Hoe zit ZAP in elkaar | 9. Security\3. Workshop ZAP\Uitleg\2. Hoe zit ZAP in elkaar.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 2. Setup Skylab omgeving | 9. Security\4. Workshop Skylab\2. Setup Skylab omgeving.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
-| ⚠️ | 2. Wat is een Threat Model | 2. Processen\3. Ontwerpproces\Archief\1. Opstellen TO\2. Wat is een Threat Model.md | N/A | N/A | Bestand niet gevonden:  `3. Analyseren requirements`<br>Bestand wordt genegeerd door ignore tag |
+| ⚠️ | 2. Wat is een Threat Model | 2. Processen\3. Ontwerpproces\Archief\1. Opstellen TO\2. Wat is een Threat Model.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 2. Workshop Deployen | 9. Security\5. Workshop Deployen\2. Workshop Deployen.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 2. Workshop Juiceshop I | 9. Security\7. Workshop Juiceshop I\2. Workshop Juiceshop I.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 2. Workshop Juiceshop II | 9. Security\8. Workshop Juiceshop II\2. Workshop Juiceshop II.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
