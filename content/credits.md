@@ -1,6 +1,6 @@
 # Credits
 
-De website Leertaken.nl en alle bijbehorende content zijn ontwikkeld en geschreven in opdracht van Windesheim HBO-ICT.
+De website Leertaken.nl en alle bijbehorende content is ontwikkeld en geschreven in opdracht van Windesheim HBO-ICT.
 De content is geschreven door de volgende HBO-ICT Software Engineering Student-Assistenten:
 
 - Teun van der Kleij
@@ -15,3 +15,8 @@ De content is geschreven door de volgende HBO-ICT Software Engineering Student-A
 - Jaël Kwakel
 - Femke Spanner
 - Sietse van der Zee
+
+Onder begeleiding en in samenwerking met:
+- Ernst Bolt
+- Matthieu van Bekkum
+- Ward Bannink
