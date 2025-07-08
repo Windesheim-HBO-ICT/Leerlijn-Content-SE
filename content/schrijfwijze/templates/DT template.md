@@ -1,7 +1,7 @@
 ---
 title: Hier een titel beginnend met 1. Onderwerp
 taxonomie:
-  - [taxco]
+  - [taxco].DT
 draft: true
 ---
 
@@ -36,10 +36,11 @@ Als `[variabel] = [waarde]`, komt in de console:
 > ```
 
 ---
+
 ## Opdracht 1
 Zet de volgende casus om naar een if-else block.
 
-### Specificaties:
+### Specificaties
 - Maak een variabel `age` aan.
 - Als de waarde van het variabel `age` groter of gelijk is aan `18` moet het volgende in de console komen te staan: "Toegang verleend tot de content." .
 - Als de waarde van het variabel `age` kleiner is dan `18`, moet het in de console komen te staan: "Toegang geweigerd. Leeftijdsrestrictie: 18+".
