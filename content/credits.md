@@ -1,3 +1,8 @@
+---
+Titel: Credits
+ignore: true
+---
+
 # Credits
 
 De website Leertaken.nl en alle bijbehorende content is ontwikkeld en geschreven in opdracht van Windesheim HBO-ICT.
