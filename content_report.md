@@ -24,17 +24,12 @@ Deze todo items moeten nog worden afgehandeld.
 
 | Status | File | Path | Taxonomie | Tags | Errors |
 | --- | --- | --- | --- | --- | --- |
-| ❌ | 1. Requirements | 1. SSDLC\1. Requirements.md | N/A | N/A | Geen taxco gevonden |
 | ❌ | 1. Uitvoeren analyse | 2. Processen\2. Pakketselectieproces\1. Uitvoeren analyse.md | N/A | N/A | Geen taxco gevonden |
 | ❌ | 2. Adviseren onderdeelselectie | 2. Processen\2. Pakketselectieproces\2. Adviseren onderdeelselectie.md | N/A | N/A | Geen taxco gevonden |
-| ❌ | 2. Design | 1. SSDLC\2. Design.md | N/A | N/A | Geen taxco gevonden |
 | ❌ | 2. Stappen Recursie | 4. Csharp\Recursie\2. Stappen Recursie.md | N/A | N/A | Geen taxco gevonden<br>Work-in-progress items gevonden: <br>-=TODO=- |
-| ❌ | 3. Development | 1. SSDLC\3. Development.md | N/A | N/A | Geen taxco gevonden |
 | ❌ | 3. Oefeningen Recursie | 4. Csharp\Recursie\3. Oefeningen Recursie.md | N/A | N/A | Geen taxco gevonden<br>Work-in-progress items gevonden: <br>-=TODO=- |
 | ❌ | 3. Uitleg refactoren applicatie | 2. Processen\4. Implementatieproces\3. Uitleg refactoren applicatie.md | N/A | N/A | Geen taxco gevonden |
 | ❌ | 4. Beschikbaarstellen software | 2. Processen\6. Beheerproces\4. Beschikbaarstellen software\4. Beschikbaarstellen software.md | N/A | N/A | Geen taxco gevonden |
-| ❌ | 4. Testing | 1. SSDLC\4. Testing.md | N/A | N/A | Geen taxco gevonden |
-| ❌ | 5. Deployment | 1. SSDLC\5. Deployment.md | N/A | N/A | Geen taxco gevonden |
 | ❌ | 5. Evalueren ontwikkelstraat | 2. Processen\6. Beheerproces\5. Evalueren ontwikkelstraat.md | N/A | N/A | Geen taxco gevonden |
 | ❌ | 6. Uitvoeren configuratie-, change- en releasemangement | 2. Processen\6. Beheerproces\6. Uitvoeren configuratie-, change- en releasemangement.md | N/A | N/A | Geen taxco gevonden |
 | ⚠️ | 7. Uitleg beheren requirements | 2. Processen\1. Requirementsanalyseproces\7. Uitleg beheren requirements.md | rb-12.2.Beheren-van-requirements.OI<br>rb-12.3.Beheren-van-requirements.OI | HBO-i/niveau-2<br>HBO-i/niveau-3<br>Beheren requirements<br>Beheren-van-requirements<br>Requirementsanalyseproces<br>rb-12.2.Beheren-van-requirements.OI<br>rb-12.3.Beheren-van-requirements.OI | Bestand niet gevonden:  `1. Uitleg werking systeem\|Uitleg werking systeem` |
@@ -61,6 +56,7 @@ Deze todo items moeten nog worden afgehandeld.
 | ⚠️ | 1. Introductie Skylab | 9. Security\4. Workshop Skylab\1. Introductie Skylab.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 1. Introductie ZAP | 9. Security\3. Workshop ZAP\Workshop\1. Introductie ZAP.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 1. Threat Modeling | 2. Processen\3. Ontwerpproces\Archief\1. Opstellen TO\1. Threat Modeling.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
+| ⚠️ | 1. Uitleg SSDLC Requirementsfase | 1. SSDLC\1. Uitleg SSDLC Requirementsfase.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 1. Uitleg logische operatoren | 3. Algoritmiek\1. Uitleg logische operatoren.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 1. Variablen | 5. JS\2. Basis\1. Variablen.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 1. Wat is ZAP | 9. Security\3. Workshop ZAP\Uitleg\1. Wat is ZAP.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
@@ -73,6 +69,7 @@ Deze todo items moeten nog worden afgehandeld.
 | ⚠️ | 2. Dockerfile HTML pagina | 9. Security\6. Workshop Docker\2. Workshop\2. Dockerfile HTML pagina.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 2. Hoe zit ZAP in elkaar | 9. Security\3. Workshop ZAP\Uitleg\2. Hoe zit ZAP in elkaar.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 2. Setup Skylab omgeving | 9. Security\4. Workshop Skylab\2. Setup Skylab omgeving.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
+| ⚠️ | 2. Uitleg SSDLC Designfase | 1. SSDLC\2. Uitleg SSDLC Designfase.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 2. Wat is een Threat Model | 2. Processen\3. Ontwerpproces\Archief\1. Opstellen TO\2. Wat is een Threat Model.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 2. Workshop Deployen | 9. Security\5. Workshop Deployen\2. Workshop Deployen.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 2. Workshop Juiceshop I | 9. Security\7. Workshop Juiceshop I\2. Workshop Juiceshop I.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
@@ -86,12 +83,15 @@ Deze todo items moeten nog worden afgehandeld.
 | ⚠️ | 3. Operators | 5. JS\2. Basis\3. Operators.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 3. Setup pfSense | 9. Security\4. Workshop Skylab\3. Setup pfSense.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 3. Threat Model naar mitigatie | 2. Processen\3. Ontwerpproces\Archief\1. Opstellen TO\3. Threat Model naar mitigatie.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
+| ⚠️ | 3. Uitleg SSDLC Developmentfase | 1. SSDLC\3. Uitleg SSDLC Developmentfase.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 4. Aanvallen | 9. Security\3. Workshop ZAP\Uitleg\4. Aanvallen.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 4. Control structures | 5. JS\2. Basis\4. Control structures.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 4. Docker volumes | 9. Security\6. Workshop Docker\2. Workshop\4. Docker volumes.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 4. Setup Debian | 9. Security\4. Workshop Skylab\4. Setup Debian.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
+| ⚠️ | 4. Uitleg SSDLC Testingfase | 1. SSDLC\4. Uitleg SSDLC Testingfase.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 5. Docker environment | 9. Security\6. Workshop Docker\2. Workshop\5. Docker environment.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | 5. Setup Kali | 9. Security\4. Workshop Skylab\5. Setup Kali.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
+| ⚠️ | 5. Uitleg SSDLC Deploymentfase | 1. SSDLC\5. Uitleg SSDLC Deploymentfase.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | Browser API | 5. JS\5. DOM manipulation\Browser API.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | DOM | 5. JS\5. DOM manipulation\DOM.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | Debug | 5. JS\11. Debugging\Debug.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
@@ -102,6 +102,7 @@ Deze todo items moeten nog worden afgehandeld.
 | ⚠️ | Handleiding Microsoft Threat Modeling Tool | 9. Security\2. Workshop Threat modeling\Handleiding Microsoft Threat Modeling Tool.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | arrays | 5. JS\4. Data structuren\arrays.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | callbacks | 5. JS\7. Asynchroon\callbacks.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
+| ⚠️ | credits | credits.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | functions | 5. JS\3. Functions\functions.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | index | index.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
 | ⚠️ | index | 5. JS\index.md | N/A | N/A | Bestand wordt genegeerd door ignore tag |
