@@ -15,6 +15,8 @@ De staging branch bevat de mappen `.github` en `build`. Op deze branch kan niet 
 - `build`:\
 De `build` folder bevat de content die overgezet moet worden naar de `main` branch.
 
+PR's mergen naar deze branch
+
 ### Content
 In de content branch staat de map`content`.
 - `content`:\
