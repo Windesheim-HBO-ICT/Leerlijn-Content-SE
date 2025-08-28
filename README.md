@@ -22,6 +22,8 @@ In de content branch staat de map`content`.
 - `content`:\
 De `content` folder bevat de content wat op de leerlijn wiki getoond wordt. Dit is de folder waarin de content aangepast moet worden.
 
+Vanaf deze branch worden feature branches gemaakt.
+
 ---
 
 ## Schrijven van content
