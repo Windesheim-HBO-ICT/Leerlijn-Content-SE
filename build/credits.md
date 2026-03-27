@@ -24,6 +24,9 @@ De content is geschreven door de volgende HBO-ICT Software Engineering Student-A
 - Femke Spanner
 - Sietse van der Zee
 
+De content is gevalideerd door onder andere:
+- Sanne Abrahamse
+
 Onder begeleiding en in samenwerking met:
 - Ernst Bolt
 - Matthieu van Bekkum
